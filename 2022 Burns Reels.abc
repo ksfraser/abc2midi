@@ -1,0 +1,133 @@
+%%beginsvg
+<defs>
+% x-shaped head
+<path id="x_head"
+d="m -3 -3 l 6 6 m 0 -6 l -6 6"
+class="stroke" style="stroke-width:1.2"/>
+% triangle head
+<path id="triangle"
+d="m -3.5 3.5 l 3.5 -7 l 3.5 7 l -7 0"
+class="fill" />
+% diamond head
+<path id="diamond"
+d="m 0 -3.5 l -3.5 3.5 l 3.5 3.5 l 3.5 -3.5 l -3.5 -3.5"
+class="fill" />
+</defs>
+%%endsvg
+
+X:4010
+T:Mrs MacLeod of Raasay aka Miss MacLeod's Reel aka The Gray Old Lady of Raasay
+H: 
+B: 
+C: Traditional.  Sir Alexander MacDonald. Versions: Scots Guards I (205) PM J MacKay.  thesession.org/tunes/340
+O:Arranged by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+M:2/2
+L:1/8
+R:Reel
+V:gstem=up stem=down
+I:MIDI=program 110
+K:HP
+U: R = ///
+U: r = //
+U: V = !accent!
+% V:1 gstem=up stem=down name="Melody" sname=Melody
+% V:2 gstem=up stem=down name="Harmony" sname=Harmony % vol 60
+% V:3 gstem=up stem=down name="Harmony 2" sname=Harmony2 % vol 60
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+% I:MIDI=program 110
+%%MIDI gracedivider 8
+%%MIDI gchord
+%%MIDI beatstring
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+% %MIDI droneon
+% %score {1 (2 3 4)}
+%%landscape 
+||        "A"{AGAG}A2 {ag}a2     {fg}f>e{g}f<a     | c>{d}c{e}c>B {g}c>{d}c{e}c>B | {AGAG}A2 {ag}a2     {fg}f>e{g}f<a       | c>{d}c{e}c>A   "Bm"{g}B>{d}B{e}B>c |
+|         "A"{AGAG}A2 {ag}a2     {fg}f>e{g}f<a     | c>{d}c{e}c>B {g}c>{d}c{e}c>e | "D"{g}f2 {g}f>g     "Bm"{a}f>e{g}f>g | "E7"a>f{g}e>c  {g}B>{d}B{e}B>c    ||
+||        "A"{AGAG}A2 {g}c<{d}A  {gef}e>c{G}c>a | c>{d}c{e}c>B {g}c>{d}c{e}c>B | {AGAG}A2 {g}c<{d}A  {gef}e>c{G}c>a   | c>{d}c{e}c>A   {g}B>{d}B{e}B>c     |
+|         "A"{AGAG}A2 {g}c<{d}A  {gef}e>c{G}c>a | c>{d}c{e}c>B {g}c>{d}c{e}c>e | "D"{g}f2 {g}f>g     "Bm"{a}f>e{g}f>g | "E7"a>f{g}e>c  {g}B>{d}B{e}B>c    ||
+X:4000
+T:The Kilt is My Delight
+C:TBD
+B: Scots Guard I(202)
+O:Arranged by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=105
+M:2/2
+L:1/8
+R:Reel
+V:1 gstem=up stem=down
+I:MIDI=program 110
+K:HP
+%%MIDI gracedivider 8
+%%MIDI gchord
+%%MIDI beatstring 
+%%alignbars 80
+%%landscape
+% abc2xml.py percussion maps
+I:percmap C D 52 triangle
+I:percmap A * 60 x
+I:percmap c * 47 diamond
+%
+% abcm2ps / abc2svg percussion maps
+%
+%%map drummap C print=D heads=triangle
+%%map drummap A heads=x_head
+%%map drummap c heads=diamond
+%
+V:1
+[| e |  "A"{g}A>{d}A{e}A>{d}B "D"{g}A>B{g}d>f | "E"{g}e2 {GdG}e>f "B"{gde}d>B{G}B>e | "A"{g}A>{d}A{e}A>{d}B "D"{g}A>B{g}d>f | "E"{g}e2 {GdG}e>f "D"{Gdc}d2 {g}d |
+   e |  "A"{g}A>{d}A{e}A>{d}B "D"{g}A>B{g}d>f | "E"{g}e2 {GdG}e>f "B"{gde}d>B{G}B>e | "A"{g}A>{d}A{e}A>{d}B "D"{g}A>B{g}d>f | "E"{g}e2 {GdG}e>f "D"{Gdc}d2 {g}d |]    
+   e |  "G"{gf}g2 a>g         "F"{fg}f2 a>f   | "E"{g}e2 {GdG}e>f "D"{gde}d>B{G}B>e | "G"{gf}g2 a>g         "F"{fg}f2 a>f   | "E"{g}e2 {GdG}e>f "D"{Gdc}d2 {g}d  |
+   e |  "G"{gf}g2 a>g         "F"{fg}f2 a>f   | "E"{g}e2 {GdG}e>f "D"{gde}d>B{G}B>e | "G"{g}A>{d}A{e}A>{d}B "F"{g}A>B{g}d>f | "E"{g}e2 {GdG}e>f "D"{Gdc}d2 {g}d  |]
+
+
+X:4001
+T:High Road to Linton (Drum Corps)
+C:
+B:
+O:Arranged by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+M:2/2
+L:1/8
+K:HP clef=perc middle=G stafflines=1
+U: R = ///
+U: r = //
+U: V = !accent!
+R:Reel
+V:4 gstem=up stem=down clef=none dyn=up name="Snare"
+V:5 gstem=up stem=down clef=none dyn=up name="Bass"
+V:6 gstem=up stem=down clef=none dyn=up name="Tenor"
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+%%alignbars 80
+%%flatbeams
+V:4 
+|:         {A}c2 (RA2Vc2) (RA2          | Vc)>Ac>c   A>cA>A     | {A}c2 (RA2Vc2) (RA2          | Vc)>Ac>c (Rc2 VA2) :| $
+
+[|         {AA}c2 {AA}c2 {A}c>A {A}c2 | {A}c>VAc>c (3:cAc {c}A2 | {AA}c2 {AA}c2 {A}c>A {A}c2  | {A}c>VAc>c (Rc2 VA2) | $
+
+          V(3:cAc(3:AcA c2 {c}A2   | V(3:cAc(3:AcA c>A {A}c2 | V(3:cAc(3:AcA Vc2 {c}A2   | {A}c>VAc>c (Rc2 VA2) |] $
+V:5 
+|:         c2 A2 c2 A2 | c2 A2 c>A c2 | c2 A2 c2 A2 | c2 A2 c>A c2 :| $
+
+[|         c2 A2 c2 A2 | c2 A2 c>A c2 | c2 A2 c2 A2 | c2 A2 c>A c2 | $
+
+	c2 A2 c2 A2 | c2 A2 c>A c2 | c2 A2 c2 A2 | c2 A2 c>A c2 |] $ 
+V:6 
+|:         c2 A2 c>A c2 | (3:2cAc(3:2AcA c>A c2 | c2 A2 c>A c2 | (3:2cAc(3:2AcA c2 A2 :| $
+
+[|         c2 A2 c>A c2 | (3:2cAc(3:2AcA c>A c2 | c2 A2 c>A c2 | (3:2cAc(3:2AcA c2 A2 | $
+
+	c2 A2 c>A c2 | (3:2cAc(3:2AcA c>A c2 | c2 A2 c>A c2 | (3:2cAc(3:2AcA c2 A2 |] $
+
+
+

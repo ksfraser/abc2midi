@@ -1,0 +1,2422 @@
+X:1000
+T:Bagpipe Scale             
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+%%staves {1 }
+T:Nether Lorn Canntaireachd
+V:1
+|: a  g   f    e  | d   c   B   A  |  G :|
+w:  A  G   F    E  | D   C   B   A  |  G     
+w:  I  di  ve   e| a o io en | em
+w: ee Jee vay  ay | ah  aw  oh  en |  em
+w:
+w:
+T: Alternate Canntaireachd (Campbell)
+%%staves {1 }
+V:1
+|: a  g   f    e  | d   c   B   A  |  G  :|
+w: A  G   F    E  | D   C   B   A  |  G     
+w: I  vi  dhe  de | da/ba o o en | em
+w: ee vee che  ay | da  oh  oh  un |  um
+W: In the Canntaireachd lines the top line will be the "written" representation
+W: and the 2nd line will be the spoken (sung) pronounciation.
+W:
+W: There is the Nether Lorn standard, as well as a Campbell variation.  Campbell tried
+W: to remove ambiguities.
+W:
+W:
+M:2/4
+L:1/2
+V:1
+%%staves {1 2}
+%%staffscale 1.6
+T: Alternate Canntaireachd (Kevin Fraser)
+|:  a2 | g2 |  f2  |  e2  | d2 |  c2 |  B2 |  A2  |  G2  :|
+w:  A  G   F    E  | D   C   B   A  |  G     
+w:  I  di  ve   e| a o io en | em
+w: ee dee vay  ay | ah  aw  oh  en |  em
+W: I am trying to further remove ambiguities.  In Pioberaichd (Pibroch) tunes typically only use 5 notes within the Minor scale, so confusion between o and io typically don't occur.
+V:2 clef=none stem=none
+%%stafflines 8
+%%staffscale 1.6
+L:1/2
+[K:none][M:2/4][Bdfa]2 |[Bdfg']2 |[Bdfe'g']2 |[Bdfc'e'g']2| [Gac'e'g']2 |[Gfac'e'g']2 |[dfac'e'g']2 |[Bdfac'e'g']2 | [GBdfac'e'g']2||
+X:1001
+T:Scale Navigation Low G
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| G  A  G  B  |  G  c  G  d  |  G  e  G  f  |  G  g   G  a  |  a  G  g   G  |  f   G  e  G |  d  G  c  G  |  B  G   A  G  |]
+w: G  A  G  B  |  G  c  G  d  |  G  e  G  f  |  G  g   G  a  |  a  G  g   G  |  f   G  e  G |  d  G  c  G  |  B  G   A  G  :|
+w: em en em io  |  em o  em a  |  em e  em ve |  em di  em I  |  I  em di  em |  ve  em e  em|  a  em o  em | io  em  en em :| 
+w: em en em oh |  em oh em ah |  em ay em vay|  em dee em ee |  ee em dee em |  vay em ay em|  ay em oh em |  oh em  en em :|
+
+X:1002
+T:Scale Navigation Low A
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| A  G  A  B  |  A  c  A  d  |  A  e  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  e  A |  d  A  c  A  |  B  A   G  A  |] 
+w: A  G  A  B  |  A  c  A  d  |  A  e  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  e  A |  d  A  c  A  |  B  A   G  A  :|
+w: en em en io |  en o  en a  |  en e  en ve |  en di  en I  |  I  en di  en |  ve  en e  en|  a  en o  en |  io en  em en :| 
+
+
+
+X:1003
+T:Scale Navigation B
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| B  G  B  A  |  B  c  B  d  |  B  e  B  f  |  B  g   B  a  |  a  B  g   B  |  f   B  e  B |  d  B  c  B  |  A  B   G  B  |] 
+w: B  G  B  A  |  B  c  B  d  |  B  e  B  f  |  B  g   B  a  |  a  B  g   B  |  f   B  e  B |  d  B  c  B  |  A  B   G  B  :|
+w: io em io en |  io o  io a  |  io e  io ve |  io di  io I  |  I  io di  io |  ve  io e  io|  a  io o  io |  en io  em io :| 
+
+
+X:1004
+T:Scale Navigation C
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| c  G  c  A  |  c  B  c  d  |  c  e  c  f  |  c  g   c  a  |  a  c  g   c  |  f   c  e  c |  d  c  c  c  |  B  c   G  c  |]
+w: c  G  c  A  |  c  B  c  d  |  c  e  c  f  |  c  g   c  a  |  a  c  g   c  |  f   c  e  c |  d  c  c  c  |  B  c   G  c 
+w: o em o en  |  o o  o a  |  o e  o ve |  o di  o I  |  I  o di  o |  ve  o e  o|  a  o o  o |  o  o  em o :| 
+
+
+X:1005
+T:Scale Navigation D
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| d  G  d  A  |  d  B  d  c  |  d  e  d  f  |  d  g   d  a  |  a  d  g   d  |  f   d  e  d |    c  d   B  d | A d  G  d  |]
+w: d  G  d  A  |  d  B  d  c  |  d  e  d  f  |  d  g   d  a  |  a  d  g   d  |  f   d  e  d |    c  d   B  d | A d  G  d  
+w: a em a en  |  a o  a o  |  a e  a ve |  a di  a I  |  I  a di  a |  ve  a e  a|   o  a   o  a | en a em a :| 
+
+X:1006
+T:Scale Navigation E
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| e  G  e  B  |  e  c  e  d  |  e  A  e  f  |  e  g   e  a  |  a  e  g   e  |  f   e  A  e |  d  e  c  e  |  B  e   G  e  |] 
+w: A  G  A  B  |  A  c  A  d  |  A  A  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  A  A |  d  A  c  A  |  B  A   G  A  :|
+w: e em e o  |  e o  e a  |  e en  e ve |  e di  e I  |  I  e di  e |  ve  e e  e|  a  en o  e |  o  e  em e :| 
+
+X:1007
+T:Scale Navigation F
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| f  G  f  B  |  f  c  f  d  |  f  e  f  f  |  f  g   f  a  |  a  f  g   f  |  f   f  e  f |  d  f  c  f  |  B  f   G  f  |] 
+w: A  G  A  B  |  A  c  A  d  |  A  e  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  e  A |  d  A  c  A  |  B  A   G  A  :|
+w: en em en o  |  en o  en a  |  en e  en ve |  en di  en I  |  I  en di  en |  ve  en e  en|  a  en o  en |  o  en  em en :| 
+
+X:1008
+T:Scale Navigation High G
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| g  G  g  B  |  g  c  g  d  |  g  e  g  f  |  g  A   g  a  |  a  g  A   g  |  f   g  e  g |  d  g  c  g  |  B  g   G  g  |]
+w: g  G  g  B  |  g  c  g  d  |  g  e  g  f  |  g  A   g  a  |  a  g  A   g  |  f   g  e  g |  d  g  c  g  |  B  g   G  g 
+w: di em di o  |  di o  di a  |  di e  di ve |  di en  di I  |  I  di en  di |  ve  di e  di|  a  di o  di |  o  di  em di :| 
+
+X:1009
+T:Scale Navigation High A
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| a  G  a  B  |  a  c  a  d  |  a  e  a  f  |  a  g   a  A  |  A  a  g   a  |  f   a  e  a |  d  a  c  a  |  B  a   G  a  |] 
+w: a  G  a  B  |  a  c  a  d  |  a  e  a  f  |  a  g   a  A  |  A  a  g   a  |  f   a  e  a |  d  a  c  a  |  B  a   G  a 
+w: I em I o  |  I o  I a  |  I e  I ve |  I di  I en  |  en  I di  I |  ve  I e  I|  a  I o  I |  o  I  em I :| 
+
+
+X:1010
+T:Scale Navigation Complete
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+%%barsperstaff 4
+[| G  A  G  B  |  G  c  G  d  |  G  e  G  f  |  G  g   G  a  |  a  G  g   G  |  f   G  e  G |  d  G  c  G  |  B  G   A  G  | 
+w: G  A  G  B  |  G  c  G  d  |  G  e  G  f  |  G  g   G  a  |  a  G  g   G  |  f   G  e  G |  d  G  c  G  |  B  G   A  G  |
+w: em en em o  |  em o  em a  |  em e  em ve |  em di  em I  |  I  em di  em |  ve  em e  em|  a  em o  em | o  em  en em | 
+w: em en em oh |  em aw em ah |  em ay em vay|  em dee em ee |  ee em dee em |  vay em ay em|  ay em aw em |  oh em  en em |
+|| A  G  A  B  |  A  c  A  d  |  A  e  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  e  A |  d  A  c  A  |  B  A   G  A  | 
+w: A  G  A  B  |  A  c  A  d  |  A  e  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  e  A |  d  A  c  A  |  B  A   G  A  |
+w: en em en o |  en o  en a  |  en e  en ve |  en di  en I  |  I  en di  en |  ve  en e  en|  a  en o  en |  o en  em en | 
+|| B  G  B  A  |  B  c  B  d  |  B  e  B  f  |  B  g   B  a  |  a  B  g   B  |  f   B  e  B |  d  B  c  B  |  A  B   G  B  | 
+w: B  G  B  A  |  B  c  B  d  |  B  e  B  f  |  B  g   B  a  |  a  B  g   B  |  f   B  e  B |  d  B  c  B  |  A  B   G  B  |
+w: o em o en |  o o  o a  |  o e  o ve |  o di  o I  |  I  o di  o |  ve  o e  o|  a  o o  o |  en o  em o | 
+|| c  G  c  A  |  c  B  c  d  |  c  e  c  f  |  c  g   c  a  |  a  c  g   c  |  f   c  e  c |  d  c  c  c  |  B  c   G  c  | 
+w: c  G  c  A  |  c  B  c  d  |  c  e  c  f  |  c  g   c  a  |  a  c  g   c  |  f   c  e  c |  d  c  c  c  |  B  c   G  c 
+w: o em o en  |  o o  o a  |  o e  o ve |  o di  o I  |  I  o di  o |  ve  o e  o|  a  o o  o |  o  o  em o | 
+|| d  G  d  A  |  d  B  d  c  |  d  e  d  f  |  d  g   d  a  |  a  d  g   d  |  f   d  e  d |    c  d   B  d | A d  G  d  | 
+w: d  G  d  A  |  d  B  d  c  |  d  e  d  f  |  d  g   d  a  |  a  d  g   d  |  f   d  e  d |    c  d   B  d | A d  G  d  
+w: a em a en  |  a o  a o  |  a e  a ve |  a di  a I  |  I  a di  a |  ve  a e  a|   o  a   o  a | en a em a :| 
+|| e  G  e  B  |  e  c  e  d  |  e  A  e  f  |  e  g   e  a  |  a  e  g   e  |  f   e  A  e |  d  e  c  e  |  B  e   G  e  | 
+w: A  G  A  B  |  A  c  A  d  |  A  A  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  A  A |  d  A  c  A  |  B  A   G  A  :|
+w: e em e o  |  e o  e a  |  e en  e ve |  e di  e I  |  I  e di  e |  ve  e e  e|  a  en o  e |  o  e  em e :| 
+|| f  G  f  B  |  f  c  f  d  |  f  e  f  f  |  f  g   f  a  |  a  f  g   f  |  f   f  e  f |  d  f  c  f  |  B  f   G  f  | 
+w: A  G  A  B  |  A  c  A  d  |  A  e  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  e  A |  d  A  c  A  |  B  A   G  A  :|
+w: en em en o  |  en o  en a  |  en e  en ve |  en di  en I  |  I  en di  en |  ve  en e  en|  a  en o  en |  o  en  em en :| 
+|| g  G  g  B  |  g  c  g  d  |  g  e  g  f  |  g  A   g  a  |  a  g  A   g  |  f   g  e  g |  d  g  c  g  |  B  g   G  g  | 
+w: g  G  g  B  |  g  c  g  d  |  g  e  g  f  |  g  A   g  a  |  a  g  A   g  |  f   g  e  g |  d  g  c  g  |  B  g   G  g 
+w: di em di o  |  di o  di a  |  di e  di ve |  di en  di I  |  I  di en  di |  ve  di e  di|  a  di o  di |  o  di  em di :| 
+|| a  G  a  B  |  a  c  a  d  |  a  e  a  f  |  a  g   a  A  |  A  a  g   a  |  f   a  e  a |  d  a  c  a  |  B  a   G  a  |] 
+w: a  G  a  B  |  a  c  a  d  |  a  e  a  f  |  a  g   a  A  |  A  a  g   a  |  f   a  e  a |  d  a  c  a  |  B  a   G  a 
+w: I em I o  |  I o  I a  |  I e  I ve |  I di  I en  |  en  I di  I |  ve  I e  I|  a  I o  I |  o  I  em I :| 
+
+
+
+X:1301
+T: Gracenote
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+R:March
+L:1/2
+||{g}f | {d}c | {e}d | {a}g ||
+w: he  | do   | ea   | hi
+W: Notice that a gracenote is a "lift" (open-up) movement where the grace is higher than the melody note it is written on.
+W: 
+||A{g}A | A{d}A | A{e}A | e{f}e | G{d}G |g{a}g ||
+w: en hen  | en den   | en een/un(yen)   | e he | em dem | dI chI/li
+
+X:1302
+T:G Gracenotes
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/2/
+Q:1/4=120
+K:HP
+M:4/4
+L:1/1
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T:Nether Lorn Canntaireachd
+|| {g}G {g}A {g}B {g}c | {g}d {g}e {g}f {g}f| {g}e {g}d {g}c {g}B | {g}A {g}G ||
+w: G A B c | d e f f| e d c B | A G ||
+w: him  hin  ho   ho  |  ha  he   che   che | he  ha   ho   ho  | hin him ||
+w: him hin hoe haw | hah hey shay shay | hey hah haw hoe hin him
+V:2 clef=treble
+z|x|x|x
+V:3 clef=none stem=none
+L:1/1
+%%stafflines 8
+%%staffscale 2.
+[|{[EGBdac'g']} [EGBdac'e'g'] |
+{[EGBdac'g']}  [GBdac'e'g'] |
+{[GBdac'g']}  [Bdac'e'g'] |
+{[GBdac'g']}  [Edac'e'g'] |
+{[GBdac'g']}  [Eac'e'g'] |
+{[GBdc'g']}  [GBdc'e'g'] |
+{[GBdc'g']}  [GBde'g'] |
+{[GBdg']}  [GBde'g'] |
+{[GBdg']}  [GBdc'e'g'] |
+{[GBdc'g']}  [Eac'e'g'] |
+{[Eac'g']}  [Edac'e'g'] |
+{[Edac'g']}  [Bdac'e'g'] |
+{[Bdac'g']}  [GBdac'e'g'] |
+{[GBdac'g']} [EGBdac'e'g'] |]
+T: Alternate Canntaireachd 
+|| {g}G {g}A {g}B {g}c | {g}d {g}e {g}f {g}f| {g}e {g}d {g}c {g}B | {g}A {g}G ||
+w: him  hin  hio   ho  |  ha  che/hi(cadence)   he   he | che/hi(cadence)  ha   ho   hio  | hin him ||
+
+
+X:1303
+T:D Gracenotes
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/2/
+Q:1/4=120
+K:HP
+M:4/4
+L:1/1
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T:Nether Lorn Canntaireachd
+[| {d}G |{d}A |{d}B |{d}c | {d}c |{d}B |{d}A |{d}G|]
+w: dam   dan to   do   | do   to   dan   dam||
+w: dam dan doe dah | dah doe dan dam
+V:2 clef=treble
+z|x|x|x
+V:3
+L:1/1
+%%stafflines 8
+%%staffscale 2.
+%%                 EGBdac'e'g'
+[|{[EGBac'e'g']} [EGBdac'e'g'] |
+{[EGBac'e'g']}  [GBdac'e'g'] |
+{[GBac'e'g']}  [Bdac'e'g'] |
+{[Bac'e'g']}  [Edac'e'g'] |
+{[Eac'e'g']}  [Edac'e'g'] |
+{[Eac'e'g']}  [Bdac'e'g'] |
+{[Bac'e'g']}  [GBdac'e'g'] |
+{[GBac'e'g']} [EGBdac'e'g'] |]
+w:
+T: SIUBHAL single (Piob)
+B: Logan's Complete Tutor
+M: 3/4
+||{g}A>{d}c {g}B>{d}c {g}B>{G}A ||
+w: Hin-do  Ho-to          ho-din ||
+W:
+T: Alternate Canntaireachd 
+[| {d}G |{d}A |{d}B |{d}c | {d}c |{d}B |{d}A |{d}G|]
+w: bam   dan do   do   | do   do   dan   bam||
+
+X:1304
+T:E Gracenotes
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/2/
+Q:1/4=120
+K:HP
+M:4/4
+L:1/1
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T:Nether Lorn Canntaireachd
+|| {e}G |{e}A |{e}B |{e}c | {e}d |{e}d |{e}c |{e}B | {e}A |{e}G ||
+w:  em   en   eo   eo  |  ea   ea   eo   eo  |  en    em ||
+w:  em   en  yo yaw | yah yah yaw yo | en em ||
+W:
+W: To differentiate between Low A and Low G versus an E gracenote to those notes,
+W: in Piobaireachd we would see himen as a movement
+V:2 clef=treble
+z|x|x|x|x|x
+V:3
+%%stafflines 8
+%%staffscale 2.
+[|{[EGBac'e'g']} [EGBdac'e'g'] |
+{[EGBac'e'g']}  [GBdac'e'g'] |
+{[GBac'e'g']}  [Bdac'e'g'] |
+{[Bac'e'g']}  [Edac'e'g'] |
+{[Eac'e'g']}  [Edac'e'g'] |
+{[Eac'e'g']}  [Bdac'e'g'] |
+{[Bac'e'g']}  [GBdac'e'g'] |
+{[GBac'e'g']} [EGBdac'e'g'] |]
+T:
+|| {g}A{e}A ||
+w: himen en
+T: DITHIS single
+B: Logan's Complete Tutor
+||{g}G>{e}A {g}B>{e}A | {g}d>{e}A {g}B>{e}A||
+w: Him-en    ho-un     | ha-un       ho-un ||
+T: DITHIS double
+B: Logan's Complete Tutor
+||{g}G>{e}A {g}B>{e}B | {g}d>{e}d {g}B>{e}B ||
+w: Him-un  Hio-eio       |  ha-ea      hio-eio
+T: Alternate Canntaireachd 
+|| {e}G |{e}A |{e}B |{e}c | {e}d |{e}d |{e}c |{e}B | {e}A |{e}G ||
+w:  um   un   eio   eo  |  ea   ea   eo   eio  |  un    um ||
+
+X:1305
+T:G Grace Scale Navigation Complete
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+%%barsperstaff 4
+[| {g}G  A  {g}G  B  |  {g}G  c  {g}G  d  |  {g}G  e  {g}G  f  |  {g}G  g   {g}G  a  |  a  G  {a}g   G  |  {g}f   G  {g}e  G |  {g}d  G  {g}c  G  |  {g}B  G   {g}A  G  | 
+w: G  A  G  B  |  G  c  G  d  |  G  e  G  f  |  G  g   G  a  |  a  G  g   G  |  f   G  e  G |  d  G  c  G  |  B  G   A  G  |
+w: hem en hem o  |  hem o  hem a  |  hem e  hem ve |  hem di  hem I  |  I  em di  em |  che  em he  em|  ha  em ho  em | ho  em  hen em | 
+|| {g}A  G  {g}A  B  |  {g}A  c  {g}A  d  |  {g}A  e  {g}A  f  |  {g}A  g   {g}A  a  |  a  A  {a}g   A  |  {g}f   A  {g}e  A |  {g}d  A  {g}c  A  |  {g}B  A   {g}G  A  | 
+w: A  G  A  B  |  A  c  A  d  |  A  e  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  e  A |  d  A  c  A  |  B  A   G  A  |
+w: hen em hen o |  hen o  hen a  |  hen e  hen ve |  hen di  hen I  |  I  en vi  en |  che  en he  en|  ha  en ho  en |  ho en  hem en | 
+|| {g}B  G  {g}B  A  |  {g}B  c  {g}B  d  |  {g}B  e  {g}B  f  |  {g}B  g   {g}B  a  |  a  B  {a}g   B  |  {g}f   B  {g}e  B |  {g}d  B  {g}c  B  | {g}A  B   {g}G  B  | 
+w: B  G  B  A  |  B  c  B  d  |  B  e  B  f  |  B  g   B  a  |  a  B  g   B  |  f   B  e  B |  d  B  c  B  |  A  B   G  B  |
+w: ho em ho en |  ho o  ho a  |  ho e  ho ve |  ho di  ho I  |  I  o vi  o |  che  o he  o|  ha  o ho  o |  hen o  hem o | 
+|| {g}c  G  {g}c  A  |  {g}c  B  {g}c  d  |  {g}c  e  {g}c  f  |  {g}c  g   {g}c  a  |  a  c  {a}g   c  |  {g}f   c  {g}e  c |  {g}d  c  {g}B  c  |  {g}A  c   {g}G  c  | 
+w: c  G  c  A  |  c  B  c  d  |  c  e  c  f  |  c  g   c  a  |  a  c  g   c  |  f   c  e  c |  d  c  B  c  |  A  c   G  c 
+w: ho em ho en |  ho o  ho a  |  ho e  ho ve |  ho di  ho I  |  I  o vi  o |  che  o he  o|  ha  o ho  o |  hen o  hem o | 
+|| {g}d  G  {g}d  A  |  {g}d  B  {g}d  c  |  {g}d  e  {g}d  f  |  {g}d  g   {g}d  a  |  a  d  {a}g   d  |  {g}f   d  {g}e  d |    {g}c  d   {g}B  d | {g}A d  {g}G  d  | 
+w: d  G  d  A  |  d  B  d  c  |  d  e  d  f  |  d  g   d  a  |  a  d  g   d  |  f   d  e  d |    c  d   B  d | A d  G  d  
+w: ha em ha en  |  ha o  ha o  |  ha e  ha ve |  ha di  ha I  |  I  a vi  a |  che  a he  a|   ho  a   ho  a | hen a hem a :| 
+|| {g}e  G  {g}e  A  |  {g}e  B  {g}e  c  |  {g}e  d  {g}e  f  |  {g}e  g   {g}e  a  |  a  e  {a}g   e  |  {g}f   e  {g}d  e |  {g}c  e  {g}B  e  |  {g}A  e   {g}G  e  | 
+w: e  G  e  A  |  e  B  e  c  |  e  d  e  f  |  e  g   e  a  |  a  e  g   e  |  f   e  d  e |  c  e  B  e  |  A  e   G  e  | 
+w: he em  he  en |  he  o  he  o  |  he  a  he  ve |  he  di  he  I  |  I  e  vi  e  |  che  e  ha  e |  ho  e  ho  e  |  hen e   hem e :| 
+|| {g}f  G  {g}f  A  |  {g}f  B  {g}f  c  |  {g}f  d  {g}f  e  |  {g}f  g   {g}f  a  |  a  f  {a}g   f  |  {g}e   f  {g}d  f |  {g}c  f  {g}B  f  |  {g}A  f   {g}G  f  | 
+w: f  G  f  A  |  f  B  f  c  |  f  d  f  e  |  f  g   f  a  |  a  f  g   f  |  e   f  d  f |  c  f  B  f  |  A  f   G  f  | 
+w: che em che en |  che o  che o  |  che a  che e  |  che di  che I  |  I  ve vi  ve |  he   ve ha  ve|  ho  ve ho  ve |  hen ve  hem vi :| 
+|| {a}g  G  {a}g  A  |  {a}g  B  {a}g  c  |  {a}g  d  {a}g  e  |  {a}g  f   {a}g  a  |  a  g  {a}f   g  |  {g}e   g  {g}d  g |  {g}c  g  {g}B  g  |  {g}A  g   {g}G  g  | 
+w: g  G  g  A  |  g  B  g  c  |  g  d  g  e  |  g  f   g  a  |  a  g  f   g  |  e   g  d  g |  c  g  B  g  |  A  g   G  g  | 
+w: vi em vi en |  vi o  vi o  |  vi a  vi e  |  vi vi  vi I  |  I  di vi  di |  he   di ha  di|  ho  di ho  di |  hen di  hem di :| 
+
+
+
+X:1306
+T:Scale Navigation GDE Gracenote (Jig)
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:6/8
+L:1/8
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[|: 3{g}G{d}G{e}G 3{g}A{d}A{e}A | 3{g}B{d}B{e}B 3{g}c{d}c{e}c | 
+w:  him dam um    hin dan un   |  ho to eo      hio dio eio    |
+   3{g}c{d}c{e}c 3{g}B{d}B{e}B | 3{g}A{d}A{e}A 3{g}G{d}G{e}G :]
+w:  hio dio eio      hio to eo    |  hin dan en      him dam em
+[|: 3{g}B{d}B{e}B 3{g}c{d}c{e}c |  3{g}B{d}ce  3{g}A{d}B{e}c :]
+w: ho to   eo   hio   dio  eio   |  hio  to  eo      hin to  eo  |
+
+X:1307
+T:Scale Navigation GDE Gracenote (Doubling / Tachum)
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:6/8
+L:1/8
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| {g}c{d}c{e}A {g}B{d}B{e}G |]
+w: Very Open
+ [| {gcd}c{e}A {gBd}B{e}G |]
+w: Doublings
+ [| {gcd}c<{e}A {gBd}B<{e}G |]
+w: Tachum
+
+
+X:1308
+T:High A (thumb) Gracenote
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+|| e | {a}G {a}A {a}B {a}c | {a}d {a}e {a}f {a}g| {a}g {a}f {a}e {a}d | {a}c {a}B {a}A {a}G ||
+w: e | him   hin  ho  hio   | ha   he    che chi | chi  che  he   ha   |  hio  ho  hin  him ||
+W: Note the canntaireachd re-uses the aspirant 'h' from the G gracenote.  This gracenote would typically 
+W: be played ONLY (Piobroch) from high G.  Therefore there would be no confusion as to which gracenote since 
+W: the G gracenote couldn't be played from High G.
+L:1/8
+|| e | g{a}G  g{a}A  g{a}B g{a}c | g{a}d g{a}e g{a}f  g{a}g| 
+w:  * | di him di hin di ho di hio| di ha di he di che di chi | 
+       g{a}g  g{a}f  g{a}e g{a}d | g{a}c  g{a}B g{a}A  g{a}G ||
+w:     di chi di che di he di ha | di hio di ho di hin di him ||
+
+X: 1400
+T: Strikes
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/4
+R:March
+L:4/4
+||{G}A | {c}d | {A}e | {e}f | {f}g | {g}a ||
+w: (em)den | doa | ende | eve| ri/vedi | li ||
+W: Notice that a strike is a "striking" (close-down) movement where the grace is lower than the melody note it is written on.
+W:
+X:1401
+T:Scale Navigation Low G Strike
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| A {G}A B {G}B| c {G}c d {G}d | 
+w: en emden o emdo| o emdo a emda
+ c {G}A c {G}B| d {G}A e {G}A|]
+w: o emden o emdo | a emden e emden 
+
+X:1402
+T:Scale Navigation A Strike
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| e2 {A}e2 |]
+w: e  ende
+
+X:1403
+T:Scale Navigation C Strike
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| d2 {c}d2 |]
+w: a  oa
+
+
+X:1404
+T:Scale Navigation E Strike
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| f2 {e}f2 |]
+w: ve eve
+
+X:1405
+T:Scale Navigation F Strike
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| g2 {f}g2 |]
+w: di vedi
+
+X:1406
+T:Scale Navigation High G Strike
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| a2 {g}a2 |]
+w: I li
+
+X:1407
+T:Scale Navigation Low G Strike
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| A2 {G}A2 | B2 {G}B2 | c2 {G}c2 | d2 {G}d2 |]
+w: en  den | o  do | o do  |  a da
+
+
+X:1408
+T:Scale Navigation Strikes Scale
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| A {G}A B {G}B | c {G}c d {G}d | {c}d e {A}e f {e}f | g {f}g a {g}a | 
+w:            -   |        G Strike on D|C Strike on D
+w: EN emden O emdo|O  emdo A emda| ODA E  ENDE VE EVE | DI VEDI I LI 
+  a {g}a  g {f}g | f {e}f e {A}e | d {G}d c {G}c | B {G}B A {G}A  | 
+w:               |               |               | _    _ _ din
+w: I li  di vedi | ve eve e ende | a emda o emdo | o emdo en emden
+  d {G}A  c {G}A | B {G}A f {d}e | g {e}f a {e}f | a {f}g d {G}A  |]
+w:               |               |               | EN VEDI A din
+w: a emden o emden | o emden ve ade | di eve I eve | I vedi a emden
+
+X: 1500
+T: Birl (Echo Beat)
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/7/
+Q:1/4=78
+K:HP
+M:9/4
+L:1/4
+R:March
+L:2/4
+T: Birl Played
+| A {G}A{G}A | 
+w: 2 G Strikes
+w: en ra rin
+T: Birl Written
+| A {GAG}A | 
+w: Birl written
+w: en rarin
+| c {AGAG}A | c A{G}A{G}A
+w: Birl written | Played
+w: o hararin/emrarin | o ha/em ra rin
+||A {GAG}A | c {AGAG}A | e {gAGAG}A ||
+w: Birl written
+w: on A | other note | G gracenote
+w: en hararin | io hararin | e hihararin
+w: en rarin | o enrarin | e hiharin/henrarin
+W: Notice that a birl is 2 low G strikes on A. A variation includes a leading G gracenote to the first A.
+W:
+X:1501
+T: Birl Exercises
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/7/
+Q:1/4=78
+K:HP
+M:9/4
+L:1/4
+R:March
+L:2/4
+[| a  {AGAG}A   |  g   {AGAG}A   |  f  {AGAG}A  |  e  {AGAG}A  |
+w: I  hararin |  DI  hararin |  VE hararin|  E  hararin |
+|  d  {AGAG}A   |  c   {AGAG}A   |  B  {AGAG}A  |  A  {GAG}A   | G {AGAG}A |]
+w: A  hararin |  O   hararin |  O  hararin|  EN hararin | EM hararin :|
+T:Birl with G Gracenote
+[| a  {AGAG}A   |  g   {AGAG}A    |  f  {gAGAG}A  |  e  {gAGAG}A  |
+w: I  enhararin |  DI  enhararin  |  VE hihararin |  E  hihararin |
+|  d  {gAGAG}A   |  c   {gAGAG}A   |  B  {gAGAG}A  |  A  {gAGAG}A  | G {gAGAG}A |]
+w: A  hihararin  |  O   hihararin  |  O  hihararin |  EN hihararin | EM hihararin :
+
+X:2108
+T: Echo Beat on B (Hihorodo)
+T: Birl Exercises
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/7/
+Q:1/4=78
+K:HP
+M:9/4
+L:1/4
+R:March
+L:2/4
+[| a  {BGBG}B   |  g   {BGBG}B   |  f  {BGBG}B  |  e  {BGBG}B  |
+w: I  horodo |  DI  horodo |  VE horodo|  E  horodo |
+|  d  {BGBG}B   |  c   {BGBG}B   |  B  {BGBG}B  |  A  {BGBG}B   | G {BGBG}B |]
+w: A  horodo |  O   horodo |  O  horodo|  EN horodo | EM horodo :|
+X:2109
+T: Echo Beat on D (harara)
+T: Birl Exercises
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/7/
+Q:1/4=78
+K:HP
+M:9/4
+L:1/4
+R:March
+L:2/4
+[| a  {dGdG}d   |  g   {dGdG}d   |  f  {dGdG}d  |  e  {dGdG}d  |
+w: I  harara |  DI  harara |  VE harara|  E  harara |
+|  d  {dGdG}d   |  c   {dGdG}d   |  B  {dGdG}d  |  A  {dGdG}d   | G {dGdG}d |]
+w: A  harara |  O   harara |  O  harara|  EN harara | EM harara :|
+X:2110
+T: Echo Beat on E (cherede)
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/7/
+Q:1/4=78
+K:HP
+M:9/4
+L:1/4
+R:March
+L:2/4
+[| a  {eGeG}e   |  g   {eGeG}e   |  f  {eGeG}e  |  e  {eGeG}e  |
+w: I  cherede |  DI  cherede |  VE cherede|  e  cherede |
+|  d  {eGeG}e   |  c   {eGeG}e   |  B  {eGeG}e  |  A  {eGeG}e   | G {eGeG}e |]
+w: A  cherede |  O   cherede |  O  cherede|  EN cherede | EM cherede :|
+
+X:2111
+T: Echo Beat on F (herere)
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/7/
+Q:1/4=78
+K:HP
+M:9/4
+L:1/4
+R:March
+L:2/4
+[| a  {fGfG}f   |  g   {fGfG}f   |  f  {fGfG}f  |  e  {fGfG}f  |
+w: I  herere |  DI  herere |  VE herere|  E  herere |
+|  d  {fGfG}f   |  c   {fGfG}f   |  B  {fGfG}f  |  A  {fGfG}f   | G {fGfG}f |]
+w: A  herere |  O   herere |  O  herere|  EN herere | EM herere :|
+X:2112
+T: Echo Beat on High G (hiriri)
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/7/
+Q:1/4=78
+K:HP
+M:9/4
+L:1/4
+R:March
+L:2/4
+[| a  {gGgG}g   |  g   {gGgG}g   |  f  {gGgG}g  |  e  {gGgG}g  |
+w: I  hiriri |  DI  hiriri |  VE hiriri|  E  hiriri |
+|  d  {gGgG}g   |  c   {gGgG}g   |  B  {gGgG}g  |  A  {gGgG}g   | G {gGgG}g |]
+w: A  hiriri |  O   hiriri |  O  hiriri|  EN hiriri | EM hiriri :|
+
+
+X:1900
+T: Shakes (Hara)
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/4
+R:March
+L:1/4
+||{gdc}d {gdG}d |{gcG}c {gBG}B {gAG}A | {geA}e ||
+w: light heavy  |shakes               | chere
+W: A shake is a G gracenote to the "melodic" (middle) gracenote followed by a strike.
+W:
+T: Shake Scale
+[| {agf}g {gfe}f {geA}e {gdc}d |{gdG}d {gcG}c {gBG}B {gAG}A |]
+w: hili hivi  chere hara/hadoa | hada/hadema holio/hodemo holo/hodemo hinrin/henden |
+W:
+W: I've extended canntaireachd to use 't' as a 2nd gracenote, and 'd' as a strike gracenote.
+W:These shakes could be hili (mirrors chili for A throw), chedi, hede, hada (hara), hodo, hodo, henden
+X:1600
+T: Doublings
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/4
+R:March
+L:1/1
+M:4/4
+V:1
+||{gGd}G |{gAd}A |{gBd}B |{gcd}c| {gde}d |{gef}e| {gfg}f ||
+w: | hemtem|henden |hodo |hodo(hawdaw) |hada |hete |chete | |
+w: | hemtem|henden |hoedoe |hawdaw |hahdah |hete |chete | |
+w: | -| | | | | | | |
+V:2 clef=none stem=none
+L:1/2
+%%stafflines 7
+%%staffscale 2.0
+[|{[EGBdfae']} [EGBdfac'e'] {[EGBfac'e']} [EGBdfac'e'] |
+|{[EGBdfae']} [GBdfac'e'] {[GBfac'e']} [GBdfac'e'] |
+|{[GBdfae']} [Bdfac'e'] {[GBfac'e']} [Bdfac'e'] |
+|{[Bdfae']} [Edfac'e'] {[Efac'e']} [Edfac'e'] |
+|{[Edfae']} [Efac'e'] {[Eac'e']} [Efac'e'] |
+|{[GBdfae']} [GBdac'e'] {[GBdc'e']} [GBdac'e'] |
+|{[GBde']} [GBdc'e'] {[GBde']} [GBdc'e'] |
+W: Note that though there are 3 gracenotes, the middle gracenote is the same note as the melody note it is written on.  
+W:
+W: Therefore this is played by the G gracenote taking us to the "melodic" note grace followed by a second gracenote to "double" the embellishment.
+W:
+X:1601
+T:Doublings from Low A
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=86
+M:2/4
+L:1/4
+R:March
+V:1 gstem=up stem=down
+I:MIDI=program 110
+K:HP
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+%%landscape
+|| A{gGd}G   | A{gAd}A   | A{gBd}B | A{gcd}c |
+w: en himdem | en hindim | en hoto | en hodo |
+   A{gde}d   | A{gef}e   | A{gfg}f | g  a | 
+w: en hada   | en chehe   | en hete | di I |
+ a g   |   A{gfg}f | A{gef}e   | A{gde}d   | 
+w:I di | en hete | en chehe   | en hada   | 
+  A{gcd}c |A{gBd}B | A{gAd}A  | A{gGd}G   ||
+w:en hodo |en hoto |en hindim | en himdem ||
+W:You need to be able to play this exercise for SQCF Level 2 
+W: We can't play (G) doublings on High G nor High A as we can't play G gracenotes on those notes.
+
+
+X:1602
+T:F Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|| G {gfg}f A {gfg}f | B {gfg}f c {gfg}f |d {gfg}f e {gfg}f | f {gfg}f  g {afg}f  | 
+w: EM chete EN chete   | O chete   O  chete  |A  chete  E  chete  | VE chete   DI chete  |
+w: |||- thumb gracenote ^|
+  a {fg}f  a {fg}f  | g {afg}f  f {gfg}f | e {gfg}f d {gfg}f | c {gfg}f B {gfg}f | 
+w: I vete  I vete   | DI chete   VE chete  | E chete   A chete  | O chete   O  chete  |
+w: ^ half doublings ^|||
+   A {gfg}f G {gfg}f ||
+w: EN chete  EM chete  ||
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+W:
+W: http://svenax.net/site/canntaireachd/5/ has a consolidated Doubling and Throws page
+W: without diagrams so the canntaireachd here might be for a different movement...
+W: Doublings on F have 3 different Canntaireachd names depenteng on where the melody note is coming from.
+
+
+
+X:1603
+T:E Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {gef}e A {gef}e | B {gef}e c {gef}e | d {gef}e e {gef}e | f {gef}e g {aef}e | 
+w: em hete en hete | o hete o hete   | a hete e hete | ve hete di hete |
+w: |||- thumb gracenote ^|
+   a {ef}e a {ef}e | g {aef}e f {gef}e | e {gef}e d {gef}e | c {gef}e B {gef}e | A {gef}e G {gef}e |]
+w: I ete  I ete  |  di hete ve hete  | e hete a hete | o hete o hete | en hete em hete
+w: ^ Half Doublings ^|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+W:
+W: http://svenax.net/site/canntaireachd/5/ has a consolidated Doubling and Throws page
+W: without diagrams so the canntaireachd here might be for a different movement...
+W:
+W:http://www.teachyourselfbagpipes.co.uk/cant.html concurs
+
+
+X:1604
+T:D Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {gde}d A {gde}d | B {gde}d c {gde}d | d {gde}d e {gde}d | f {gde}d g {ade}d | 
+w: em hada en hada | o hada o hada   | a hada e hada | ve hada di hada |
+w: |||- thumb gracenote ^|
+   a {de}d a {de}d | g {ade}d f {gde}d | e {gde}d d {gde}d | c {gde}d B {gde}d | A {gde}d G {gde}d |]
+w: I ada  I ada  |  di hada ve hada | e hada a hada | o hada o hada | en hada em hada
+w: ^ Half Doublings ^|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+
+
+X:1605
+T:C Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {gcd}c A {gcd}c | B {gcd}c c {gcd}c | d {gcd}c e {gcd}c | f {gcd}c g {acd}c | 
+w: em hoto en hoto | o hoto o hoto   | a hoto e hoto | ve hoto di hoto |
+w: |||- thumb gracenote ^|
+a {cd}c a {cd}c | g {acd}c f {gcd}c | e {gcd}c d {gcd}c | c {gcd}c B {gcd}c | A {gcd}c G {gcd}c |]
+w: I iodo  I iodo  |  di hoto ve hoto | e hoto a hoto | o hoto o hoto | en hoto em hoto
+w: ^ Half Doublings ^|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+
+
+X:1606
+T:B Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {gBd}B A {gBd}B | B {gBd}B c {gBd}B | d {gBd}B e {gBd}B | f {gBd}B g {aBd}B | 
+w: em hoto en hoto | o hoto o hoto   | a hoto e hoto | ve hoto di hoto |
+w: |||- thumb gracenote ^|
+   a {Bd}B a {Bd}B   | g {aBd}B f {gBd}B | e {gBd}B d {gBd}B | c {gBd}B B {gBd}B | A {gBd}B G {gBd}B |]
+w: I odo  I odo  |  di hoto ve hoto | e hoto a hoto | o hoto o hoto | en hoto em hoto
+w: ^ Half Doublings ^|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+
+
+X:1607
+T:A Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {gAd}A A {gAd}A   | B {gAd}A c {gAd}A | d {gAd}A e   {gAd}A   | f {gAd}A g {aAd}A | 
+w: EM hentenhenten EN henten | O henten O henten |w: | A henten E henten | VE henten DI henten |
+w: |||- thumb gracenote ^|
+   a {Ad}A   a {Ad}A   | g {aAd}A   f {gAd}A |e {gAd}A d {gAd}A | c {gAd}A B {gAd}A |
+w: I enten   I enten   | DI henten VE henten |E henten A henten | O henten O henten |
+w: ^ Half Doublings ^|
+   A {gAd}A G {gAd}A |]
+w: EN henten EM henten :|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+
+
+X:1608
+T:G Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {gGd}G A {gGd}G | B {gGd}G c {gGd}G | d {gGd}G e {gGd}G | f {gGd}G g {aGd}G | 
+w: em hemtem en hemtem | o hemtem o hemtem   | a hemtem e hemtem | ve hemtem di hemtem |
+w: |||- thumb gracenote ^|
+   a {Gd}G  a {Gd}G  | g {aGd}G f {gGd}G | e {gGd}G d {gGd}G | c {gGd}G B {gGd}G | A {gGd}G G {gGd}G |]
+w: I emtem  I emtem  |  di hemtem ve hemtem | e hemtem a hemtem | o hemtem o hemtem | en hemtem em hemtem
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+
+X:1609
+T:Doubling Scale Navigation Complete
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+%%barsperstaff 4
+[| {gGd}G  A  {gGd}G  B  |  {gGd}G  c  {gGd}G  d  |  {gGd}G  e  {gGd}G  f  |  {gGd}G  g   {aGd}G  a  |  {g}a  G  {aga}g   G  |  {gfg}f   G  {gef}e  G |  {gde}d  G  {gcd}c  G  |  {gBd}B  G   {gAd}A  G  | 
+w: G  A  G  B  |  G  c  G  d  |  G  e  G  f  |  G  g   G  a  |  a  G  g   G  |  f   G  e  G |  d  G  c  G  |  B  G   A  G  |
+w: hemto en hemto o  |  hemto o  hemto a  |  hemto e  hemto ve |  hemto di  hemto I  |  lI  em di  em |  chete  em hete  em|  ha  em ho  em | ho  em  hen em | 
+[| {gAd}A  G  {gAd}A  B  |  {gAd}A  c  {gAd}A  d  |  {gAd}A  e  {gAd}A  f  |  {gAd}A  g   {aAd}A  a  |  {g}a  A  {aga}g   A  |  {gfg}f   A  {gef}e  A |  {gde}d  A  {gcd}c  A  |  {gBd}B  A   {gGd}G  A  | 
+w: A  G  A  B  |  A  c  A  d  |  A  e  A  f  |  A  g   A  a  |  a  A  g   A  |  f   A  e  A |  d  A  c  A  |  B  A   G  A  |
+w: hento  em hento  o |  hento  o  hento  a  |  hento  e  hento  ve |  hento  di  hento  I  |  lI  en viti  en |  chete  en hete  en|  ha  en hoto  en |  hoto en  hemto en | 
+[| {gBd}B  G  {gBd}B  A  |  {gBd}B  c  {gBd}B  d  |  {gBd}B  e  {gBd}B  f  |  {gBd}B  g   {Bd}B  a  |  {g}a  B  {aga}g   B  |  {gfg}f   B  {gef}e  B |  {gde}d  B  {gcd}c  B  |  {gAd}A  B   {gGd}G  B  | 
+w: B  G  B  A  |  B  c  B  d  |  B  e  B  f  |  B  g   B  a  |  a  B  g   B  |  f   B  e  B |  d  B  c  B  |  A  B   G  B  |
+w: hoto em hoto en |  hoto o  hoto a  |  hoto e  hoto ve |  hoto di  hoto I  |  I  o viti  o |  chete  o hete  o|  ha  o hoto  o |  hento  o  hemto o | 
+[| {gcd}c  G  {gcd}c  A  |  {gcd}c  B  {gcd}c  d  |  {gcd}c  e  {gcd}c  f  |  {gcd}c  g   {acd}c  a  |  {g}a  c  {aga}g   c  |  {gfg}f   c  {gef}e  c |  {gde}d  c  {gBd}B  c  |  {gAd}A  c   {gGd}G  c  | 
+w: c  G  c  A  |  c  B  c  d  |  c  e  c  f  |  c  g   c  a  |  a  c  g   c  |  f   c  e  c |  d  c  B  c  |  A  c   G  c 
+w: hoto em hoto en |  hoto o  hoto a  |  hoto e  hoto ve |  hoto di  hoto I  |  I  o viti  o |  chete  o hete  o|  ha  o hoto  o |  hento  o  hemto o | 
+|| {gde}d  G  {gde}d  A  |  {gde}d  B  {gde}d  c  |  {gde}d  e  {gde}d  f  |  {gde}d  g   {ade}d  a  |  {g}a  d  {aga}g   d  |  {gfg}f   d  {gef}e  d |    {gcd}c  d   {gBd}B  d | {gAd}A d  {gGd}G  d  | 
+w: d  G  d  A  |  d  B  d  c  |  d  e  d  f  |  d  g   d  a  |  a  d  g   d  |  f   d  e  d |    c  d   B  d | A d  G  d  
+w: hata em hata en  |  hata o  hata o  |  hata e  hata ve |  hata di  hata I  |  lI  a viti  a |  chete  a hete  a|   hoto  a   hoto  a | hento  a hemto a :| 
+|| {gef}e  G  {gef}e  A  |  {gef}e  B  {gef}e  c  |  {gef}e  d  {gef}e  f  |  {gef}e  g   {aef}e  a  |  {g}a  e  {aga}g   e  |  {gfg}f   e  {gde}d  e |  {gcd}c  e  {gBd}B  e  |  {gAd}A  e   {gGd}G  e  | 
+w: e  G  e  A  |  e  B  e  c  |  e  d  e  f  |  e  g   e  a  |  a  e  g   e  |  f   e  d  e |  c  e  B  e  |  A  e   G  e  | 
+w: hete em  hete  en |  hete  o  hete  o  |  hete  a  hete  ve |  hete  di  hete  I  |  lI  e  viti  e  |  chete  e  hata  e |  hoto  e  hoto  e  |  hento  e   hemto e :| 
+|| {gfg}f  G  {gfg}f  A  |  {gfg}f  B  {gfg}f  c  |  {gfg}f  d  {gfg}f  e  |  {gfg}f  g   {afg}f  a  |  {g}a  f  {aga}g   f  |  {gef}e   f  {gde}d  f |  {gcd}c  f  {gBd}B  f  |  {gAd}A  f   {gGd}G  f  | 
+w: f  G  f  A  |  f  B  f  c  |  f  d  f  e  |  f  g   f  a  |  a  f  g   f  |  e   f  d  f |  c  f  B  f  |  A  f   G  f  | 
+w: chete em chete en |  chete o  chete o  |  chete a  chete e  |  chete di  chete I  |  lI  ve viti  ve |  hete   ve hata  ve|  hoto  ve hoto  ve |  hento  ve  hemto vi :| 
+|| {aga}g  G  {aga}g  A  |  {aga}g  B  {aga}g  c  |  {aga}g  d  {aga}g  e  |  {aga}g  f   {aga}g  a  |  {g}a  g  {afg}f   g  |  {aef}e   g  {ade}d  g |  {acd}c  g  {aBd}B  g  |  {aAd}A  g   {aGd}G  g  | 
+w: g  G  g  A  |  g  B  g  c  |  g  d  g  e  |  g  f   g  a  |  a  g  f   g  |  e   g  d  g |  c  g  B  g  |  A  g   G  g  | 
+w: viti em viti en |  viti o  viti o  |  viti a  viti e  |  viti viti  viti I  |  lI  di viti  di |  hete   di hata  di|  hoto  di ho  di |  hento  di  hemto di :| 
+W:Note the places where the High A gracenote is used (off of high G) instead of a half doubling
+
+
+X:1700
+T: Half Doublings
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/4
+R:March
+L:1/4
+M:8/4
+||{Gd}G {Ad}A {Bd}B {cd}c {de}d {fe}e {fg}f {ga}g ||
+w: emdem enden odo odo ada ede vede/veche viti
+W: Being a half doubling, we still have a doubled sound but without the leading gracenote.
+W:
+X:2519
+T:High G Half Doubling Scale
+O:Kevin's Tune Generator
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {gf}g A {gf}g | B {gf}g c {gf}g | d {gf}g e {gf}g | f {gf}g  f {gf}g | e {gf}g d {gf}g | c {gf}g B {gf}g | A {gf}g G {gf}g |]
+
+X:2520
+T:High A Half Doubling Scale
+O:Kevin's Tune Generator
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {ag}a A {ag}a | B {ag}a c {ag}a | d {ag}a e {ag}a | f {ag}a  g {ag}a | g {ag}a f {ag}a | e {ag}a d {ag}a | c {ag}a B {ag}a | A {ag}a G {ag}a |]
+
+
+
+X:1800
+T: Throws 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/1
+R:March
+T:Nether Lorn Canntaireachd
+|| {ag}a
+w: dili        |                    |-  tra     
+w: said "chili"
+| {gf}g |
+w:dari(veri)
+| a {fege}f | g {fege}f | e {fege}f | d {fege}f | c {fege}f | B {fege}f | A {fege}f | G {fege}f | 
+w: I vedare | di vedare | e dare | a dare | o dare | io dare | en dare | em dare
+|a e | g e | f e | d e | c e | B e | A e | G e |
+w: I edre | vi edre | ve edre | a dre | o dre | io dre | en dre | em dre
+| (A A) G/4{dc}d3/4  |A {Gdc}d | A {GdGc}(d d) A {Gdc}d ||
+w:      - -    |  Light D throw Played |    | ||
+w:             |                  -     | D throw  written | Heavy D throw  written
+W: At first glance a throw could be confused for a half doubling. But where the half doubling uses a "lift" gracenote the throw uses a strike.  
+W: The Heavy D throw is played more like a Grip.  The Heavy D throw is also known as the closed D throw and the light as open.
+W:
+W: Older terminology also calls these throws doublings!
+W:
+T: D Throw Scale
+[| G {dc}d A {Gdc}d | B {Gdc}d  c {Gdc}d |   e {Gdc}d f {Gdc}d | g {Gdc}d  a {Gdc}d |]
+w: | | |
+w: EM tra  EN tra   | O tra     io tra| E tra    VE tra   | DI tra    I tra|
+|| G>{dc}d A>{Gdc}d | B>{Gdc}d  c>{Gdc}d ||  e>{Gdc}d f>{Gdc}d | g>{Gdc}d  a>{Gdc}d || 
+w: EM tra  EN tra   | O tra     io tra|E tra    VE tra   | DI tra    I tra|
+|| G<{dc}d A<{Gdc}d | B<{Gdc}d  c<{Gdc}d ||  e<{Gdc}d f<{Gdc}d | g<{Gdc}d  a<{Gdc}d |] 
+w: EM tra  EN tra   | O tra     iO tra|E tra    VE tra   | DI tra    I tra|
+W: D Throw on D is not indicated in these exercises.  While it is possible to play a 
+W: D throw on D, You could provide similar emphasis using either a lemluath or toarluath.
+W:
+W: As written here, the throw is a "light" throw.  There is a Heavy throw that resembles
+W: a Grip to C enteng on a D.
+T: Heavy Throw
+[| G{dGc}d A{GdGc}d | B{GdGc}d  c{GdGc}d |e{GdGc}d f{GdGc}d | g{GdGc}d  a{GdGc}d || 
+w: | | |
+w: EM tra  EN tra   | O tra     O tra|E tra    VE tra   | DI tra    I tra|
+|| G>{dGc}d A>{GdGc}d | B>{GdGc}d  c>{GdGc}d ||  e>{GdGc}d f>{GdGc}d | g>{GdGc}d  a>{GdGc}d || 
+w: EM tra  EN tra   | O tra     O tra|E tra    VE tra   | DI tra    I tra|
+|| G<{dGc}d A<{GdGc}d | B<{GdGc}d  c<{GdGc}d ||  e<{GdGc}d f<{GdGc}d | g<{GdGc}d  a<{GdGc}d |] 
+w: EM tra  EN tra   | O tra     O tra|E tra    VE tra   | DI tra    I tra|
+
+
+
+X:1801
+T:D Throw from A             
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: A {Gdc}d |   
+w: written  |            
+w: EN tra   |
+T: Light (Open) Throw
+|: A {Gdc}d A {Gdc}d    | A {G}{d}{c}d A G//d///{c}d    |
+w: Played |             
+w: EN tra   EN tra      | en emadoa en em a doa
+T: Heavy (Closed) Throw
+|: A {GdGc}d  A {GdGc}d |A {G}{d}{G}{c}d  A G//{d}G//c///d |
+w: Played |            
+w: EN tra     EN tra    | en emtemoa en em tem o a
+W:
+W: It has been written that a Light D Throw should be played in light tunes
+W: and a heavy D throw played in heavy tunes.  Of course light and heavy weren't clearly
+W: defined.  I interpret this to mean light tunes have doublings but few if any lemluath
+W: and toarluaths where as Heavy tunes would have lemluaths and toarluaths sprinked in.
+W:
+W: Most bands will standardize on one throw or the other.  
+W: Airdrie Scots Pipes and Drums uses the light throw.
+
+
+X:1802
+T:High G Throw Scale (vili)
+O:Kevin's Tune Generator
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[|: G {gf}g A {gf}g | B {gf}g c {gf}g |   d {gf}g e {gf}g | f {gf}g  f {gf}g |   e {gf}g d {gf}g | c {gf}g B {gf}g | A {gf}g G {gf}g :]
+w:
+w: EM vili EN vili | O vili  O vili |  A  vili E  vili | VE vili  VE vili    |  E  vili A  vili | O vili  O vili | EN vili EM vili |
+|: G>{gf}g A>{gf}g | B>{gf}g c>{gf}g |  d>{gf}g e>{gf}g | f>{gf}g f>{gf}g | 
+w: EM vili EN vili | O vili  O vili |A  vili E  vili | VE vili  VE vili |
+|  e>{gf}g d>{gf}g | c>{gf}g B>{gf}g |  A>{gf}g G>{gf}g :|
+w: E  vili A  vili | O vili  O vili |EN vili EM vili :|
+|: G<{gf}g A<{gf}g | B<{gf}g c<{gf}g |  d<{gf}g e<{gf}g | f<{gf}g f<{gf}g | 
+w: EM vili EN vili | O vili  O vili |A  vili E  vili | VE vili  VE vili |
+|  e<{gf}g d<{gf}g | c<{gf}g B<{gf}g |  A<{gf}g G<{gf}g :|
+w: E  vili A  vili | O vili  O vili |EN vili EM vili :|
+
+X:1803
+T:High A Throw Scale (dili)
+O:Kevin's Tune Generator
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: G {ag}a A {ag}a | B {ag}a c {ag}a | d {ag}a e {ag}a | f {ag}a  g {ag}a  |
+w: EM dili EN dili | O  dili O dili  | A dili  E dili  | VE dili  DI dili |
+ | g {ag}a  f  {ag}a | e {ag}a d {ag}a | c {ag}a B {ag}a | A {ag}a  G {ag}a :|
+w: DI dili VE  dili  | E dili  A dili  | O dili  O dili  | EN dili  EM dili :|
+
+
+X:2000
+T: Grips (Lemluath) (Dro)
+O:Kevin Fraser
+Z:Kevin Fraser
+B: Logan's Complete Tutor
+B: http://svenax.net/site/canntaireachd/6/
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+M:4/4
+[| A {GdG}A A{GdG}c | c{GdG}A c{GdG}c | A{GdG}B|]
+w: - - - dro         |                 | en tro
+W: Note the distinct movements in the grip: 1 - Close to Low G, 2 - D gracenote on Low G 3 - move to next melody note.
+W;
+W: The College of Piping Tutor calls the Grip on C a throw on C.
+W:
+T:Grip (Lemluath) Scale              
+[| A {G}{d}{G} A | A/2 {Gd}G/2 A |A {G}{dG} A |A {GdG} A |]
+w: as gracenotes | as half doubling | as movements | as rudiment ||
+w:
+W: Unlike doublings, the beat is after the grip on the melody note.
+W:
+W: 
+T: Grips on the notes of the scale to the same note
+|: {g}A{GdG}A {g}B{GdG}B |{g}c{GdG}c {g}d{GBG}d | {g}e{GdG}e {g}f{GdG}f |{a}g{GdG}g a{GdG}a :| 
+w: hin dren     hio dro    | ho dro      ha dra    |  che dre     he drhe  |  hi drhi   I drI/darI  :|
+W:
+T: Grips from A to the other notes of the scale (Nethor Lorn)
+|: {g}A{GdG}A {g}A{GdG}B |{g}A{GdG}c {g}A{GdG}d | {g}A{GdG}e {g}A{GdG}f |{g}A{GdG}g A{GdG}a :| 
+w: hin bain     hin tro    |  hin dro      hin deda |   hin bare    hin barhe | hin barhi  hin barI/darI :|
+W:
+X:2001
+T: Grips Exercise Note to scale
+O:Kevin Fraser
+Z:Kevin Fraser
+B: Logan's Complete Tutor
+B: http://svenax.net/site/canntaireachd/6/
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+M:4/4
+T: Grips from A to the other notes of the scale
+|: {g}A{GdG}A {g}A{GdG}B |{g}A{GdG}c {g}A{GdG}d | {g}A{GdG}e {g}A{GdG}f |{g}A{GdG}g A{GdG}a :| 
+w: hin dren     hin dro    |  hin dro      hin dra |   hin dre    hin barhe | hin drhi  hin drI/darI :|
+T: Grips from A to the other notes of the scale Held-Cut
+|: {g}A{GdG}>A {g}A{GdG}>B |{g}A{GdG}>c {g}A{GdG}>d | {g}A{GdG}>e {g}A{GdG}>f |{g}A{GdG}>g A{GdG}>a :| 
+w: hin dren     hin dro    |  hin dro      hin dra |   hin dre    hin drhe | hin drhi  hin drI/darI :|
+T: Grips from A to the other notes of the scale Cut-Held
+|: {g}A{GdG}<A {g}A{GdG}<B |{g}A{GdG}<c {g}A{GdG}<d | {g}A{GdG}<e {g}A{GdG}<f |{g}A{GdG}<g A{GdG}<a :| 
+w: hin dren     hin dro    |  hin dro      hin dra |   hin dre    hin drhe | hin drhi  hin drI/darI :|
+W:
+T: Grips from B to the other notes of the scale
+|: {g}B{GdG}G| {g}B{GdG}A {g}B{GdG}B |{g}B{GdG}c {g}B{GdG}d | {g}B{GdG}e {g}B{GdG}f |{g}B{GdG}g A{GdG}a :| 
+T: Grips from C to the other notes of the scale
+|: {g}c{GdG}G| {g}c{GdG}A {g}c{GdG}B |{g}c{GdG}c {g}c{GdG}d | {g}c{GdG}e {g}c{GdG}f |{g}c{GdG}g A{GdG}a :| 
+T: Grips from D to the other notes of the scale
+|: {g}d{GdG}G| {g}d{GdG}A {g}d{GdG}B |{g}d{GdG}c {g}d{GdG}d | {g}d{GdG}e {g}d{GdG}f |{g}d{GdG}g A{GdG}a :| 
+W: When the grip is played FROM D the B gracenote is substituted for the D gracenote
+W: habain,hatro, hadro, hadada, hademda, habare
+W: 
+T: Grips from E to the other notes of the scale
+|: {g}e{GdG}G| {g}e{GdG}A {g}e{GdG}B |{g}e{GdG}c {g}e{GdG}d | {g}e{GdG}e {g}e{GdG}f |{g}e{GdG}g A{GdG}a :| 
+T: Grips from F to the other notes of the scale
+|: {g}f{GdG}G| {g}f{GdG}A {g}f{GdG}B |{g}f{GdG}c {g}f{GdG}d | {g}f{GdG}e {g}f{GdG}f |{g}f{GdG}g A{GdG}a :| 
+T: Grips from High G to the other notes of the scale
+|: {g}g{GdG}G| {g}g{GdG}A {g}g{GdG}B |{g}g{GdG}c {g}g{GdG}d | {g}g{GdG}e {g}g{GdG}f |{g}g{GdG}g A{GdG}a :| 
+T: Grips from High A to the other notes of the scale
+|: {g}a{GdG}G| {g}a{GdG}A {g}a{GdG}B |{g}a{GdG}c {g}a{GdG}d | {g}a{GdG}e {g}a{GdG}f |{g}a{GdG}g A{GdG}a :| 
+W:
+W: Repeat the 2nd and 3rd exercises on A on the other notes (Timing)
+W:
+X:2002
+T: Grips Exercise Scale to Note
+O:Kevin Fraser
+Z:Kevin Fraser
+B: Logan's Complete Tutor
+B: http://svenax.net/site/canntaireachd/6/
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+M:4/4
+T: Grips from the scale to High A
+|: {g}A{GdG}a {g}B{GdG}a |{g}c{GdG}a {g}d{GBG}e | {g}e{GdG}a {g}f{GdG}a |{a}g{GdG}a a{GdG}a :| 
+w: hin drI     hio drI    | ho drI      ha rode    |  che drI     he drI  |  hi drI   I drI/darI  :|
+T: Grips from the scale to High G
+|: {g}A{GdG}g {g}B{GdG}g |{g}c{GdG}g {g}d{GBG}e | {g}e{GdG}g {g}f{GdG}g |{a}g{GdG}g a{GdG}g :| 
+w: hin drvI     hio drvI    | ho drvI      ha rode    |  che drvI     he drvI  |  hi drvI   I drvI/darI  :|
+T: Grips from the scale to F
+|: {g}A{GdG}f {g}B{GdG}f |{g}c{GdG}f {g}d{GBG}e | {g}e{GdG}f {g}f{GdG}f |{a}g{GdG}f a{GdG}f :| 
+w: hin drche     hio drche    | ho drche      ha rode    |  che drche     he drche  |  hi drche   I drche/darI  :|
+T: Grips from the scale to E
+|: {g}A{GdG}e {g}B{GdG}e |{g}c{GdG}e {g}d{GBG}e | {g}e{GdG}e {g}f{GdG}e |{a}g{GdG}e a{GdG}e :| 
+w: hin dre     hio dre    | ho dre      ha rode    |  che dre     he dre  |  hi dre   I dre  :|
+T: Grips from the scale to D
+|: {g}A{GdG}d {g}B{GdG}d |{g}c{GdG}d {g}d{GBG}d | {g}e{GdG}d {g}f{GdG}d |{a}g{GdG}d a{GdG}d :| 
+w: hin ademda   hio ademda | ho ademda   ha ademda  |  che ademda   he ademda |  hi ademda I ademda :|
+w: hin dra   hio dra | ho dra   ha dra  |  che dra   he dra |  hi dra I dra :|
+T: Grips from the scale to C
+|: {g}A{GdG}d {g}B{GdG}d |{g}c{GdG}d {g}d{GBG}d | {g}e{GdG}d {g}f{GdG}d |{a}g{GdG}d a{GdG}d :| 
+w: hin dro         hio dro | ho dro         ha dro  |  che dro         he dro |  hi dro I dro :|
+T: Grips from the scale to B
+|: {g}A{GdG}}B {g}B{GdG}B |{g}c{GdG}B {g}d{GBG}B | {g}e{GdG}B {g}f{GdG}B |{a}g{GdG}B a{GdG}B :| 
+w: hin dro         hio dro | ho dro         ha dro  |  che dro         he dro |  hi dro I dro :|
+T: Grips from the scale to A
+| {g}A{GdG}A {g}B{GdG}A |{g}c{GdG}A {g}d{GBG}A | {g}e{GdG}A {g}f{GdG}A |{a}g{GdG}A a{GdG}A | 
+T: Grips from the scale to G
+|: {g}A{Gd}G {g}B{Gd}G |{g}c{Gd}G {g}d{GB}G | {g}e{Gd}G {g}f{Gd}G |{a}g{Gd}G a{Gd}G :| 
+W:Note the alternative appearance of this movement (No trailing G gracenote since on G)
+W:
+W:I've re-named some of the lemluaths to follow the dr +note convention. e.g. bain => drem, bare => dre
+W:
+W:In piobaireachd a common movement is the dre (lemluath to E)
+W: himdre,hinbare,hiobare,hobare,habare/harodde,chebare,hebare,hibare,ibare
+W:
+W: When the grip is played FROM D the B gracenote is substituted for the D gracenote
+W: habain,hatro, hadro, hadada, hademda, habare
+
+X:2100
+O:Kevin Fraser
+Z:Kevin Fraser
+B: Logan's Complete Tutor
+B: https://www.faclair.com/ViewDictionaryEntry.aspx?ID=5F6743D53EA41FEA3060652614165FF9
+Q:1/4=120
+K:HP
+M:2/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T: Taorluath - darid (Lemluath + E grace)
+|| A{GdGe}A A{GdGe}c | c{GdGe}A c{GdGe}c||
+w: en dariden en darido | o dariden o darido
+W: Note the distinct movements in the grip: 1 - Close to Low G, 2 - D gracenote on Low G 3 - move to next melody note with an E gracenote.
+W: The toarluath can only be played onto low hand notes because of the E gracenote completing the movement.
+W: 
+T:Taorluath Scale (Played)             
+|| A {G}{d}{G}{e} A | A/2 G/4{d}G/4{e} A      |A {G}{dG}{e}A   |A {GdG}{e}A |A {GdGe}A ||
+w: en emtemun       | EN EM-TEM  en           | en emtemen     | en emtemen | en emtemen
+w: as gracenotes    | as half doubling +grace | movements 2lift | grip +e    | as rudiment ||
+w:
+W: Unlike doublings, the beat is on the E gracenote.
+M:4/4
+T: A to Taorluath on Scale
+|: {g}A{GdGe}A {g}A{GdGe}B |{g}A{GdGe}c {g}A{GBGe}d  :| 
+w: hin dariden     hin darido   | hin darido   hin darida :|
+w:                         | Note the B gracenote |
+w: hin darid     hin droeo?   | hin droeo?   hin droea? :|
+W:
+T: Scale to Taorluath on A (Piobaireachd Taorluath)
+|: {g}A{GdGe}A {g}B{GdGe}A | {g}c{GdGe}A {g}d{GBGe}A | {g}e{GdGe}A {g}f{GdGe}A | {a}g{GdGe}A a{GdGe}A :|
+w: hin dariden     ho dariden   |  ho dariden     ha dariden    |  che dariden    he dariden    | hi dariden      I dariden    :|
+T: Scale to Taorluath on same note (Piobaireachd Taorluath-a-mach)
+|: e |{g}G2 {GdGe}G2 |  {g}A2 {GdGe}A2 | {g}B2 {GdGe}B2 |  {g}c2 {GdGe}c2 |
+w: e | him  daridem  |   hin  dariden |   ho  darido   |    ho   darido  |
+ |{g}d2 {GdGe}d2 | {g}c2 {GdGe}c2 |  {g}B2 {GdGe}B2  | {g}A2 {GdGe}A2 | {g}G2 {GdGe}G  :| 
+w:   ha darida   |    ho darido   |    ho darido    |  hin  dariden  |  him  daridem   |
+W:
+T: Taorluath from D
+|: e |{g}d2 {GBGe}G2 |  {g}d2 {GBGe}A2 | {g}d2 {GBGe}B2 |  {g}d2 {GBGe}c2 |
+w: e | ha   daridem  |   ha   dariden |   ha   darido   |    ha   darido  |
+ |{g}d2 {GBGe}d2 | {g}d2 {GBGe}c2 |  {g}d2 {GBGe}B2  | {g}d2 {GBGe}A2 | {g}d2 {GBGe}G  :| 
+w:   ha darida   |    ha darido   |    ha  darido    |  ha   dariden  |  ha   daridem   |
+W: When the taorluath is played on D the B gracenote is substituted for the D gracenote
+W:
+W: In piobaireachd the taorluath always ends on a Low A (darid)
+W:     himdarid,hindarid,hodarid,hodarid,hadarid,chedarid,hebarid,hidarid,idarid
+W: The taorluath-a-mach returns to the same melody note (B,C) (droeo)
+W: Taorluath Breabach (Tripling) - himbabem,hindaen,hotoeo,hodoeo
+W:
+T: Redundant A Taorluath (Cameron Style)
+ | A2 {GdGAe}c2 |
+w: redundantA darido |
+W: This style of Taorluath may be seen in Piobaireachd but won't be seen in Piob Mhor (light music).
+
+X:2101
+T:Taorluath to D
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {GdGe}d A {GdGe}d | B {GdGe}d c {GdGe}d | d {GBGe}d e {GdGe}d | f {GdGe}d g {GdGe}d | 
+   a {GdGe}d a {GdGe}d | g {GdGe}d f {GdGe}d | e {GdGe}d d {GBGe}d | c {GdGe}d B {GdGe}d | A {GdGe}d G {GdGe}d |]
+W:
+% X:1605
+T:Taorluath to C
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {GdGe}c A {GdGe}c | B {GdGe}c c {GdGe}c | d {GdGe}c e {GdGe}c | f {GdGe}c g {GdGe}c | 
+a {GdGe}c a {GdGe}c | g {GdGe}c f {GdGe}c | e {GdGe}c d {GdGe}c | c {GdGe}c B {GdGe}c | A {GdGe}c G {GdGe}c |]
+% X:1606
+T:Taorluath to B
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {GdGe}B A {GdGe}B | B {GdGe}B c {GdGe}B | d {GdGe}B e {GdGe}B | f {GdGe}B g {GdGe}B | 
+   a {GdGe}B a {GdGe}B   | g {GdGe}B f {GdGe}B | e {GdGe}B d {GdGe}B | c {GdGe}B B {GdGe}B | A {GdGe}B G {GdGe}B |]
+% X:1607
+T:Taorluath to A
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 40
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {GdGe}A A {GdGe}A   | B {GdGe}A c {GdGe}A | d {GdGe}A e   {GdGe}A   | f {GdGe}A g {GdGe}A | 
+   a {GdGe}A   a {GdGe}A   | g {GdGe}A   f {GdGe}A |e {GdGe}A d {GdGe}A | c {GdGe}A B {GdGe}A |
+   A {GdGe}A G {GdGe}A |]
+% X:1608
+T:Taorluath to G
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| G {GdGe}G A {GdGe}G | B {GdGe}G c {GdGe}G | d {GdGe}G e {GdGe}G | f {GdGe}G g {GdGe}G | 
+   a {GdGe}G  a {GdGe}G  | g {GdGe}G f {GdGe}G | e {GdGe}G d {GdGe}G | c {GdGe}G B {GdGe}G | A {GdGe}G G {GdGe}G |]
+
+
+X:2106
+T:Tachum (Scotch Snap)
+O:Kevin Fraser
+Z:Kevin Fraser
+B: https://www.teachyourselfbagpipes.co.uk/tachum.htm
+Q:1/4=78
+K:HP
+M:4/4
+L:1/8
+R:March
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+|: {g}c<{d}A {g}B<{d}G {g}c<{d}A {g}B<{d}G | {gcd}c<{e}A {gBd}B<{e}G {gcd}c<{e}A {gBd}B<{e}G|  {g}c<{d}A {g}B<{d}G {g}c<{d}A {g}B<{d}G | {gcd}c<{e}A {gBd}B<{e}G {gcd}c<{e}A {gBd}B<{e}G:|
+|  d4 {g}c {d}A3  d4 {g}c {d}A3|
+w: a   hi    en   a   hi   en
+|  c4 {g}B {d}G3  c4 {g}B {d}G3|
+w: o   ho  em    o   ho  em
+w:
+|  d4 {gcd}c {e}A3  d4 {gcd}c {e}A3|
+w: a   hido   en    a   hido   en
+|  c4 {gcd}B {e}G3  c4 {gcd}B {e}G3|
+w: o   hoto   em   o   hoto  em
+
+X:2107
+T:Tachum Scales
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 40
+%%MIDI beatstring
+% %barsperscore 3
+%%landscape
+[| G {gcd}c/<{e}A/  A  {gcd}c/<{e}A/ | B  {gcd}c/<{e}A/  c  {gcd}c/<{e}A/  | d    {gcd}c/<{e}A/  e  {gcd}c/<{e}A/  | f    {gcd}c/<{e}A/  g   {acd}c/<{e}A/ | a {cd}c/<{e}A/   a {cd}c/<{e}A/ | 
+  g{acd}c/<{e}A/ f    {gcd}c/<{e}A/  | e  {gcd}c/<{e}A/ d    {gcd}c/<{e}A/ | c  {gcd}c/<{e}A/  B  {gcd}c/<{e}A/ | A  {gcd}c/<{e}A/ G {gcd}c/<{e}A/ |] $
+[| G {gBd}B/<{e}G/  A  {gBd}B/<{e}G/ | B  {gBd}B/<{e}G/  c  {gBd}B/<{e}G/  | d    {gBd}B/<{e}G/  e  {gBd}B/<{e}G/  | f    {gBd}B/<{e}G/  g  {aBd}B/<{e}G/ | a {Bd}B/<{e}G/   a {Bd}B/<{e}G/ | 
+  g {aBd}B/<{e}G/    {gBd}B/<{e}G/  | e  {gBd}B/<{e}G/ d    {gBd}B/<{e}G/ | c  {gBd}B/<{e}G/  B  {gBd}B/<{e}G/ | A  {gBd}B/<{e}G/ G {gBd}B/<{e}G/ |]
+[| G {g}c/<{d}A/  A  {g}c/<{d}A/ | B  {g}c/<{d}A/  c  {g}c/<{d}A/  | d    {g}c/<{d}A/  e  {g}c/<{d}A/  | f    {g}c/<{d}A/  g   {a}c/<{d}A/ | a {}c/<{d}A/   a {}c/<{d}A/ | 
+  g{a}c/<{d}A/ f    {g}c/<{d}A/  | e  {g}c/<{d}A/ d    {g}c/<{d}A/ | c  {g}c/<{d}A/  B  {g}c/<{d}A/ | A  {g}c/<{d}A/ G {g}c/<{d}A/ |] $
+[| G {g}B/<{d}G/  A  {g}B/<{d}G/ | B  {g}B/<{d}G/  c  {g}B/<{d}G/  | d    {g}B/<{d}G/  e  {g}B/<{d}G/  | f    {g}B/<{d}G/  g  {a}B/<{d}G/ | a {}B/<{d}G/   a {}B/<{d}G/ | 
+  g {a}B/<{d}G/    {g}B/<{d}G/  | e  {g}B/<{d}G/ d    {g}B/<{d}G/ | c  {g}B/<{d}G/  B  {g}B/<{d}G/ | A  {g}B/<{d}G/ G {g}B/<{d}G/ |]
+
+
+X:2518
+T:D Throw from A             
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: A {Gdc}d |   
+w: EN tra   |
+T: Light (Open) Throw
+| 
+w: | en emadoa en em a doa
+M:2/4
+L:1/8
+||A {Gdc}d A G//d///{c}d    |A{Gdc}d  A>>G {d}c<<d | A{Gdc}d  A>>G {dc}d | A {Gdc}d A {G}{d}{c}d ||
+w:en tra en em a doa | en tra en em do a | EN tra en em ada | en tra en emadoa     
+W: NOTE: the beat is on the D gracenote in the throw. (See BAR 2 for how to execute)
+W:
+T: Light Throw Exercise
+[| {g}A>G {dc}d| {g}B>G {dc}d| {g}c>G {dc}d| {g}d>G {dc}d| 
+   {g}e>G {dc}d| {g}f>G {dc}d| {a}g>G {dc}d| a>G {dc}d|]
+W:
+T: Heavy (Closed) Throw
+|: A {GdGc}d  A/>>G {d}G/c/d | A {GdGc}d A G//{d}G//c///d |
+w: EN tra     EN tra    | en emtemoa en em tem o a
+W: The D gracenote is still on the beat in the heavy throw.
+W:
+T: Heavy Throw Exercise
+[| {g}A>G {d}G/c/d | {g}B>G {d}G/c/d | {g}c>G {d}G/c/d | {g}d>G {d}G/c/d | 
+   {g}e>G {d}G/c/d | {g}f>G {d}G/c/d | {a}g>G {d}G/c/d | a>G {d}G/c/d |]
+W:
+W: It has been written that a Light D Throw should be played in light tunes
+W: and a heavy D throw played in heavy tunes.  Of course light and heavy weren't clearly
+W: defined.  I interpret this to mean light tunes have doublings but few if any lemluath
+W: and toarluaths where as Heavy tunes would have lemluaths and toarluaths sprinked in.
+W:
+W: Most bands will standardize on one throw or the other.  
+W: Airdrie Scots Pipes and Drums uses the light throw.
+
+
+X:2519
+T:High G Throw Scale (vili)
+O:Kevin's Tune Generator
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[|: G {gf}g A {gf}g | B {gf}g c {gf}g |   d {gf}g e {gf}g | f {gf}g  f {gf}g |   e {gf}g d {gf}g | c {gf}g B {gf}g | A {gf}g G {gf}g :]
+w:
+w: EM vili EN vili | O vili  O vili |  A  vili E  vili | VE vili  VE vili    |  E  vili A  vili | O vili  O vili | EN vili EM vili |
+|: G>{gf}g A>{gf}g | B>{gf}g c>{gf}g |  d>{gf}g e>{gf}g | f>{gf}g f>{gf}g | 
+w: EM vili EN vili | O vili  O vili |A  vili E  vili | VE vili  VE vili |
+|  e>{gf}g d>{gf}g | c>{gf}g B>{gf}g |  A>{gf}g G>{gf}g :|
+w: E  vili A  vili | O vili  O vili |EN vili EM vili :|
+|: G<{gf}g A<{gf}g | B<{gf}g c<{gf}g |  d<{gf}g e<{gf}g | f<{gf}g f<{gf}g | 
+w: EM vili EN vili | O vili  O vili |A  vili E  vili | VE vili  VE vili |
+|  e<{gf}g d<{gf}g | c<{gf}g B<{gf}g |  A<{gf}g G<{gf}g :|
+w: E  vili A  vili | O vili  O vili |EN vili EM vili :|
+
+X:2520
+T:High A Throw Scale (dili)
+O:Kevin's Tune Generator
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: G {ag}a A {ag}a | B {ag}a c {ag}a | d {ag}a e {ag}a | f {ag}a  g {ag}a  |
+w: EM dili EN dili | O  dili O dili  | A dili  E dili  | VE dili  DI dili |
+ | g {ag}a  f  {ag}a | e {ag}a d {ag}a | c {ag}a B {ag}a | A {ag}a  G {ag}a :|
+w: DI dili VE  dili  | E dili  A dili  | O dili  O dili  | EN dili  EM dili :|
+
+
+X:2527
+T:Crossing Noise Scale
+O:Kevin Fraser
+Z:Kevin Fraser
+B: 
+Q:1/4=72
+K:HP
+M:4/4
+L:1/4
+R:March
+%%MIDI gracedivider 40
+%%MIDI gchord
+%%MIDI beatstring
+% %staves {1 }
+%V:gstem=up stem=down
+[| G B G c | G d G e  | G f G g |G a |]
+w: em o em o | em a em e  | em ve em di |em I |]
+[| A c A d | A f A g | A a |]
+w: en o en a | en ve en di | en I |]
+[| B G B c | B d B e | B f B g | B a |]
+w: o em o o | o a o e | o ve o di | o I |]
+[| c A c B | c e c f | c g c a |]
+w: o en o o | o e o ve | o di o I |]
+[| d G d A | d B d e | d f  d g | d a |]
+w: a em a en | a o a e |a ve  a di | a I |]
+[| e G e B | e c e d | e g e a |]
+w: e em e o | e o e a | e di e I |]
+[| f G f A | f B f c | f d f a |]
+w: ve em ve en | ve o ve o | ve a ve I |]
+[| g G g A | g B g c | g d g e | g a|]
+w: di em di en | di o di o | di a di e | di I|]
+[| a G a A | a B a c | a d a e | a f a g |]
+w: I em I en | I o I o | I a I e | I ve I di |]
+
+X:2528
+T:Crossing Noises
+O:Kevin's Tune Generator
+Q:1/4=78
+K:HP
+M:9/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: 1 B1 f1 d1 f1 B1 f1 B1 1 | a1 1 g1 B1 g1 1 1 d1 f1 | a1 G1 a1 c1 f1 G1 1 A1 f1 | 1 A1 1 c1 g1 A1 1 1 1 | f1 G1 f1 1 g1 A1 1 d1 1 | g1 c1 1 1 a1 A1 f1 G1 1 | g1 B1 1 A1 1 B1 a1 c1 e1 | e1 A1 1 B1 1 A1 g1 G1 e1 | f1 G1 e1 A1 g1 c1 g1 G1 a1 | | 1 G1 f1 d1 a1 B1 g1 G1 g1 | f1 A1 a1 A1 f1 d1 a1 B1 a1 | a1 d1 f1 A1 1 B1 g1 c1 a1 | a1 G1 f1 1 e1 c1 g1 G1 1 | f1 d1 g1 1 a1 G1 f1 c1 1 | a1 1 e1 c1 1 1 1 1 f1 | 1 G1 e1 1 a1 d1 g1 1 e1 | a1 d1 e1 1 a1 G1 e1 B1 1 | g1 d1 f1 1 1 G1 g1 G1 f1 | | 
+f1 d1 g1 c1 a1 A1 g1 c1 a1 | e1 1 a1 c1 1 B1 g1 1 e1 | g1 B1 1 c1 f1 c1 e1 d1 1 | e1 G1 1 B1 e1 c1 f1 A1 1 | f1 1 1 G1 g1 d1 a1 G1 e1 | a1 1 e1 1 1 d1 f1 1 e1 | a1 c1 f1 1 a1 d1 1 c1 e1 | a1 B1 f1 B1 a1 d1 a1 G1 e1 | g1 A1 1 B1 e1 d1 e1 A1 1 | | e1 c1 f1 d1 f1 d1 f1 c1 1 | g1 A1 e1 d1 g1 A1 a1 d1 a1 | e1 B1 f1 A1 1 B1 g1 B1 g1 | g1 B1 a1 c1 e1 c1 e1 d1 f1 | a1 B1 e1 c1 f1 d1 g1 d1 g1 | a1 1 g1 d1 f1 A1 f1 d1 e1 | e1 G1 f1 1 a1 B1 f1 B1 1 | 1 A1 e1 G1 f1 B1 a1 d1 f1 | f1 1 g1 1 g1 B1 a1 1 a1 | | 
+| 1 B1 f1 d1 f1 B1 f1 B1 1 | a1 1 g1 B1 g1 1 1 d1 f1 | a1 G1 a1 c1 f1 G1 1 A1 f1 | 1 A1 1 c1 g1 A1 1 1 1 | f1 G1 f1 1 g1 A1 1 d1 1 | g1 c1 1 1 a1 A1 f1 G1 1 | g1 B1 1 A1 1 B1 a1 c1 e1 | e1 A1 1 B1 1 A1 g1 G1 e1 | f1 G1 e1 A1 g1 c1 g1 G1 a1 | | 1 G1 f1 d1 a1 B1 g1 G1 g1 | f1 A1 a1 A1 f1 d1 a1 B1 a1 | a1 d1 f1 A1 1 B1 g1 c1 a1 | a1 G1 f1 1 e1 c1 g1 G1 1 | f1 d1 g1 1 a1 G1 f1 c1 1 | a1 1 e1 c1 1 1 1 1 f1 | 1 G1 e1 1 a1 d1 g1 1 e1 | a1 d1 e1 1 a1 G1 e1 B1 1 | g1 d1 f1 1 1 G1 g1 G1 f1 | | 
+f1 A1 1 c1 f1 1 g1 d1 e1 | a1 B1 e1 d1 g1 B1 e1 A1 f1 | g1 c1 1 1 e1 A1 e1 d1 e1 | e1 B1 f1 G1 f1 G1 e1 c1 1 | 1 1 g1 B1 f1 A1 f1 d1 1 | g1 d1 f1 1 1 A1 e1 B1 f1 | g1 B1 a1 d1 g1 A1 a1 1 1 | g1 G1 1 A1 1 1 1 A1 g1 | e1 d1 f1 B1 1 B1 e1 G1 a1 | | e1 d1 f1 G1 1 B1 a1 1 f1 | e1 1 g1 1 a1 1 e1 B1 f1 | e1 A1 1 c1 1 1 g1 c1 e1 | a1 c1 e1 d1 g1 G1 1 G1 1 | e1 G1 e1 1 1 G1 g1 G1 1 | a1 B1 f1 G1 a1 B1 f1 d1 e1 | a1 A1 g1 G1 e1 c1 f1 G1 a1 | a1 A1 e1 1 e1 1 a1 A1 a1 | g1 d1 g1 G1 f1 A1 a1 d1 f1 |  :|
+|: f1 c1 f1 1 a1 c1 g1 A1 | g1 A1 g1 d1 e1 G1 f1 B1 | g1 1 e1 B1 1 d1 f1 d1 | f1 c1 e1 A1 1 B1 a1 G1 | a1 G1 g1 d1 1 d1 e1 d1 | g1 1 a1 1 e1 1 e1 A1 | g1 1 f1 d1 f1 1 g1 d1 | 1 d1 e1 d1 f1 G1 1 G1 | a1 1 g1 1 a1 c1 g1 A1 | | f1 1 a1 G1 a1 A1 1 1 | a1 c1 1 B1 a1 c1 g1 1 | e1 B1 f1 1 f1 G1 a1 G1 | f1 d1 f1 A1 f1 d1 1 A1 | e1 c1 f1 1 e1 c1 a1 c1 | e1 d1 e1 A1 1 B1 e1 A1 | e1 A1 a1 B1 e1 1 1 G1 | a1 A1 f1 A1 a1 G1 1 d1 | a1 c1 e1 d1 g1 d1 f1 B1 | | 
+f1 A1 g1 B1 e1 d1 g1 1 | a1 A1 1 B1 e1 G1 e1 G1 | 1 B1 a1 c1 g1 d1 a1 d1 | a1 G1 a1 A1 g1 B1 g1 A1 | e1 A1 g1 1 a1 c1 g1 1 | e1 B1 1 G1 f1 G1 g1 1 | e1 c1 e1 G1 1 A1 a1 A1 | a1 G1 a1 B1 1 d1 e1 d1 | g1 B1 g1 1 e1 d1 a1 d1 | | a1 1 f1 1 1 d1 g1 B1 | a1 d1 f1 A1 a1 c1 f1 G1 | g1 d1 1 d1 a1 c1 f1 A1 | f1 B1 a1 1 1 G1 e1 d1 | 1 B1 f1 B1 1 A1 g1 G1 | e1 d1 f1 G1 g1 c1 g1 G1 | f1 B1 a1 G1 e1 A1 f1 A1 | 1 A1 a1 d1 f1 A1 1 1 | f1 d1 f1 A1 a1 B1 e1 1 | | 
+| f1 c1 f1 1 a1 c1 g1 A1 | g1 A1 g1 d1 e1 G1 f1 B1 | g1 1 e1 B1 1 d1 f1 d1 | f1 c1 e1 A1 1 B1 a1 G1 | a1 G1 g1 d1 1 d1 e1 d1 | g1 1 a1 1 e1 1 e1 A1 | g1 1 f1 d1 f1 1 g1 d1 | 1 d1 e1 d1 f1 G1 1 G1 | a1 1 g1 1 a1 c1 g1 A1 | | f1 1 a1 G1 a1 A1 1 1 | a1 c1 1 B1 a1 c1 g1 1 | e1 B1 f1 1 f1 G1 a1 G1 | f1 d1 f1 A1 f1 d1 1 A1 | e1 c1 f1 1 e1 c1 a1 c1 | e1 d1 e1 A1 1 B1 e1 A1 | e1 A1 a1 B1 e1 1 1 G1 | a1 A1 f1 A1 a1 G1 1 d1 | a1 c1 e1 d1 g1 d1 f1 B1 | | 
+e1 c1 e1 A1 f1 B1 1 1 | 1 B1 f1 1 a1 c1 a1 1 | a1 1 a1 1 g1 G1 f1 G1 | e1 G1 f1 A1 e1 A1 g1 G1 | g1 c1 a1 G1 e1 c1 f1 B1 | a1 1 e1 c1 e1 c1 a1 A1 | 1 G1 f1 A1 g1 G1 1 d1 | f1 d1 1 1 f1 c1 e1 B1 | a1 1 1 G1 g1 G1 1 1 | | a1 c1 1 B1 1 d1 a1 c1 | g1 1 a1 A1 f1 B1 f1 G1 | a1 c1 1 d1 g1 A1 1 G1 | e1 1 1 G1 g1 c1 f1 d1 | 1 c1 g1 d1 f1 1 f1 A1 | a1 1 1 A1 e1 A1 1 G1 | a1 G1 1 c1 f1 B1 g1 d1 | a1 G1 f1 A1 g1 G1 a1 A1 | 1 G1 f1 G1 1 A1 f1 d1 |  :|
+|: g1 1 1 A1 g1 1 e1 d1 | 1 d1 a1 1 1 A1 a1 c1 | e1 d1 e1 d1 g1 d1 1 G1 | g1 B1 1 d1 f1 c1 a1 G1 | a1 c1 1 B1 f1 d1 f1 B1 | 1 A1 g1 c1 1 1 a1 1 | a1 B1 f1 A1 e1 B1 a1 1 | a1 1 f1 c1 g1 A1 f1 B1 | 1 1 e1 d1 g1 A1 g1 c1 | | e1 G1 a1 B1 g1 A1 f1 d1 | f1 d1 1 A1 1 A1 f1 1 | f1 B1 a1 B1 g1 d1 a1 B1 | a1 G1 1 1 f1 B1 e1 G1 | 1 1 a1 d1 f1 d1 f1 c1 | 1 c1 a1 d1 1 G1 a1 d1 | 1 B1 e1 c1 a1 d1 a1 A1 | 1 G1 a1 d1 e1 G1 f1 d1 | 1 c1 1 G1 a1 G1 1 c1 | | 
+1 G1 f1 c1 1 1 e1 c1 | 1 A1 a1 d1 a1 B1 a1 1 | g1 B1 1 1 g1 B1 e1 B1 | g1 c1 f1 G1 f1 d1 e1 A1 | g1 A1 1 1 1 1 f1 A1 | 1 A1 a1 d1 f1 d1 e1 G1 | 1 B1 1 G1 f1 c1 1 1 | a1 G1 1 c1 g1 A1 1 B1 | g1 d1 g1 B1 1 A1 e1 G1 | | e1 d1 a1 A1 f1 G1 e1 1 | 1 c1 e1 B1 f1 B1 f1 A1 | e1 G1 g1 1 g1 c1 g1 B1 | e1 G1 a1 A1 f1 G1 f1 c1 | e1 1 1 B1 a1 1 e1 1 | g1 G1 1 B1 f1 A1 f1 A1 | 1 B1 g1 G1 a1 A1 1 d1 | g1 A1 g1 G1 e1 c1 1 d1 | f1 B1 g1 c1 g1 G1 a1 d1 | | 
+| g1 1 1 A1 g1 1 e1 d1 | 1 d1 a1 1 1 A1 a1 c1 | e1 d1 e1 d1 g1 d1 1 G1 | g1 B1 1 d1 f1 c1 a1 G1 | a1 c1 1 B1 f1 d1 f1 B1 | 1 A1 g1 c1 1 1 a1 1 | a1 B1 f1 A1 e1 B1 a1 1 | a1 1 f1 c1 g1 A1 f1 B1 | 1 1 e1 d1 g1 A1 g1 c1 | | e1 G1 a1 B1 g1 A1 f1 d1 | f1 d1 1 A1 1 A1 f1 1 | f1 B1 a1 B1 g1 d1 a1 B1 | a1 G1 1 1 f1 B1 e1 G1 | 1 1 a1 d1 f1 d1 f1 c1 | 1 c1 a1 d1 1 G1 a1 d1 | 1 B1 e1 c1 a1 d1 a1 A1 | 1 G1 a1 d1 e1 G1 f1 d1 | 1 c1 1 G1 a1 G1 1 c1 | | 
+a1 1 1 B1 g1 1 1 B1 | f1 A1 1 G1 1 1 f1 B1 | e1 G1 1 A1 a1 d1 e1 1 | g1 1 e1 c1 a1 A1 e1 G1 | e1 A1 g1 G1 f1 1 e1 1 | 1 c1 g1 c1 a1 1 a1 c1 | f1 A1 g1 G1 g1 1 g1 1 | a1 A1 a1 1 f1 G1 1 A1 | f1 c1 a1 d1 a1 B1 f1 d1 | | g1 B1 a1 A1 f1 B1 g1 d1 | g1 A1 e1 d1 e1 c1 1 1 | a1 A1 g1 d1 e1 B1 a1 c1 | a1 A1 a1 d1 f1 1 1 G1 | g1 G1 a1 G1 e1 A1 1 A1 | e1 c1 a1 c1 g1 G1 g1 G1 | a1 1 1 1 f1 G1 e1 A1 | g1 B1 1 A1 a1 B1 f1 1 | f1 d1 e1 d1 a1 B1 a1 B1 |  :|
+|: e1 c1 f1 c1 1 d1 g1 G1 | f1 1 a1 B1 f1 c1 g1 d1 | g1 c1 f1 c1 f1 B1 1 d1 | e1 G1 e1 d1 a1 d1 e1 d1 | g1 B1 f1 G1 1 B1 g1 G1 | e1 1 f1 G1 g1 G1 a1 G1 | 1 c1 a1 c1 a1 1 1 G1 | 1 G1 f1 d1 e1 G1 g1 B1 | f1 c1 a1 A1 g1 1 a1 G1 | | f1 c1 f1 A1 e1 G1 1 1 | f1 A1 e1 1 f1 c1 1 G1 | g1 c1 f1 A1 f1 c1 e1 d1 | a1 c1 a1 A1 1 B1 g1 G1 | 1 B1 g1 c1 a1 d1 e1 B1 | 1 G1 f1 G1 f1 c1 e1 B1 | f1 1 f1 G1 g1 A1 f1 G1 | f1 G1 e1 c1 e1 c1 g1 B1 | g1 d1 f1 A1 g1 d1 e1 d1 | | 
+g1 d1 e1 1 e1 1 a1 A1 | e1 G1 a1 B1 e1 G1 1 B1 | a1 1 g1 G1 e1 d1 f1 B1 | g1 c1 f1 G1 f1 d1 g1 d1 | e1 d1 g1 d1 g1 A1 f1 A1 | f1 1 1 d1 1 B1 1 d1 | g1 B1 a1 B1 e1 d1 e1 d1 | f1 A1 e1 G1 e1 d1 e1 A1 | 1 c1 f1 d1 g1 A1 a1 A1 | | e1 B1 a1 d1 1 G1 a1 d1 | 1 G1 a1 c1 e1 d1 1 1 | f1 c1 g1 c1 f1 d1 g1 G1 | a1 c1 g1 c1 e1 G1 e1 d1 | g1 G1 g1 d1 f1 G1 g1 d1 | e1 1 f1 1 g1 G1 g1 B1 | a1 A1 e1 G1 f1 G1 1 c1 | e1 A1 e1 B1 f1 1 1 G1 | a1 d1 1 d1 g1 1 e1 1 | | 
+| e1 c1 f1 c1 1 d1 g1 G1 | f1 1 a1 B1 f1 c1 g1 d1 | g1 c1 f1 c1 f1 B1 1 d1 | e1 G1 e1 d1 a1 d1 e1 d1 | g1 B1 f1 G1 1 B1 g1 G1 | e1 1 f1 G1 g1 G1 a1 G1 | 1 c1 a1 c1 a1 1 1 G1 | 1 G1 f1 d1 e1 G1 g1 B1 | f1 c1 a1 A1 g1 1 a1 G1 | | f1 c1 f1 A1 e1 G1 1 1 | f1 A1 e1 1 f1 c1 1 G1 | g1 c1 f1 A1 f1 c1 e1 d1 | a1 c1 a1 A1 1 B1 g1 G1 | 1 B1 g1 c1 a1 d1 e1 B1 | 1 G1 f1 G1 f1 c1 e1 B1 | f1 1 f1 G1 g1 A1 f1 G1 | f1 G1 e1 c1 e1 c1 g1 B1 | g1 d1 f1 A1 g1 d1 e1 d1 | | 
+g1 c1 e1 B1 f1 G1 a1 c1 | g1 A1 a1 1 a1 A1 g1 A1 | 1 d1 a1 B1 a1 d1 1 d1 | 1 1 f1 d1 g1 B1 e1 G1 | a1 c1 e1 B1 1 B1 e1 B1 | 1 A1 e1 B1 f1 d1 e1 G1 | f1 c1 g1 B1 1 1 f1 1 | e1 c1 a1 d1 e1 d1 e1 c1 | 1 1 a1 c1 1 1 a1 1 | | g1 1 1 G1 f1 G1 g1 G1 | f1 A1 a1 c1 f1 A1 1 c1 | f1 B1 f1 B1 a1 A1 f1 A1 | a1 1 g1 1 g1 c1 1 A1 | 1 1 f1 d1 e1 c1 1 A1 | 1 B1 g1 A1 e1 B1 f1 d1 | 1 c1 1 c1 1 1 e1 A1 | a1 1 g1 c1 f1 A1 1 A1 | 1 G1 1 B1 1 A1 a1 1 |  :|
+
+
+
+X: 20
+O:Kevin Fraser
+Z:Kevin Fraser
+T: Pibroch Rudiments
+Q:1/4=78
+K:HP
+V:gstem=up stem=down
+M:9/4
+L:1/4
+R:March
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T: Throws
+|| {GdG}c !trill!c | {Gdc}d !trill!d  ||
+w: written abbrev | written abbrev ||
+W:
+T: Taorluath (Pibroch)
+L:1/16
+|| c4{GdGe}A "T"c4 | B4{GdGe}A | e4{GdGe}A | f4{GdGe}A ||
+w:                  |          |           |           
+w: o darid   abbrev | o darid    |  e darid   |  vi darid ||
+W: In pibroch, the taorluath always ends on A, and it is a shorter note (not theme note)
+W:
+T: Closed Taorluath
+||{G}B2 {GdGe}G ||
+W: The taorluath ends on a Low G instead of the A
+W:
+T: Taorluath a mach
+||{g}B{GdGe}B4 | {g}c{GdGe}c4 | {g}d{Gdc}d{e}d4 ||
+w: ho tro-eo | ho dro-eo   | ho tra ea ||
+W:
+L:1/16
+T: Crumluath (toarluath + F grace) (Pibroch)
+|| A3G{d}G{e}A{f}Ae1 A3{GdGeAfA}e1 "^C"A3| A3{GdGeAfA}e1 B3{GdGeAfA}e1 | c3{GdGeAfA}e1 d3{GBGeAfA}e1 ||
+w: played written abbrev | | ||
+W: Note the distinct movements in the grip: 1 - Close to Low G, 2 - D gracenote on Low G 3 - E gracenote to Low A 4 - F gracenote on Low A, Finish on E
+W: The crumluath always ends on E. The E is short like the enteng A on the taorluath.
+W:
+W:
+T: Crunluath a mach (Pibroch)
+|| {g}B{GdG}B{eBfB}e2 | {g}c{GdG}c{ecfc}e2 | {g}B{Gdc}d{edfd}e2 ||
+w:  ho tro dre       |    ho dro dre      | ho tra dre ||
+W: The crunluath a mach is only played pon B,C and D.
+W: Even though written as 2 embellishments here, you don't pause between them.
+W: You play them as one larger smooth embellishment.  The final E is emphasized.
+W:
+T: Crunluath fosgailte (foss gailch)
+|| {g}A4{d}B{eAfA}e2 | {g}B4 {d}c{eAfA}e2 | {g}c4 d{eAfA}e4 ||
+w:    hin  to    dre |   ho   do     dre |    ho da    dre ||
+W: Note how the middle note changes with the melody note.
+W:
+T: Crunluath Breabach (bray bach)
+|| {g}A4{GdGeAfA}eA2e2 ||
+W:
+L:1/4
+T: Rodin (same as Grip from D)
+|| c {GBG}A2 | 
+W:
+L:1/16
+T: Cherede (Chirray-n-day)
+|| {geA}eAe8 | {g}e{A}e3Ae8 ||
+w: written | Played
+W:
+T: Herere - Double Echo (hayRay-ir-Ray)
+|| {gfe}f8 e f8 ||
+W: Similar to the Cherede
+W:
+T: Siubhal Variation (shoo-al)
+|: {g}A{d}c4 {g}A{d}B4 | {g}A E4 {g}A E4 | {g}A f4 {g}A{d}c4 | {g}A e4 {g}a e4 :|
+w: hin do hin to | hin e hin e | hin ve hin do | hin e hin e
+W: The Siubhal variation is playing "open" *doublings* on the theme notes in Pibroch
+W:
+T: Dithis Variation (gee-ish)
+||{g}A4{e}A {g}D4{e}A {g}C4{e}A {g}B4{e}A ||
+W: In this variation the Theme note gets a G gracenote, and it is ended by a Low A with an E gracenote.
+W: If the G and E gracenotes aren't possible, they are substituted (High A, G) or dropped.
+W:
+T: hinenen (hindanen) - Triplets (GDE)
+||{g}A{d}A{e}A {d}c4 |
+w: hin en en   do
+W:
+T: Throw on E - Dre
+|| {eAfA}e4 !uppermordent!e4|| A{eAfA}e4 B{eAfA}e4 c{eAfA}e4 d{eAfA}e4 ||
+w: dre abbrev    | en dre     o dre     o dre     a dre
+W:
+T: Throw on F - Dare
+|| {fege}f4 !uppermordent!f4 || A{fege}f4 B{fege}f4 c{fege}f4 d{fege}f4 ||
+w: dare  abbrev      | en dare     o dare     o dare     a dare
+W:
+T: Throw on G - Dari
+||G {eGfG}g | {g}e{fegefe}g | {g}f {egefe}g  | {a}g {fegefe}g | a {fegefe}g ||
+w: em bari  | che dari      | ve dari        | hi dari        | I dari      ||
+W:
+T: Cadences (hodin Hiharin hiarara)
+L:1/8
+|| {g}e{d}B2{g}A3 || {g}e2d/2{AGAG}A3 {g}e2{dAGAG}A3| {g}e d/4 {G}d2{Gdc}d6 ||
+w: hi o din       | played hiharin  - written       |   hi a      ra     ra
+W:
+T: Darodo (Bubbly)
+||c2 {GdGcG}B2 !turn!B2 ||
+w: o darodo  abbrev
+W:
+T: Chelalho
+L:1/16
+|| {g}e3 fd{f}d c6 ||
+w:  che  la - - lo
+
+X:2614
+T:Piobaireachd Hiharin (Echo Beat)
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {g}e4 {dAGAG}A4 | 
+w:  hiharin
+w:  hi  harrrin
+| {g}e4 d{AGAG}A4 | 
+w: longish D gracenote
+
+
+X:2608
+T:Piobaireachd D throw
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {Gdc}d |
+w:  tra 
+w:  trrra 
+
+X:2611
+T:Piobaireachd Dre (Throw on E)
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {eAfA}e | 
+w:  Dre
+w: Dray
+
+X:2616
+T:Piobaireachd Dare (Throw on F)
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {fege}f4 | 
+w:  Dare
+w:  Dare
+
+
+X:2610
+T:Piobaireachd Double High A (A Half Doubling) Dili
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| {ag}a |]
+w:  dili
+w: cheelee
+
+
+X:2605
+T:Piobaireachd Dro (Grip on C)
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {GdG}c | {GdG}B |
+w:  Dro | Tro
+w:
+W:  CoP Tutor calls it a throw on C/B, I'd call it a grip 
+X:2613
+T:Piobaireachd Darodo (Bubbly Note)
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| c4{GdGcG}B4 | 
+w: - Darodo
+w: 
+
+
+X:2600
+T:Piobaireachd Taorluath    
+O:Kevin Fraser
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {G}A{GdGe}A | {g}A4{GdGe}G | 
+w: hin-dariden | ho-daridem
+w: hin-darid?? | ho-darem??
+
+X:2601
+T:Piobaireachd Crunluath    
+O:Kevin Fraser
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {G}A{GdGeAfA}e | 
+w: hin-daridXX
+
+X:2601
+T:Piobaireachd Crunluath A Mach
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {g}B{GdG}B{edfd}e2 | 
+w: ho tro dre
+| {g}c{GdG}c{edfd}e2 | 
+w: ho dro dre
+| {g}B{Gdc}d{edfd}e2 | 
+w: ho tra dre
+
+
+X:2602
+T:Piobaireachd Rodin    
+O:Kevin Fraser
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {GBG}a | 
+w: rodin
+
+X:2105
+T:Piobaireachd Triplings (GDE Gracenotes)
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:4/4
+L:1/16
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+[| (3:2{g}G{d}G{e}G e8 (3:2{g}A{d}A{e}A e8 ||
+w:  him dam em de      hin dan en de    
+|| (3:2{g}A{d}A{e}A A8 (3:2{g}A{d}A{e}A B8 | (3:2{g}A{d}A{e}A c8  (3:2{g}A{d}A{e}A d8 |
+w:   hin da en dan      hin da en to       | hin da en do        hin da en da |
+| (3:2{g}A{d}A{e}A e8 (3:2{g}A{d}A{e}A f8 |  (3:2{g}A{d}A{e}A g8 (3:2{g}A{d}A{e}A a8 |]
+w: hin da en de      hin da en dhe|hin da en di      hin da en I|
+X:2603
+T:Piobaireachd Chere (shake)   
+O:Kevin Fraser
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {geA}e | e e e e
+w: chere (ch as in chair)
+L:1/16
+| {g}e{A}e4 |
+w: Played
+
+X:2604
+T:Piobaireachd Cherede (Chirray-n-day)(Echo Beat)
+O:Kevin Fraser
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {geA}e4Ae4
+w: cherede 
+w: Also known as the double echo
+L:1/16
+| {g}e{A}e3Ae4 |
+w: Played
+w:  Chir-ray-n-day 
+X:2615
+T:Piobaireachd Hiharara (Double Echo Beat on D)             
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {g}e2 d{G}d4{Gdc}d6 | 
+w:  hiharara
+w:  hi  ha-ra-ra
+
+
+X:2609
+T:Piobaireachd Double Echo on F HERERE
+O:Kevin Fraser
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {gfe}f{e}f|
+w:  herere
+L:1/16
+| {g}f{e}f4ef4 |
+w: Played 
+w: hay-ray-ir-ray
+W:  Similar to the Cherede but a note higher 
+
+X:2612
+T:Piobaireachd Hiodin (EBA Cadence)
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {g}e2 {d}B4 {G}A6 | 
+w:  hodin
+w: hi o din
+| {g}e2 d B4  G A6 | 
+w: Used to finish a phrase
+
+X:2616
+T:Piobaireachd Chelalho             
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {g}e3 f d {e}d c6 | {g}e3fd{e}dc6 | 
+w:  Chelalho
+w:  Che - - la lho
+
+
+X:2101
+T:Crunluath Scale              
+O:Kevin Fraser
+Z:Kevin Fraser
+B: https://www.faclair.com/ViewDictionaryEntry.aspx?ID=5F6743D53EA41FEA3060652614165FF9
+Q:1/4=120
+K:HP
+M:4/4
+L:1/8
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+|: {g}G{GdGeGf}e {g}A{GdGeGf}e  {g}B{GdGeGf}e {g}c{GdGeGf}e | {g}d{GdGeGf}e {g}e{GdGeGf}e | {g}f{GdGeGf}e {g}g{GdGeGf}e | {a}g{GdGeGf}e ||
+w: |  himbandre -  hinbandre -     hobandre -     hobandre -    |  habandre/harodde - chebandre - |  hebandre   -     hibandre  -   |  ibandre
+W: Crunluath -	himbandre,hinbandre,hobandre,hobandre,habandre/harodde,chebandre,hebandre,hibandre,ibandre
+
+X:2620
+T:Piobaireachd Theme Notes Example                  
+O:Kevin Fraser
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| c B | e e | f c | e e |
+w:      
+w:        
+
+X:2621
+T:Piobaireachd Siubhal Variation                    
+O:Kevin Fraser
+Q:1/4=78
+K:C
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| c4 B4 | e4 e4 | f4 c4 | e4 e4 |
+w: GROUND     
+| {g}A {d}c4 {g}A {d}B4 | {g}A e4 {g}A e4 | {g}A f4 {g}A {d}c4 | {g}A e4 {g}A e4 |
+w: Siubhal Variation      
+w: hin do hin to | hin e hin e | hin ve hin do | hin e hin e       
+L:1/16
+[| {g}A{d}B4 | {g}A{d}c4 | {g}Ad4 | {g}Ae4 | {g}Af4  |  {g}Ag4 | {g}Aa4 |]
+w: hin to    | hin do    | hin a  | hin e  |  hin ve |  hin di |  hin I |
+
+
+X:2632
+T:Piobaireachd Dithis Variation                     
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:10/16
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[| A5 B5 | c5 d5 |  e5 f5 | g5 a5 |]
+w: Theme     
+w:        
+T: Dithis Variation Scale
+[| {g}A5{e}A {g}B5{e}A |  {g}c5{e}A  {g}d5{e}A |  {g}e5{g}A  {g}f5{g}A |  {a}g5{a}A  a5A |]
+w: Dithis    
+W: G grace from E/F    |   Thumb on/from G    
+
+
+X:2622
+T:Piobaireachd Triplet Variation                    
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| c4 B4 | e4 e4 | 
+w: GROUND Melodic Notes     
+| f4 c4 | e4 e4 |
+w: Triplet Variation      
+| {g}A{d}A{e}A {d}c4 {g}A{d}A{e}A {d}B4 | {g}A{d}A{e}A e4 {g}A{d}A{e}A e4 |
+w:   hin-en-en do hin-en-en    to | hin-en-en    e  hin-en-en    e  |
+| {g}A{d}A{e}A f4 {g}A{d}A{e}A {d}c4 | {g}A{d}A{e}A e4 {g}A{d}A{e}A e4 |
+w: hin-en-en   ve hin-en-en    do | hin-en-en    e  hin-en-en    e       
+w:
+T:Triplet Variation Scale
+L:1/16
+[| {g}A{d}A{e}A{d}B4 | {g}A{d}A{e}A{d}c4  | {g}A{d}A{e}Ad4 | {g}A{d}A{e}Ae4 | {g}A{d}A{e}Af4  |  {g}A{d}A{e}Ag4 | {g}A{d}A{e}Aa4 |]
+w:  hin-en-en to     |   hin-en-en do     |    hin-en-en a |    hin-en-en e |  hin-en-en ve   |    hin-en-en di | hin-en-en I |
+
+X:2623
+T:Piobaireachd Taorluath Variation                    
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| c4 B4 | e4 e4 | 
+w: GROUND Melodic Notes     
+| f4 c4 | e4 e4 |
+w: Taorluath Variation      
+| {g}c4{GdGe}A {g}B4{GdGe}A | {g}e4{GdGe}A {g}e4{GdGe}A |
+w: ho-darid    ho-darid    | che-darid    che-darid
+| {g}f4{GdGe}A {g}c4{GdGe}A | {g}e4{GdGe}A {g}e4{GdGe}A |
+w: 
+w:
+T:Taorluath Variation Scale
+L:1/16
+[| {g}B4 {GdGe}A |  {g}c4 {GdGe}A|  {g}d4 {GdGe}A |  {g}e4 {GdGe}A |  {g}f4  {GdGe}A|  g4 {GdGe}A | a4  {GdGe}A|]
+w:      ho darid |  ho    darid |   ha    darid  |   che   darid  |   hay   darid  |  di  darid  |  I darid|
+X:2624
+T:Piobaireachd Crunluath Variation                    
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| c4 B4 | e4 e4 | 
+w: GROUND Melodic Notes     
+| f4 c4 | e4 e4 |
+w: Crunluath Variation      
+| {g}c4{GdGeAfA}e {g}B4{GdGeAfA}e | {g}e4{GdGeAfA}e {g}e4{GdGeAfA}e |
+w: ho-bandre    ho-bandre    | che-bandre    che-bandre
+| {g}f4{GdGeAfA}e {g}c4{GdGeAfA}e | {g}e4{GdGeAfA}e {g}e4{GdGeAfA}e |
+w:
+w:
+W:
+T: Crunluath Variation Scale (Bandre)
+L:1/16
+[| {g}B4 {GdGeAfA}e |  {g}c4 {GdGeAfA}e|  {g}d4 {GdGeAfA}e| {g}e4 {GdGeAfA}e|  {g}f4  {GdGeAfA}e| g4 {GdGeAfA}e| a4  {GdGeAfA}e|]
+w:   ho   bandre    |  ho    bandre   |  ha     bandre   |   che bandre    |     hay bandre    | di  bandre   |  I  bandre|
+W: bandre is pronounced | mbidderray
+
+
+X:90000
+T:Rythmic Exercises
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/8
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+T:Straight Time
+ A8 | B4  c4 | d4 e2 fg | 
+ A2 B2 c2 d2 | e2 f2 g2 a2 | a2 g2 f2 e2 | d2 c2 B2 A2 | 
+ AB cd ef ga | ag fe dc BA | 
+T: Holds and Cuts
+ A>B c>d e>f g>a | a>g f>e d>c B>A |  A<B c<d e<f g<a | a<g f<e d<c B<A | 
+ A>B c<d e>f g<a | a<g f>e d<c B>A |
+M:2/4
+L:1/16
+ A>Bc>d e>fg>a | a>gf>e d>cB>A |  A<Bc<d e<fg<a | a<gf<e d<cB<A | 
+ A>Bc<d e>fg<a | a<gf>e d<cB>A |
+T: Compound Time
+M:6/8
+L:1/8
+ B6 | B3 c3 | d2c fg2
+ A>Bc d>ef | g>ag a>gf | e>dc B>AG |
+ A<Bc d<ef | g>ag f<ed | c<Ac  d>cB |
+
+X: 1
+T: ABC2Midi signs
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+V:gstem=up stem=down
+M:9/4
+L:1/4
+R:March
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+||!trill!A         y y      ||
+w:!trill!
+w: "tr" (trill mark)
+||!trill(!A||
+w:!trill(!
+w:               start of an extended trill
+||!trill)!A               ||
+w:!trill)!
+w: end of an extended trill
+||!lowermordent!A         ||
+w:!lowermordent!
+w: short /|/|/ squiggle with a vertical line through it
+||!uppermordent!A         ||
+w:!uppermordent!
+w: short-/|/|/-squiggle
+|| !mordent!A              ||
+w:!mordent!
+w: !lowermordent!
+||!pralltriller!A         ||
+w:!pralltriller!
+w: !uppermordent!
+||!roll!A                 ||
+w:!roll!
+w: a roll mark (arc) as used in Irish music
+||!turn!A                 ||
+w:!turn!
+w: a turn mark (also known as gruppetto)
+||!turnx!A                ||
+w:!turnx!
+w: a turn mark with a line through it
+||!invertedturn!A         ||
+w:!invertedturn!
+w: an inverted turn mark
+||!invertedturnx!A        ||
+w:!invertedturnx!
+w: an inverted turn mark with a line through it
+||!arpeggio!A||             
+w:!arpeggio!
+w: vertical squiggle
+||!>!A                    ||
+w:!>!
+w: > mark
+||!accent!A               ||
+w:!accent!
+w: same as !>!
+||!emphasis!A             ||
+w:!emphasis!
+w: same as !>!
+||!fermata!A              ||
+w:!fermata!
+w: fermata or hold (arc above dot)
+||!invertedfermata!A      ||
+w:!invertedfermata!
+w: upside down fermata
+||!tenuto!A               ||
+w:!tenuto!
+w: horizontal line to indicate holding note for full duration
+||!0!!5!    A          ||
+w:!0!!5!
+w: fingerings
+||!+!A           aaaaaaa         ||
+w:!+!
+w: left-hand pizzicato, or rasp for French horns
+||!plus!A                 ||
+w:!plus!
+w: same as !+!
+||!snap!A aaaaaaa                 ||
+w:!snap!
+w: snap pizzicato mark, visually similar to !thumb!
+||!slide!A                ||
+w: slide up to a note, visually similar to a half slur
+||!wedge!A                ||
+w: small filled-in wedge mark
+||!upbow!A                ||
+w: V mark
+||!downbow!A              ||
+w: squared n mark
+||!open!A                 ||
+w: small circle above note indicating open string or harmonic
+||!thumb!A                ||
+w: cello thumb symbol
+||!breath!A               ||
+w: a breath mark (apostrophe-like) after note
+||!pppp!A !ppp!A !pp!A !p!A  ||
+w:!pppp! !ppp! !pp! !p!
+w: dynamics marks
+||!mp!A !mf!A !f!A !ff!A     ||
+w: more dynamics marks
+||!fff!A !ffff!A !sfz!A     ||
+w: more dynamics marks
+||!crescendo(!A           ||
+w:!crescendo(!
+w: start of a < crescendo mark
+||!<(!A                   ||
+w:!<(!
+w: same as !crescendo(!
+||!crescendo)!A           ||
+w:!crescendo)!
+w: end of a < crescendo mark, placed after the last note
+||!<)!A                   ||
+w:!<)!
+w: same as !crescendo)!
+||!diminuendo(!A          ||
+w:!diminuendo(!
+w: start of a > diminuendo mark
+||!>(!A                   ||
+w: same as !diminuendo(!
+||!diminuendo)!A          ||
+w: end of a > diminuendo mark, placed after the last note
+||!>)!A||
+w: same as !diminuendo)!
+||!segno! aaaaaa               ||
+w:!segno!
+w: 2 ornate s-like symbols separated by a diagonal line
+||!coda!        a         ||
+w:!coda!        
+w: a ring with a cross in it
+||!D.S.!        a         ||
+w: the letters D.S. (=Da Segno)
+||!D.C.!         a        ||
+w: the letters D.C. (=either Da Coda or Da Capo)
+||!dacoda!        a       ||
+w: the word "Da" followed by a Coda sign
+||!dacapo!         a      ||
+w: the words "Da Capo"
+||!fine!            a     ||
+w: the word "fine"
+||!shortphrase!      a    ||
+w: vertical line on the upper part of the staff
+||!mediumphrase!      a   ||
+w: same, but extenteng down to the centre line
+||!longphrase!   a
+
+
+
+
+

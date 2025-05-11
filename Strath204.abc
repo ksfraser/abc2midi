@@ -1,0 +1,170 @@
+%%abc-include "../Ceol Mhor/format.abh"
+%%beginsvg
+%%endsvg
+%%chordprog 1
+%%bassprog 1
+%%chordvol 50
+%%bassvol 50
+
+X:24401
+H:
+T:Devil in the Kitchen
+C:
+B:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=132
+K:HP
+M:4/4
+L:1/8
+R:Strathspey
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody"
+V:H gstem=up stem=down name="Harmony"
+V:C gstem=up stem=down name="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+%%landscape
+%%score {M}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M]a  |{ef}e>A {gGAGA}A2 {gef}e>A {g}f/e/d    |{gef}e>A {gGAGA}A2  {gf}g2 {a}f<a     |{ef}e>A {gGAGA}A2 {gef}e>A {g}f/e/d |{gBd}B>{e}A {g}G2    {gf}g2 {a}f<a   | $
+w:   I | ete en henrarin hete en che e a | ete en henrarin  viri che I | ete en henrarin hete en che e a | hoto un hem viri che  
+[V:M]z  |{ef}e>A {gGAGA}A2 {gef}e>A {g}f/e/d    |{gef}e>A {gGAGA}A2  {gf}g2 {a}f<a     |{ef}e>A {gGAGA}A2 {gef}e>A {g}f/e/d |{gBd}B>{e}A {g}G2    {gf}g2 {a}f>g   ||  $
+w:    ete en henrarin hete en che e a | ete en henrarin  viri che I | ete en henrarin hete en che e a | hoto un hem viri che di
+[V:M]z  | a>A     {gGAGA}A2 {gef}e>A {gGAGA}A2  |a>A      {gGAGA}A2  {gf}g2 {a}f>g     |a>A     {gGAGA}A2 {gef}e>A {g}f/e/d |{gBd}B>{e}A {g}G2    {gf}g2 {a}f>g   | $
+w: I en henrarin hete en henrarin | I en henrarin  viri che di | I en henrarin hete en che e a | hoto un hem viri che di
+[V:M]z  |a>A     {gGAGA}A2 {gef}e>A {gGAGA}A2   |a>A      {gGAGA}A2  {gf}g2 {a}f>g     |a/g/f   {gf}g>e   {gfg}f>d {gef}e>c |{g}B>c      {Gdc}d>e {gf}g2 {a}f>a   || $
+w: I en henrarin hete en henrarin | I en henrarin  viri che di | I di ve viri e chete a hete o ho o tra e viri che I
+
+
+
+X:24404
+T:Keel Row 
+C:Trad (1770s) 
+B: Scots Guard
+B:A Collection of Favourite Scots Tunes
+H:"The Keel Row" is a traditional Tyneside folk song evoking the life and work of the keelmen of Newcastle upon Tyne. A closely related song was first published in a Scottish collection of the 1770s, but may be considerably older, and it is unclear whether the tune is Scottish or English in origin.
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=132
+K:HP
+M:4/4
+L:1/8
+R:Strathspey
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+%%score {M}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+%%landscape
+V:M
+ |: d |{gcd}c2 {e}A>c   {Gdc}d2 {e}B>d   |{gcd}c2 {e}A>c     {gBd}B>A {e}G>d |{gcd}c2 {e}A>c   {Gdc}d2 {gBd}B>d |{g}c>{e}A {g}B>{e}G {g}A2   {GAG}A2:| 
+w: a | hoto hen a tra ho a hoto hen o hoto en hem a hoto hen o tra hoto a ho un ho em hen rarin
+ |:    {g}c<e  {A}e>a   {fg}f2  {gef}e>d |{gcd}c2 {g}A>{d}c  {gBd}B>A {e}G>d | {g}c<e {A}e>a   {fg}f2  {gef}e>d |{g}c>{e}A {g}B>{e}G {g}A2   {GAG}A2:|                                 
+w: ho e ende I veri hete a hoto hen do hoto en um a ho e ende I veri hete a ho un ho em hen rarin
+ |: e |{gfg}f2 {Gdc}d>f {gf}g2  {ef}e>g  |{gfg}f2  {Gdc}d>f  {gef}e>c {g}A>g |{gfg}f2 {Gdc}d>f {gf}g2  {ef}e>g  |{fg}f>d   {g}e>c    {Gdc}d2 {gdc}d :| 
+w: e chete tra ve viri ete di vhete tran ve hete o hen di chete tran ve viri ete di veri a he o tra hadoa
+ |:    {g}c<e  {A}e>a   {fg}f>d {gef}e>d |{gcd}c>B {g}A>{d}c {gBd}B>A {e}G>d | {g}c<e {A}e>a   {fg}f>d {gef}e>d |{g}c>{e}A {g}B>{e}G {g}A2   {GAG}A2::|                                 
+w: ho e ende I veri a  hete a hoto o hen do hoto en um a ho e ende I veri a hete a ho un ho em hen rarin
+W: As I came thro' Sandgate,
+W:Thro' Sandgate, thro' Sandgate,
+W:As I came thro' Sandgate,
+W:I heard a lassie sing:
+W:
+W:      "O, weel may the keel row,
+W:      The keel row, the keel row,
+W:      O weel may the keel row
+W:      That my laddie's in."
+W: 
+W:"He wears a blue bonnet,
+W:Blue bonnet, blue bonnet,
+W:He wears a blue bonnet
+W:A dimple in his chin.
+
+
+
+
+X:24403
+T:Orange and Blue
+C:
+B: Scots Guard
+H:
+O:Arranged by Kevin Fraser
+O:Transcribed by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=132
+K:HP
+M:4/4
+L:1/8
+R:Strathspey
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+%%landscape
+%%score {M}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+V:M
+a  |f<d {gdG}d2 {g}A>d {gdG}d2 | {g}f>g {ag}a>f {Gdc}d2 {gdG}d2 |{g}c>e  {A}e2   {g}c<{d}A {gef}e>A |{g}c2     {GdG}e>c {g}A2   {GAG}A>a | %
+w: I | ve a hadoa hen a hadoa | che di chili ve tra hadoa | ho e ende ho deb hete en | ho dre o hen rarin I
+    f<d {gdG}d2 {g}A>d {gdG}d2 | {g}f>g {ag}a>f {Gdc}d2 {g}f>g  |{ag}a>f {gf}g>e {gfg}f>d  {gef}e>d |{g}c<{d}A {g}B>c   {Gdc}d2 {gdG}d  ||
+w: ve a hadoa hen a hadoa | che di chili ve tra che di | chili ve viri e chete a hete a | ho un ho o tra hadoa 
+g  |{a}f<a {g}a2 f<a   {g}a2   | f>g    {ag}a>f {Gdc}d2 {gdG}d2 |{g}c>e  {A}e2   {g}c<{d}A {gef}e>A |{g}c2     {GdG}e>c {g}A2   {GAG}A>g |
+w: di | che I lI ve I lI | ve di chili ve tra hadoa | ho e ende ho deb hete en | ho dre o hen rarin I
+    {a}f<a {g}a2 f<a   {g}a2   | f>g    {ag}a>f {Gdc}d2 {g}f>g  |{ag}a>f {gf}g>e {gfg}f>d {gef}e>d  |{g}c<{d}A {g}B>c   {Gdc}d2 {gdG}d  ||
+w: che I lI ve I lI | ve di chili ve tra che di | chili ve viri e chete a hete a | ho un ho o tra hadoa 
+
+%%MIDI channel 10
+%%MIDI program 0 
+%%MIDI drummap c 38
+%%MIDI drummap A 38
+%%MIDI vol 50
+%%MIDI drumon
+% %MIDI drumoff
+V:S
+% %MIDI program 116 #taiko drum
+% %MIDI program 0 
+%%MIDI channel 10
+%%MIDI vol 80
+%%MIDI drummap A 35
+%%MIDI drumon
+L:1/8
+V:B
+%%MIDI drumoff
+%%MIDI drummap e 43
+%%MIDI channel 10
+%%MIDI program 117 #Melodic Tom
+%%MIDI vol 70
+%%MIDI drumon
+V:T
+%%MIDI drumoff
+

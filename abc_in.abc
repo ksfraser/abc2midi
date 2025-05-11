@@ -1,0 +1,50 @@
+X:1
+T: 79th's Farewell to Gibraltar
+M:2/4 
+R:March
+C: PM J MacDonald / arr RSPBA
+
+[K: clef=treble]  sharpf sharpc [M:2/4]  [|:{g}c c> d/
+|{g}e2 e> f    {gef} e2 c2
+|{g}A4     {g}A2>{GdGe}A A2 a2
+| {fg} f2{g}e e> c/  {g}e e> f/{g}e e> d/
+| {gcd} c2{g}B2   {g}A2>{GdGe}A B2{g}c c> d/ |t
+[K: clef=treble]  sharpf sharpc 
+{g}e2 e> f    {gef} e2 c2
+|{g}A4    {g}A2>{GdGe}A A2 a2
+| {fg} f2{g}e e> c/  {g}e e> f/ a a> e/
+| {gcd} c2{e}A2    {GAG} A2    :|]
+
+[K: clef=treble]  sharpf sharpc [|: a2
+| {fg} f2{g}e e> c/  {g}e e> f/ a a> e/
+|{g}f/ a a> e e> c/  {gBd}  B2 a2
+| {fg} f2{g}e e> c/  {g}e e> f/ a a> e/
+| {gfg} f2{g}B2   {g}A2>{GdGe}A B2 a2   |t
+[K: clef=treble]  sharpf sharpc 
+ {fg} f2{g}e e> c/  {g}e e> f/ a a> e/
+|{g}f/ a a> e e> c/  {gBd} B2 a2
+| {fg} f2{g}e e> c/  {g}e e> f/ a a> e/
+| {gcd} c2{e}A2    {GAG} A2    :|]
+
+[K: clef=treble]  sharpf sharpc [|: {gcd} c c> B/
+|{g}A2 A> B    {GdG} c2 a2 
+| {fg} f2{g}e e> c/   {gBd} B2{g}c c> B/
+|{g}A A> B/{g}c c> d/{g}e e> f/{g}e e> c/
+| {gfg} f2{g}B2   {g}A2>{GdGe}A B2 {gcd} c c> B/  |t
+[K: clef=treble]  sharpf sharpc 
+{g}A2 A> B    {GdG} c2 a2 
+| {fg} f2{g}e e> c/   {gBd} B2 a2
+| {fg} f2{g}e e> c/  {g}e e> f/ a a> e/
+| {gcd} c2{e}A2    {GAG} A2    :|]
+
+[K: clef=treble]  sharpf sharpc 
+[|:{g}c c> d/
+|{g}e2 e> f     {gef} e2 c2
+|{g}e4      {GdG} e2 a2
+| {fg} f2 f> e   {g}f2 {ag} a2
+| {fg} f2 f> e   {g}c2 a2   |t
+[K: clef=treble]  sharpf sharpc 
+ {fg} f2 e/ c c>   {gcd} c2{g}B/{d}A A>
+|{g}B/{d}A A>{g}B B>{d}c/ {gef} e2 a2
+| {fg} f2{g}e e> c/  {g}e e> f/ a a> e/
+| {gcd} c2{e}A2    {GAG} A2    :|]

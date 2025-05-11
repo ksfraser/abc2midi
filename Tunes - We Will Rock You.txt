@@ -1,0 +1,91 @@
+X:1
+T:We Will Rock You
+H: 
+B: 
+C:Queen
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+%%MIDI gracedivider 8
+%%MIDI gchord
+%%MIDI beatstring
+V:1 gstem=up stem=down name="Melody" sname=Melody
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+||                                                "drum solo"Z | Z | Z | Z || $
+
+|:{g}d/e/{A}e/d/ {g}e{A}e/d/ {g}e{A}e {g}d/e/{A}e/d/ |{g}e{A}e/d/ {g}e/d/e ag {f}gB/d/ |  {g}e/{A}ed/ {g}e>d {g}e{A}e {G}e2 | {g}e/d/{g}d {G}d{g}d/e/ {g}B/A/G {g}AB/d/ |  $
+
+  {gf}g2 f2 {gef}e2 d2 | {g}e{A}e z2 z4 | {gf}g2 f2 {gef}e2 d2 | {g}e{A}e z2 z4 :| $
+
+||{g}d/e/{A}e/d/ {g}e{A}e/d/ {g}e{A}e {g}d/e/{A}e/d/ |{g}e{A}e/d/ {g}e/d/e ag {f}gB/d/ |  {g}e/{A}ed/ {g}e>d {g}e{A}e {G}e2 | {g}e/d/{g}d {G}d{g}d/e/ {g}B/A/G {g}AB/d/ | $
+
+  {gf}g2 f2 {gef}e2 d2 | {g}e{A}e z2 z4 | {gf}g2 f2 {gef}e2 d2 | {g}e{A}e z2 z4  ||
+
+V:2 gstem=up stem=down name="Harmony" sname=Harmony
+%%MIDI program 109 #bagpipes
+%%MIDI vol 60
+%%MIDI droneon
+||                                                "drum solo"Z | Z | Z | Z || $
+
+|:{g}d/e/{A}e/d/ {g}e{A}e/d/ {g}e{A}e {g}d/e/{A}e/d/ |{g}e{A}e/d/ {g}e/d/e ag {f}gB/d/ |  {g}e/{A}ed/ {g}e>d {g}e{A}e {G}e2 | {g}e/d/{g}d {G}d{g}d/e/ {g}B/A/G {g}AB/d/ |  $
+
+  {gef}e2 d2 {gcd}c2 B2 | {g}c{G}c z2 z4 | {gef}e2 d2 {gcd}c2 B2 | {g}c{G}c z2 z4 :| $
+
+||{g}d/e/{A}e/d/ {g}e{A}e/d/ {g}e{A}e {g}d/e/{A}e/d/ |{g}e{A}e/d/ {g}e/d/e ag {f}gB/d/ |  {g}e/{A}ed/ {g}e>d {g}e{A}e {G}e2 | {g}e/d/{g}d {G}d{g}d/e/ {g}B/A/G {g}AB/d/ | $
+
+  {gef}e2 d2 {gcd}c2 B2 | {g}c{G}c z2 z {g}A{d}ce | {gef}e2 d2 {gcd}c2 B2 | {g}c{G}c z2 z4  || $
+
+V:4 dyn=down gstem=up stem=down grace=up clef=bass dyn=up name="Bass and Snare" sname=drums octave=-2
+L:1/8
+%%MIDI gracedivider 8
+%%MIDI channel 10
+%%MIDI program 0 
+%%MIDI drummap c 38
+%%MIDI drummap A 38
+%%MIDI vol 50
+%%MIDI drumon
+||"Drum Solo" AA c2 AA c2 | AA c2 AA c2 | AA c2 AA c2 | AA c2 AA c2  || $
+
+
+
+X: 2
+T: We Will Rock You (Percussion)
+C:Queen
+O:Arranged by Kevin Fraser
+Q:1/4=90
+Z:Kevin Fraser
+R:March
+M: 4/4
+L: 1/8
+K:HP clef=perc middle=B
+U: R = ///
+U: r = //
+V:1 stafflines=5 dyn=down stem=down grace=up gstem=up name=snare sname=snare 
+V:2 dyn=down stem=down grace=up clef=bass gstem=up name=bass sname=bass
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+%%landscape 1
+%%alignbars 80
+%%flatbeams
+V:1 gstem=up stem=down clef=none dyn=up sname=Snare
+ 	|| z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 ||
+	|: z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 |
+	   z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 :|
+	|| z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 |
+	   z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 | z2 {A}c2 z2 {A}c2 ||
+V:2 gstem=up stem=down clef=none dyn=up sname=Bass
+        || AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 ||
+	|: AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 |
+	   AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 :|
+	|| AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 |
+	   AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 | AA z2 AA z2 ||
+

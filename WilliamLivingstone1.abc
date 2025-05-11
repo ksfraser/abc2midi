@@ -1,0 +1,907 @@
+﻿% %abc-include "../Ceol Mhor/guitarchords.fmt"
+%%abc-include "../Ceol Mhor/Medleys/format.abh"
+% %pagewidth 30cm
+%%pageheight 30cm
+% %landscape
+%%topmargin 0.5cm
+%%botmargin 0.2cm
+%%leftmargin 0.1cm
+%%rightmargin 0.1cm
+%%topspace 0cm
+%%footer " $T -  page $P "
+%%titlespace 0
+%%sysstaffsep 10
+%%staffsep 80
+%%graceword 0
+%%titlefont Times-Bold 28
+%%subtitlefont Times-Bold 18
+%%composerfont Times-Roman 14
+%%vocalfont Times-Roman 12
+%%annotationfont Times-BoldItalic 12
+%%footerfont Times-Roman 12
+%%partsfont Helvetica-Bold 14
+% %measurebox yes % measure numbers in a box
+% %measurenb 0 % measure numbers at start of line
+%%pagescale 0.98 % page size
+%%maxshrink 1.5 % compact the notes
+% %linebreak <none> % automatic line breaks
+%%squarebreve yes % print breve note as square glyph
+% %printparts no % don't print part names
+%%notespacingfactor 1.0		%doesn't seem to do anything.
+% %barsperstaff 4  		%does wonky things with line endings indicated.
+%
+%%straightflags 1
+%%flatbeams 1
+%%tuplets 2 1 0 1
+%%strechbars 1		% 0, 1, not included doesn't seem to make any difference
+% %stretchlast 1		%0 doesn't do what we want, 2 goes wonky
+%%printtempo 1
+% %ps /tsig{ 1 add M gsave/Helvetica 14 selectfont currentpoint 3 -1 roll showc 12 add M showc grestore}!
+
+
+%%beginsvg
+<defs>
+% x-shaped head
+<path id="x_head"
+d="m -3 -3 l 6 6 m 0 -6 l -6 6"
+class="stroke" style="stroke-width:1.2"/>
+% triangle head
+<path id="triangle"
+d="m -3.5 3.5 l 3.5 -7 l 3.5 7 l -7 0"
+class="fill" />
+% diamond head
+<path id="diamond"
+d="m 0 -3.5 l -3.5 3.5 l 3.5 3.5 l 3.5 -3.5 l -3.5 -3.5"
+class="fill" />
+</defs>
+%%endsvg
+
+%%chordprog 1
+%%bassprog 1
+%%chordvol 50
+%%bassvol 50
+% %MIDI beatstring fpppmpmpmppp
+% %MIDI gchord czfzczfzczfz
+
+
+X:1
+T:Pipe Major Davie Hendrie
+C:William Livingstone Sr
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/16
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 4
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [|:e| {g}A2{GdGe}A>B {gBd}B>A{g}B<{d}G | {g}A>{d}B{g}B<d} {gef}e3f | {a}g>f{gef}e>d {G}B<d{gde}d>G | {g}B<e{gde}d>B {gGd}G2e2
+w:
+[V:M] x |{g}A2{GdGe}A>B {gBd}B>A{g}B<{d}G | {g}A>{d}B{g}B<d} {gef}e2a>f | {a}g>f{gef}e>d {G}B<d{g}G>A | {gBd}B3{e}A {GAG}A2 :|]
+w:
+[V:M] [|:g>f| {gef}e3a {g}a2e>f | {a}g>e{g}f>d} {gef}e2a>f | {a}g>f{gef}e>d {G}B<d{gde}d>G | {g}B<e{gde}d>B {gGd}G2g>f | 
+w:
+[V:M]      x2|   {gef}e3a {g}a2e>f | {a}g>e{g}f>d} {gef}e2a>f | {a}g>f{gef}e>d {G}B<d{g}G>A | {gBd}B3{e}A {GAG}A2 :|]
+w:
+[V:M] [|:g>f| {gef}e>A{gAGAG}A2 {G}G>{d}A{e}A>B | {GdG}e2{gef}e>d } {gef}e2a>f | {a}g>f{gef}e>d {G}B<d{gde}d>G | {g}B<e{gde}d>B {gGd}G2g>f | 
+w:
+[V:M]         {gef}e>A{gAGAG}A2 {G}G>{d}A{e}A>B | {GdG}e2{gef}e>d | {a}g>f{gef}e>d {G}B<d{g}G>A | {gBd}B3{e}A {GAG}A2 :|]
+w:
+[V:M] [|:{g}e>f| {a}g2{GdGe}A>f a2{GdG}a>f | {a}g>e{g}f>d {gef}e2}a>f |  {a}g>f{gef}e>d {G}B<d{gde}d>G | {g}B<e{gde}d>B {gGd}G2 [1{g}e>f | 
+w:
+[V:M]             {a}g2{GdGe}A>f a2{GdG}a>f | {a}g>e{g}f>d {gef}e2}a>f| {a}g>f{gef}e>d {G}B<d{g}G>A | {gBd}B3{e}A {GAG}A2 :|
+w:
+[V:M]  [2 {fg}e2| {g}A2{GdGe}a>B {gAGAG}A2{g}B<{d}A | {GdG}e2{gef}e>d {gef}e2a>f| {a}g>f{gef}e>d {G}B<d{g}G>A | {gBd}B3{e}A {GAG}A2 |]
+w:
+
+X:2
+T:Pipe Major William Livingstone
+C:Michael Grey
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/16
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 4
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [|:f2|{g}B>{d}c{g}B<{d}A {GdG}B2{g}d<f | {g}e>f{gde}d>B {g}c<{d}A{gef}e>c | {g}B>{d}c{g}B<{d}A {gfg}f>af<d | {gef}e4 {A}e2{gfg}f2 | 
+w:
+[V:M]       {g}B>{d}c{g}B<{d}A {GdG}B2{g}d<f | {g}e>f{gde}d>B {g}c<{d}A{gef}e>c | {g}f>e{g}c<e a>f{gef}e>c} | {g}B4 {GdGe}B2 :]
+w:
+[V:M] [|:{g}c<e|{gfg}f>e{g}f<g {ag}a>f{g}d>f} | {g}e>f{gde}d>B {g}c<{d}A{gcd}c<e | {g}f>e{g}c<e {gfg}f>af<d | {gef}e4 {A}e2{gfg}{g}c<e| 
+w:
+[V:M]           {gfg}f>e{g}f<g {ag}a>f{g}d>f} | {g}e>f{gde}d>B {g}c<{d}A{gef}e>c | {g}f>e{g}c<e a>f{gef}e>c} | {g}B4 {GdGe}B2 :]
+w:
+[V:M] [|:f2|{g}B>{d}c{g}B<{d}A {GdG}B4 | {g}A>B{gcd}c>B {g}c<{d}A{gef}e>c | {g}B>{d}c{g}B<{d}A {gfg}f>af<d | {gef}e4 ["2nd ending 3rd part"{A}e2{gfg}f2 | 
+w:
+[V:M] [2      {g}B>{d}c{g}B<{d}A {GdG}B4 | {g}A>B{gcd}c>B {g}c<{d}A{gef}e>c | {g}f>e{g}c<e a>f{gef}e>c} | {g}B4 {GdGe}B2 :]
+w:
+[V:M] [|:{g}c<e|{g}f>ag<a {GdG}f>af<d | {g}e>f{gde}d>B {g}c<{d}A{g}c<e | {g}f>ag<a {g}A>d{g}f<a | {gef}e4 [1{A}e2{g}c<e| 
+w:
+[V:M]  [1       {g}f>ag<a {GdG}f>af<d | {g}e>f{gde}d>B {g}c<{d}A{g}c<e | {g}f>e{g}c<e a>f{gef}e>c} | {g}B4 {GdGe}B2 :]
+w:
+
+X:3
+T:Mrs Isa Workman
+C:Hamilton M. Workman
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/16
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 4
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [: {gef}e>c | {g}A{GdGe}A>{d}B {AGAG}A2{g}c<e | {gfg}f>ea>e {gfg}f>e{g}c<{d}A | {g}c2{GdGe}A>{d}B {gfg}f>ea>f | {gef}e>c{g}B<{d}A {GdG}B2{gef}e>c |
+w: 
+[V:M]               {g}A{GdGe}A>{d}B {AGAG}A2{g}c<e | {gfg}f>ea>e {gfg}f>e{g}c<{d}A | {g}c<e{g}d<f {g}B>{d}ca>e | {gcd}c2{e}A2 {GAG}A2 :| 
+w:
+[V:M] [: {g}f>g | {ag}a2>e {gfg}f>e{A}e>f| {g}c<e{gfg}f>e a>e{g}c<{d}A| {ag}a>ga>e {gfg}f>e{A}e>f | {gef}e>c{g}B<{d}A {GdG}B2{gef}e>c |
+w: 
+[V:M]             {ag}a2>e {gfg}f>e{A}e>f| {g}c<e{gfg}f>e a>e{g}c<{d}A | {g}c<e{g}d<f {g}B>{d}ca>e | {gcd}c2{e}A2 {GAG}A2 :| 
+w:
+[V:M] [: {gef}e>c | {g}A>{d}c{e}B<{d}c {g}A>f{g}e<f | {g}d>f{g}c<e a>e{g}c<{g}A | {g}c2{GdGe}A>{d}c {gfg}f>ea>f | {gef}e>c{g}B<{d}A {GdG}B2{gef}e>c |
+w:
+[V:M]               {g}A>{d}c{e}B<{d}c {g}A>f{g}e<f | {g}d>f{g}c<e a>e{g}c<{g}A | {g}c<e{g}d<f {g}B>{d}ca>e | {gcd}c2{e}A2 {GAG}A2 :|
+w:
+[V:M] [: {g}f>g | {ag}a>e{g}f<a {gfg}f>e{A}e>f| {g}c<e{g}A>{d}c a>e{g}c<{d}A| {ag}a>ga>e {gfg}f>e{A}e>f | {gef}e>c{g}B<{d}A {GdG}B2{gef}e>c |
+w: 
+[V:M]             {ag}a>e{g}f<a {gfg}f>e{A}e>f| {g}c<e{g}A>{d}c a>e{g}c<{d}A | {g}c<e{g}d<f {g}B>{d}ca>e | {gcd}c2{e}A2 {GAG}A2 :| 
+w:
+
+X:4
+T:Colonel Neil Ramsay
+C:Sandy Jones
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/16
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 4
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+
+X:5
+T:Up To The Line
+C:Michael Gray and Bruce Gandy
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:12/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 4
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] A | {g}f2{e}f {g}e>c{d}A {Gdc}d2{c}d {g}c>B{d}A | {g}B2d {g}B>d{e}A {GdG}B3-B2d | {gef}e2{A}e {g}e<fd {gcd}c2e {g}B<{d}c{e}B | {GdG}c3 {gde}d3 {gef}e2a g>e{g}c | 
+w: 
+[V:M]     {g}f2{e}f a>fd {g}B2f {a}g>e{g}c | {Gdc}d2f {g}B<d{e}B {G}A3 {GAG}A2d | {g}B2{GdGe}G {g}G>Bd {g}c2{GdGe}A {g}A>{d}ce | {gf}g2{AGAG}A {g}e<f{g}e {Gdc}d3-d2} x | 
+w:
+[V:M] {gf}g| a2{AGAG}A a>f{g}d g>{a}B{G}B g>e{g}c  | {Gdc}d2f {g}B<d{e}B {G}A3 {GAG}A2d | {a}g2{GdG}g {a}B<dg {afg}f>d{e}B A>df | {g}e2{AGAG}A {g}f2{AGAG}A{gef}e3{A}e>fg | 
+w: 
+[V:M]     a2{AGAG}A a>f{g}d g>{a}B{G}B g>e{g}c  | {Gdc}d2f {g}B<d{e}B {G}A3 {GAG}A2d | {g}B2{GdGe}G {g}G>Bd {g}c2{GdGe}A {g}A>{d}ce | {gf}g2{AGAG}A {g}e<f{g}e {Gdc}d3 {gdc}d2} x | 
+w:
+
+
+X:6
+T:Mrs Ronnie Eastwood
+C:Bruce Gandy
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:9/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 4
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] e | {g}A>Bd {gef}e3 {Gcd}d2 e | {gde}d>B{d}G {g}A3-A2{GAG}A | 
+[V:M]      {g}B<de {g}f3 {ag}a2f | {g}d>g{a}f {gef}e3-e>{g}ef | 
+[V:M]    a>f{g}e {gfg}f3 {Gdc}d>e{g}f | g>{a}Bd {gcd}c3 {G}A3 | 
+[V:M]    {Gdc}d>ef {gBG}B3 {gef}e2d | {gcd}c>B{G}A {Gdc}d3-d2 |] 
+[V:M] {g}A | a2{GdG}a {fg}f3 {Gcd}d2 f | {gef}e>dB {g}A3-A2{GAG}A | 
+[V:M]      {g}d{GBG}A2 {ag}a3 {fg}f2e | {g}d>g{a}f {gef}e3-e>{g}ef | 
+[V:M]    a>f{g}e {gfg}f3 {Gdc}d>e{g}f | g>{a}Bd {gcd}c3 {G}A3 | 
+[V:M]    {Gdc}d>ef {gBG}B3 {gef}e2d | {gcd}c>B{G}A {Gdc}d3-d2 |] 
+
+
+X:6
+T:The 78th Fraser Highlanders Pipe Band
+C:Michael Gray
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:9/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [: B | {g}A2{GdGe}A {GdG}f3 {ag}a2B | {g}B<d{e}A {g}B3 {GdGe}B2d | 
+[V:M]     {G}c>B{G}A {ged}e3 {g}A>ef | g>f{g}e {gfg}f3-f2 B | 
+[V:M]  |[2 {g}A2{GdGe}A {GdG}f3 {ag}a2B | {g}B<d{e}A {g}B3 {GdGe}B2d | 
+[V:M]     {G}c>B{G}A {ged}e3 {g}A>ef | g>f{g}e {Gdc}d3 d2 :]
+[V:M] {gf}g | {ag}a>f{g}e {Gdc}d3-d>ef | g>f{g}e {g}B3 {GdGe}B2d | 
+[V:M] {g}c2{GdG}e {gef}e3 {g}A>ef | g>f{g}e {gfg}f3-f2 B | 
+[V:M] [1{gf}g | {ag}a>f{g}e {Gdc}d3-d>ef | g>f{g}e {g}B3 {GdGe}B2d | 
+[V:M] {g}c2{GdG}e {gef}e3 {g}A>ef | g>f{g}e {Gdc}d3 d2 :] 
+
+X:7
+T:Paddy Donovan
+C:Alex Duthart (James MacIntosh)
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+ 
+X:8
+T:Leaving Auchinleck
+C:William Livingstone Sr
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+
+X:9
+T:Linda's Lilt
+C:
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+
+X:10
+T:The Men of Leinster
+C:Tom Anderson
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:6/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] e | {g}A2{GdGe}A {gBd}B2d | {g}e>d{e}B {g}d>B{d}A | {g}G>{d}G{e}G {g}G2{d}A | {g}B<de {gBd}B>A{d}G | 
+[V:M]     {g}A2{GdGe}A {gBd}B2d | {g}e2{GdGe}A {ag}a3 | {f}g>f{g}e {Gdc}d>eg | {aBd}B>A{d}G {g}A2 :|]
+[V:M] {g}B/<d/ | {gef}e2{A}e {g}A2{GdGe}A | {g}e>fg {ag}a2e | {Gdc}d2{c}d {g}G>{d}G{e}G | {g}B<de {gBd}B>A{d}G |
+[V:M]            {gef}e2{A}e {g}A2{GdGe}A | {g}e>fg {ag}a3 |  {f}g>f{g}e {Gdc}d>eg | {aBd}B>A{d}G {g}A2 :|]
+[V:M] e | {g}A2{GdGe}A {gAGAG}A2{d}B | {g}e>d{e}B {g}B2{GdGe}A | {g}G>{d}B{e}A {g}G2{d}A | {g}B<de {gBd}B>A{d}G | 
+[V:M]     {g}A2{GdGe}A {gAGAG}A2{d}B | {g}e>d{e}B  {ag}a3 | {f}g>f{g}e {Gdc}d>eg | {aBd}B>A{d}G {g}A2 :|]
+[V:M] {g}B/<d/ | {g}e2{GdGe}A {g}e>d{c}d | {g}e2{GdGe}A {ag}a2e | {gf}g>{a}fg {g}G>{d}G{e}G | {g}B<de {gBd}B>A{d}G |
+[V:M]            {g}e2{GdGe}A {g}e>d{c}d | {g}e2{GdGe}A {ag}a3 | {f}g>f{g}e {Gdc}d>eg | {aBd}B>A{d}G {g}A2 :|]
+
+
+X:11
+T:Enoch Kirk
+C:Harry Stevenson Jr
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:6/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] f | {g}B2{GdGe}B {gfg}f>e{g}c | {g}B>f{e}f {gef}e>{g}c{d}B | {g}A2{GdGe}A {gcd}c>{d}B{e}c | {g}A>{d}cf {gef}e>c{d}A | 
+[V:M]   {g}B2{GdGe}B {gfg}f>e{g}c | {g}B>f{e}f {gef}e>{g}c{d}B | {g}A2{GdGe}A {g}c2{GdG}f | {gcd}c>B{G}B {gBd}B2 :]
+[V:M] [: c<e | {gfg}f2a {fg}f>ef | {gfg}f>a{g}a {fg}f2a | A2{GdGe}A {g}c>e{A}e | {g}A>{d}ce {gef}e>c{e}A | 
+[V:M]        |[1 {gfg}f2a {fg}f>ef | {gfg}f>a{g}a {fg}f2a | {g}A2{GdGe}A {g}c2{GdG}f | {gcd}c>B{G}B {gBd}B2 :]
+[V:M]   [2{g}B2{GdGe}B {gfg}f>e{g}c | {g}B>f{e}f {gef}e>{g}c{d}B | {g}A2{GdGe}A {g}c2{GdG}f | {gcd}c>B{G}B {gBd}B2 |]
+[V:M] [: f<{g}e | {gcd}c>B{G}B {gfg}f>e{g}c | {g}c2{GdGe}B {gfg}f>e{g}c | {g}A2{GdGe}A {gcd}c>{d}B{e}c | {g}A>{d}cf {gef}e>c{d}A | 
+[V:M]           | {gcd}c>B{G}B {gfg}f>e{g}c | {g}c2{GdGe}B {gfg}f>e{g}c |  {g}A2{GdGe}A {g}c2{GdG}f | {gcd}c>B{G}B {gBd}B2 :|]
+[V:M] [: c<e | {gfg}f>e{A}e {gfg}f>a{g}a | c>a{g}a e>a{g}a | {g}A2{GdGe}A {gcd}c>{d}B{e}c | {g}A>{d}cf {gef}e>c{d}A | 
+[V:M]        |[1 {gfg}f>e{A}e {gfg}f>a{g}a | c>a{g}a e>a{g}a {g}A2{GdGe}A {g}c2{GdG}f | {gcd}c>B{G}B {gBd}B2 :|]
+[V:M]        |[2 {gcd}c>B{G}B {gfg}f>e{g}c | {g}c2{GdGe}B {gfg}f>e{g}c |  {g}A2{GdGe}A {g}c2{GdG}f | {gcd}c>B{G}B {gBd}B2 |]
+
+X:12
+T:Coppermill
+C:Michael Gray
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/16
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [:e2| {gAGAG}A4 {GdG}e3f | {a}g>ag>e {Gdc}d2{g}f2 | {a}g2{gAGAG}A2 {g}e>fg>e | {g}d>B{d}G>A {gBd}B2{g}e2 |
+[V:M]     | {gAGAG}A4 {GdG}e3f | {a}g>ag>e {Gdc}d2{g}f2 | {g}e>fg>e {g} d>B{d}G>A | {gBd}B2{e}A2 {GAG}A2 :]
+[V:M] [:{g}e>f | {gf}g4 {GdG}g3e | {a}g>ag>e {Gdc}d2{g}e>f | {a}g2{gAGAG}A2 {g}e>fg>e | {g}d>B{d}G>A {gBd}B2[1{g}e>f |
+[V:M]          |[1 {gf}g4 {GdG}g3e | {a}g>ag>e {Gdc}d2{g}f2 |  {g}e>fg>e {g} d>B{d}G>A | {gBd}B2{e}A2 {GAG}A2 :]
+[V:M]     |[2 {gAGAG}A4 {GdG}e3f | {a}g>ag>e {Gdc}d2{g}f2 | {g}e>fg>e {g} d>B{d}G>A | {gBd}B2{e}A2 {GAG}A2 |]
+
+X:12
+T:Jeanette's Wedding
+C:Michael Gray
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:9/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [: {g}A | {Gdc}d>f{g}A {Gdc}d3 {ag}a2g | {g}f>ga {fg}f3 {Gdc}d2c | {g}B2{GdGe}B {g}A3 {Gdc}d2f | {gf}g>ag {aef}e3 {a}e2{g}A | 
+[V:M]         | {Gdc}d>f{g}A {Gdc}d3 {ag}a2g | {g}f>ga {fg}f3 {Gdc}d2c | {g}B2{GdGe}B {gcd}c3 {g}e>fg | {a}f>ga {Gdc}d3 {gdc}d2 :|]
+[V:M] [: {g}A | {g}f>gf {ag}a3 {fg}f2a | {f}g>f{g}e {gfg}f3 {Gdc}d2{e}A | {g}B2{GdGe}B {g}A3 {Gdc}d2f | {gf}g>ag {aef}e3 {a}e2{g}A | 
+[V:M]         | [1{g}f>gf {ag}a3 {fg}f2a | {f}g>f{g}e {gfg}f3 {Gdc}d2{e}A | {g}B2{GdGe}B {gcd}c3 {g}e>fg | {a}f>ga {Gdc}d3 {gdc}d2 :|]
+[V:M]         | [2{Gdc}d>f{g}A {Gdc}d3 {ag}a2g | {g}f>ga {fg}f3 {Gdc}d2c | {g}B2{GdGe}B {gcd}c3 {g}e>fg | {a}f>ga {Gdc}d3 {gdc}d2 |]
+
+
+X:13
+T:Calum A Brasha of Carloway
+C:William Livingstone Jr
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:6/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [: f |{g}A2{GdGe}A {Gdc}d>ef | {g}A>df {ag}a3 | {f}g>e{A}e {g}A>{d}ce | {a}g>fe {gfg}f3 | 
+[V:M]      |{g}A2{GdGe}A {Gdc}d>ef | {g}A>df {ag}a3 | {f}g>e{A}e {g}A>{d}ce | {Gdc}d3 {gdc}d2 :]
+[V:M] [: {gf}g|a>ga A>df | {g}A>df {ag}a3 | {f}g>fg {g}A>{d}ce | {a}g>f{g}e {gfg}f3 | 
+[V:M]    |a>ga A>df | {g}A>df {ag}a3 | {f}g>e{A}e {g}A>{d}ce | {Gdc}d3 {gdc}d2 :]
+[V:M] [: A|{gde}d>cd {g}B<{d}G{e}B| {g}A>df {ag}a3 | {f}g>e{A}e {g}A>{d}ce | {a}g>fe {gfg}f3 | 
+[V:M]    | {gde}d>cd {g}B<{d}G{e}B| {g}A>df {ag}a3 |{f}g>e{A}e {g}A>{d}ce | {Gdc}d3 {gdc}d2 :]
+[V:M] [: e| {g}f2{GdG}f a2{GdG}a |{g}A>df {ag}a3 |{a}g2{GdG}g {g}A>{d}ce | {a}g>fe {gfg}f3 | 
+[V:M]    |[1  a2{GdG}a A>df|{g}A>df {ag}a3 | {f}g>e{A}e {g}A>{d}ce | {Gdc}d3 {gdc}d2 :]
+[V:M]    |[2 {gde}d>cd {g}B<{d}G{e}B| {g}A>df {ag}a3 |{f}g>e{A}e {g}A>{d}ce | {Gdc}d3 {gdc}d2 |]
+
+X:15
+T:the Copper Cliff Highlanders March Past
+C:William Livingstone Sr
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [: e |{gAGAG}A{g}B/<d/ {gef}ed/<B/ | {Gdc}d{e}A {gBd}Be | {gAGAG}A{g}B/<d/ {gef}ed/<B/ | {gef}ea {g}ae/<f/ | 
+[V:M]      |{a}g/>f/{g}e/>d/ {gef}ea | {f}g/>f/{g}e/>d/ {gef}e{AGAG}A | {Gdc}d{g}B/<d/ {gef}ed/<{e}B/ | {gef}e{g}A {GAG}A :]
+[V:M] [: e | {g}fe/<d/ {gef}ea | {f}g/>f/{g}e/>d/ {gef}e{AGAG}A |{gfd}fe/<d/ {a}g/>f/{g}e/>d/ | {gf}gd {gdc}d>e | 
+[V:M]      |[1 {g}fe/<d/ {gef}ea | {f}g/>f/{g}e/>d/ {gef}e{AGAG}A | {Gdc}d{g}B/<d/ {gef}ed/<{e}B/ | {gef}e{g}A {GAG}A :]
+[V:M]      |[2 {gAGAG}A{g}B/<d/ {gef}e{g}A | {g}B/<{d}A{g}B/<d {gef}e{g}A | {Gdc}d{g}B/<d/ {gef}ed/<{e}B/ | {gef}e{g}A {GAG}A |]
+[V:M]     e | {gAGAG}A{g}B/<d/ {gef}e{gAGAG}A | {g}B/<{d}A{g}B/<d {gef}e{gAGAG}A |{Gdc}d{g}B/<d/ {g}e/>f/g/>d/ | {g}B/<d/{e}G {gBd}Be | 
+[V:M]       |[1{gAGAG}A{g}B/<d/ {gef}e{gAGAG}A | {g}B/<{d}A/{g}B/<d/ {gef}e{gAGAG}A | {Gdc}d{g}B/<d/ {gef}ed/<{e}B/ | {gef}e{g}A {GAG}A :]
+[V:M]     e |   {g}f>a {fg}f>a| {f}g/>f/{g}e/d/ {gef}e{AGAG}A | {Gdc}d{g}B/<d/ {g}e/>f/g/>d/ | {g}B/<d/{e}G {gBd}Be | 
+[V:M]       |[1 {g}f>a {fg}f>a| {f}g/>f/{g}e/d/ {gef}e{AGAG}A | {Gdc}d{g}B/<d/ {gef}ed/<{e}B/ | {gef}e{g}A {GAG}A :]
+[V:M]      |[2 {gAGAG}A{g}B/<d/ {gef}e{g}A | {g}B/<{d}A/{g}B/<d/ {gef}e{g}A | {Gdc}d{g}B/<d/ {gef}ed/<{e}B/ | {gef}e{g}A {GAG}A |]
+
+X:16
+T:Pipe Major John Sabiston
+C:James E Stack
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:6/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [: a | f2{GdG}f {gfg}f>ed |  {g}B2{GdGe}B {gBd}B2{Gdc}d | {g}c2{GdG}e {gef}e>d{e}c | {g}df>{g}e {Gdc}d2a | 
+[V:M]      | f2{GdG}f {gfg}f>ed |  {g}B2{GdGe}B {gBd}B2{Gdc}d | {g}c2{GdG}e {g}A>fd | {gef}e>dc {Gdc}d2 :]
+[V:M] [: a | {Gdc}d>{g}Ad {g}df>d | {g}G>{d}B{e}A {gGd}G2d |  {g}c2{GdG}e {gef}e>d{e}c | {g}df>{g}e {Gdc}d2a | 
+[V:M]      | {Gdc}d>{g}Ad {g}df>d | {g}G>{d}B{e}A {gGd}G2d | {g}c2{GdG}e {g}A>fd | {gef}e>dc {Gdc}d2 :]
+[V:M] [:  f |{g}d2{GBG}A {g}A>{d}ca |B2{GdGe}B {gBd}B>AG |  {g}c2{GdG}e {gef}e>d{e}c | {g}df>{g}e {Gdc}d2f | 
+[V:M]      | {g}d2{GBG}A {g}A>{d}ca |B2{GdGe}B {gBd}B>AG| {g}c2{GdG}e {g}A>fd | {gef}e>dc {Gdc}d2 :]
+[V:M] [: a  |{fg}f>{g}da {g}a2{GdG}a | {ef}e>{g}cg {a}g2{GdG}g |  {Gdc}d>{g}Bd {g}d2{GBG}A |{g}B>cd {gef}e2a |
+[V:M]      | {fg}f>{g}da {g}a2{GdG}a | {ef}e>{g}cg {a}g2{GdG}g| {g}c2{GdG}e {g}A>fd | {gef}e>dc {Gdc}d2 :]
+
+X:17
+T:Pipe Major Sandy Jones
+C:Hamilton M Workman
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:6/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] [: a | c2{GBG}A {GAG}A>{g}ce | {Gdc}d>ef {gef}e2c | {g}A{d}c{e}B {g}c>e{A}e | {g}f>ec {gBG}B2a | 
+[V:M]      | c2{GBG}A {GAG}A>{g}ce | {Gdc}d>ef {gef}e2c | {g}f>ce {gcd}c2{e}B | {g}c2{GdGe}A {GAG}A2 :]
+[V:M] [: {gf}g | {ag}a3 f>e{A}e | {AGAG}A2{g}A {g}c2{GdGe}A | {g}d>f{e}f {g}e>A{d}c | a>e{g}c {gBG}B2 {gf}g
+[V:M]      | {ag}a3 f>e{A}e | {AGAG}A2{g}A {g}c2{GdGe}A| {g}f>ce {gcd}c2{e}B | {g}c2{GdGe}A {GAG}A2 :]
+[V:M] [: a | {cd}c3 {g}d>B{G}B | {g}c2{GdGe}A {GAG}A2c | {Gdc}d>ef {gef}e2c | {g}f>ec {gBG}B2a |
+[V:M]      | {cd}c3 {g}d>B{G}B | {g}c2{GdGe}A {GAG}A2c | {g}f>ce {gcd}c2{e}B | {g}c2{GdGe}A {GAG}A2 :]
+[V:M] [: e |{g}f>a{g}a A2{GdGe}A | {g}d>f{e}f {gef}e2c | a>ga c>e{A}e| {g}f>ec {gBG}B2a |
+[V:M]      |{g}f>a{g}a A2{GdGe}A | {g}d>f{e}f {gef}e2c  | {g}f>ce {gcd}c2{e}B | {g}c2{GdGe}A {GAG}A2 :]
+
+X:18
+T:Kate's Fling
+C:Michael Grey
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:C
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M] e [| {gf}g>a {f}g>e {gfg}f2 {e}f>d | {g}e>f {gf}g>a (3ged (3Bcd | {g}e>f {gf}g>a (3gfe {gfg}f>d | {g}e>f {gf}g>a {Bd}B<{e}A {GAG}A{d}B | 
+[V:M]   | {gf}g>a {f}g>e {gfg}f2 {e}f>d | {g}e>f {gf}g>a (3ged (3Bcd | {g}e>f {gf}g>a (3gfe {gfg}f>d | {g}e>f {gf}g>a {Bd}B<{e}A {GAG}A |] 
+[V:M] a [| {ef}e>d {gBd}B<{e}A {gf}g>a (3ged | {gef}e>A {GAGAG}A2 (3{g}G{d}G{e}G (3Bcd | {gef}e>d {gBd}B<{e}A {gf}g>a (3gfe |{g}e>f {gf}g>a {Bd}B<{e}A {GAG}Aa | 
+[V:M]   | {ef}e>d {gBd}B<{e}A {gf}g>a (3ged | {gef}e>A {GAGAG}A2 (3{g}G{d}G{e}G (3Bcd | {gef}e>d {gBd}B<{e}A {gf}g>a (3gfe |{g}e>f {gf}g>a {Bd}B<{e}A {GAG}A |] 
+
+X:18
+T:Patty's Choice
+C:Michael Grey
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:C
+L:1/8
+R:Strathspey
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M]   [| {gAGAG}A2 {ag}a>e {gfg}f>a (3fec  |{g}A2{GdGe}A>a {fg}f>c {gef}e2 | {gAGAG}A>a f<a {fg}f>a (3fec | {gef}e>c {ag}a>f {gef}e>c {gBG}B2 | 
+[V:M]    | {gAGAG}A2 {ag}a>e {gfg}f>a (3fec  |{g}A2{GdGe}A>a {fg}f>c {gef}e2 | {g}A {GdGe}A>f {ag}a2 (3fec | {gef}e>c {ag}a>f {gef}e>c {gBG}B2 |] 
+[V:M]    [|{ag}a>e {g}f<a {ef}e>a {cd}c>{e}A | {ag}a2 {GdG}a>e {gfg}f2 {gef}e2 | {gAGAG}A>a (3fga {fg}f>a (3fec | {gef}e>c {ag}a>f {gef}e>c {gBG}B2 | 
+[V:M]    |{ag}a>e {g}f<a {ef}e>a {cd}c>{e}A | {ag}a2 {GdG}a>e {gfg}f2 {gef}e2 | {g}A {GdGe}A>f {ag}a2 (3fec | {gef}e>c {ag}a>f {gef}e>c {gBG}B2 |] 
+
+X:19
+T:The Old Schoolhouse
+C:Michael Grey
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:C
+L:1/8
+R:Strathspey
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M]  a [| {fg}f>B {gBGdG}B2 {Gdc}d>B {gfg}f>d | {gef}e>A {gAGAG}A2 {gcd}c<{e}A {gef}e>c | {gfg}f>B {gBGdG}B2 {Gdc}d>B {gfg}f>d | {gcd}c>{e}A {gef}e>c {g}B2 {GdGe}B>a | 
+[V:M]     | {fg}f>B {gBGdG}B2 {Gdc}d>B {gfg}f>d | {gef}e>A {gAGAG}A2 {gcd}c<{e}A {gef}e>c | {gfg}f>B {gBGdG}B2 (3agf {gef}e>d | {gcd}c>{e}A {gef}e>c {g}B2 {GdGe}B>c |] 
+[V:M]   [| {Gdc}d>B {gfg}f>B {Gdc}d>B {gfg}f>d|{gcd}c<{e}A (3{g}edc (3agf {gef}e>d  |{Gdc}d>B {gfg}f>B {Gdc}d>B {gfg}f>d | {gcd}c<{e}A {gef}e>c {g}B2 {GdGe}B>c | 
+[V:M]     | {Gdc}d>B {gfg}f>B {Gdc}d>B {gfg}f>d|{gcd}c<{e}A (3{g}edc (3agf {gef}e>c  | {Gdc}d>e {gfg}f>d (3agf {gef}e>d | {gcd}c<{e}A {gef}e>c {g}B2 {GdGe}B>c | 
+[V:M]   [| {g}B2 {GdGe}B>A {gBd}B<{e}A {gfg}f>e | {gAGAG}A2 {gBd}B<{e}A {gcd}c<{e}A {GdG}e>c  | {g}B2 {GdGe}B>A {gBd}B<{e}A {gfg}f>d |{gcd}c<{e}A {gef}e>c {g}B2 {GdGe}B>c | 
+[V:M]     {g}B2 {GdGe}B>A {gBd}B<{e}A {gfg}f>e | {gAGAG}A2 {gBd}B<{e}A {gcd}c<{e}A {GdG}e>c  | {gfg}f>B {gBGdG}B2 (3agf {gef}e>d | {gcd}c>{e}A {gef}e>c {g}B2 {GdGe}B>c|] 
+[V:M]   [| {Gdc}d>a {fg}f>d {ag}a>f {Gdc}d>f | {gef}e>A {gAGAG}A2 (3agf {gef}e>c |   {Gdc}d>a {fg}f>d {ag}a>f {Gdc}d>f |{gcd}c<{e}A {gef}e>c {g}B2 {GdGe}B>c | 
+[V:M]     {Gdc}d>a {fg}f>d {ag}a>f {Gdc}d>f | {gef}e>A {gAGAG}A2 (3agf {gef}e>c | (3{g}dcB {gfg}f>d (3agf {gef}e>d | {gcd}c>{e}A {gef}e>c {g}B2 {GdGe}B|] 
+
+X:20
+T:Angus MacDOnald of Annan
+C:William Livingstone
+B:William Livingstone Volume 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=120
+K:HP
+M:C
+L:1/8
+R:Strathspey
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down clef=none dyn=up name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="Bass" transpose=-1  octave=-2 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" sname="Piano" transpose=0 octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 40
+% %score {M BC BD BB}
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:M]  a | {AGAG}A2 {g}A>B {g}c<e {gef}e>c | {gfg}f>e {ag}a>e {gfg}f>e {g}(3fga | {AGAG}A2 {g}A>B {g}c<e {gef}e>c | {g}(3fga {ef}e>c {g}(3Bcd {gcd}c>B | 
+[V:M]    | {AGAG}A2 {g}A>B {g}c<e {gef}e>c | {gfg}f>e {ag}a>e {g}(3fga {fg}f>e |   {AGAG}A2 {g}A>B {g}c<e {gef}e>c | {g}(3fga {ef}e>c {g}(3Bcd {gcd}c>B |
+[V:M]    | {g}c<e {gef}e>c {g}A>{d}c {gef}e>c | {g}d<f {g}f>d {g}A>d {g}f<a | {g}c<e {gef}e>c {g}A>c {gef}e>c | {Gdc}d>e {g}(3fed {g}(3Bcd {gcd}c>B 

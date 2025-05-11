@@ -1,0 +1,692 @@
+X: 1
+T:Notes and Rests (Rudiments 2020)
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+L: 1/4
+|| d4 | z4 ||
+w: Whole-Note | Whole Rest
+L:1/4
+|| d2 d2 | z2 z2 ||
+w: Half Notes | Half Rest 
+L:1/4
+|| d d d d | z z z z ||
+w: Quarter Notes | Quarter Rest 
+L:1/8
+|| d d d d d d d d | z z z z z z z z ||
+w: Eigtht Notes | Eighth Rest 
+L:1/16
+|| d d d d d d d d d d d d d d d d | z z z z z z z z z z z z z z z z ||
+w: Sixteenth Notes | Sixteenth Rest 
+L:1/32
+|| d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d | z z z z z z z z z z z z z z z z z z z z z z z z z z z z z z z z ||
+w: Thirty-Second Notes | Thirty-Second Rest 
+
+X:2 
+T:Beaming (Rudiments 2020)
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/16
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+L:1/8
+M:4/4
+|| dd dd dd dd | zz z2 z4 ||
+w: Beaming is done within a beat
+L:1/16
+M:4/4
+|| dddd d2dd d>dd>d d2d2| zz z2 z4 z8 ||
+w: Beaming is done within a beat
+M:2/2
+L:1/8
+|| dddd dddd | z4 z4 ||
+w: Beaming is done within a beat
+
+
+X: 3
+T:Melodic vs Gracenote convention (Rudiments 2020)
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:5/4
+L:1/16
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+L: 1/4
+|| d2 d d/2d/2 d/4d/4d/4d/4 ||
+w: Melodic Notes with stems down
+|| {g}A {d}A {e}A {A}A {a}A/2{f}A/2 ||
+w: Gracenotes with stems up
+
+X: 4
+T:Bagpipe vs Western stems convention (Rudiments 2020)
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/4
+R:March
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+V:
+||G A B c d e f g a ||
+w: Western Music Stem Varies
+K:HP
+V:gstem=up stem=down
+||G A B c d e f g a ||
+w: Bagpipe Music Stem Down
+
+
+X:5
+T:Rhythms Simple Time
+O:KevinFraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/8
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+||G8 
+w:Whole
+w:1(234) 
+| G4 G4 
+w:Half Half |
+w:1(2) 3(4)
+w: ta-ah ta-ah
+| G2 G2 G2 G2
+w: Quarter Quarter Quarter Quarter | 
+w: 1 2 3 4
+w: ta ta ta ta
+| GG GG GG GG ||  
+w: Eighth Eighth Eighth Eighth Eighth Eighth Eighth Eighth :| 
+w: 1 & 2 & 3 & 4 &
+w: ta ti ta ti ta ti ta ti
+w:
+| G/G/G/G/ G/G/G/G/ G/G/G/G/ G/G/G/G/||  
+w: Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth Sixteenth:| 
+w: 1 e and a 2 e and a 3 e and a 4 e and a
+w: ta fa ti fi ta fa ti fi ta fa ti fi ta fa ti fi
+w:
+W: These notes are each played evenly
+T: Held and Cut
+|| G>G G>G G>G G>G | 
+w: Dotted~Eighth Sixteenth Dotted~Eighth Sixteenth Dotted~Eighth Sixteenth Dotted~Eighth Sixteenth | 
+w: 1(e+and) a 2(e+and) a 3(e+and) a 4(e+and) a
+w:
+T: Cut and Held
+   G<G G<G G<G G<G || 
+w: Sixteenth Dotted~Eighth Sixteenth Dotted~Eighth Sixteenth Dotted~Eighth Sixteenth Dotted~Eighth || 
+w: 1 e(and+a) 2 e(and+a) 3 e(and+a) 4 e(and+a)
+w:
+W:Classical music theory, the Dotted note is 3/4 of the beat, the Cut note is 1/4
+W: ALAP/ASAP says play the cut note AS SHORT AS (HUMANLY) POSSIBLE ~ cut-it cut-it
+
+
+
+X:6
+T:Rhythms Compound Time
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:6/8
+L:1/8
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|G3 G3  |
+w:Dotted~Quarter Dotted~Quarter  |
+w:1(23) 2(23)
+ GGG GGG  | 
+w:Eighth Eighth Eighth Eighth Eighth Eighth | 
+w: 1 2 3 2 2 3
+G2G GG2 | 
+w:Quarter Eighth Eighth Quarter| 
+w:1(2) 3 2 2(3)
+G>GG G<GG | 
+w:1(2) & 3 2 &(2) 3
+w: hold cut 3 cut it 3
+
+
+X:7
+T:Rhythmic Exercise
+O:KevinFraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/8
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+||B2 BB    B2 BB    |  BB   BB    B2 BB || 
+w: 1 2 and 3  4 and | 1 and 2 and 3  4 and ||
+||BB B/B/B/B/ BB  B2       |  BB/B/   B/B/B    B2 BB || 
+w: 1 and 2 e and a 3 and  4| 1 and a  2 e and  3  4 and ||
+||BB     B>B B<B   B2             |  BB/B/   B/B/B    B2 BB || 
+w: 1 and 2(e+and) a 3 e(and+a)  4| 1 and a  2 e and  3  4 and ||
+T:This Old Man
+  ||BB B2 BB B2|                   BB          BB       BB       BB/B/    | BB          B/B/B           B/B/B/B/ B2     |    BB      BB      BB B2
+w:"This Old Man, he played one | he played knick-knack on my thumb with a | knick-knack pad-dy whack, give my dog a bone| this old man came roll-ing home" 
+w:"one and two three and four | one and two and three and four and a       |one and two ee and three ee and a four     | one and two and three and four."
+T: Mairi's Wedding
+||BB BB BB B2 | BB BB BB B2 | BB BB BB B2 | BB BB B2 B2 ||
+||BB B2 BB B2 | BB BB BB B2 | BB B2 BB B2 | BB BB B2 B2 ||
+T: Scotland the Brave
+|| B2 B>B BB BB | B2 B2 BB BB | B2 B>B BB BB | B2 B2 B>B B/B/B/B/ ||
+T: Sleepy Maggie
+||B2 BB BB BB | B2 B2 BB BB | B2 BB BB BB | BB BB BB BB ||
+||BB B2 BB BB | BB B2 BB BB | BB B2 BB BB | BB BB BB BB ||
+
+
+X:8
+T:Bar Lines
+H: 
+C: 
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/4
+R:March
+I:linebreak $
+V:gstem=up stem=down name="Melody"
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T: Bar Lines
+ | A A | A A | A A | A A |
+W: here we have 4 bars separated by Bar Lines.
+W: Bagpipe Music almost always has 4 bars on a line
+W:
+W: Bagpipe Music almost always has 4 bars to a part (Strathspeys)
+W: or 8 bars to a part (Marches, Aires, Jigs, Hornpipes, Reels)
+
+X:9
+T:Double Bar Lines
+H: 
+C: 
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/4
+R:March
+I:linebreak $
+V:gstem=up stem=down name="Melody"
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+ || A A | A A | A A | A A || $
+ [| A A | A A | A A | A A |]
+W: The Double Bar Line is used to indicate the ends of a part.
+W:
+W: Here we have the same 4 bars as in the Bar Line example.  
+W: However, here we show 2 versions of Double Bar Lines.
+
+
+X:10
+T:Repeat Signs
+H: 
+C: 
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/4
+R:March
+I:linebreak $
+V:gstem=up stem=down name="Melody"
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+ |: A A | A A | A A | A A :| $
+ ||: A A | A A | A A | A A :|| $
+ [|: A A | A A | A A | A A :|] $
+W: The repeat sign is used along with double bar lines.
+W: The repeat sign means that we play everything between the paired signs a second time.
+
+X:11
+T:Introductary Note(s) (Pickup Note)(Anacrusis)
+H: 
+C: 
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/4
+R:March
+I:linebreak $
+V:gstem=up stem=down name="Melody"
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T: Pickup Note
+  A  | A A | $
+W: An introductary (a.k.a. pickup) note is one or more notes at the start of a part or tune.
+W: This set of notes is less than enough to complete a full bar.
+W: The music is written this way so that the first beat emphasis (discussed later) falls upon the note the composer wants to "start" the part.
+W:
+T: Multiple pickup notes
+  A//B//c/  || A A | A A |A A |A A || $
+
+X:12
+T:Repeats and Pickup Notes
+H: 
+C: 
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/4
+R:March
+I:linebreak $
+V:gstem=up stem=down name="Melody"
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T: Not repeated pickup
+ A/2 |: A A | A A | A A | A A :| $
+W: In this first example, the pickup note is NOT repeated.
+T: Repeated pickup
+ |: A/2 | A A | A A | A A | A A/2 :| $
+W: In this example, the pickup note IS repeated. Note the difference in timing of the last note of the part.
+W: In this form, the time taken by the pickup note comes out of the last bar of the part.
+T: Multi-part tune
+W: Note in a multi-part tune, each part will have a pickup note if the first part has one.  
+W: This is because of the time subracted from the last bar of each part - the next part needs to fill that time.
+ |: A/2 | A A | A A | A A | A A/2 :| $
+ |: B/2 | B B | B B | B B | B B/2 :| $
+W:
+W: The repeat sign means that we play everything between the
+W: paired signs a second time.
+
+X: 4
+T:Rudiments - Embellishments Summary
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/4
+R:March
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T:Bagpipe vs Western stems convention (Rudiments 2020)
+V:
+||G A B c d e f g a ||
+w: Western Music Stem Varies
+K:HP
+V:gstem=up stem=down
+||G A B c d e f g a ||
+w: Bagpipe Music Stem Down
+w:
+T:Melodic vs Gracenote convention (Rudiments 2020)
+L: 1/4
+|| d2 d d/2d/2 d/4d/4d/4d/4 ||
+w: Melodic Notes with stems down
+|| {g}A {d}A {e}A {A}A {a}A/2{f}A/2 ||
+w: Gracenotes with stems up
+w:
+T:Norther Lorn  Canntaireachd
+V:gstem=up stem=down sname="NL Cannt"
+||G A B c d e f g a ||
+w: em en o o a e ve di I
+T:KSF Canntaireachd
+V:gstem=up stem=down sname="KSF Cannt"
+||G A B c d e f g a ||
+w: em en o io a e ve di I
+
+X:13
+T: Gracenote
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/4
+R:March
+L:4/4
+||{g}f | {d}c | {e}d | {a}g ||
+w: he  | do   | ea   | hi
+W: Notice that a gracenote is a "lift" (open-up) movement where the grace is higher than the melody note it is written on.
+W:
+T: Strikes
+L:4/4
+||{G}A | {c}d | {A}e | {e}f | {f}g | {g}a ||
+W: Notice that a strike is a "striking" (close-down) movement where the grace is lower than the melody note it is written on.
+W:
+T: Birl
+L:2/4
+||A {GAG}A | c {AGAG}A | e {gAGAG}A ||
+w: on A | other note | G gracenote
+W: Notice that a birl is 2 low G strikes on A. A variation includes a leading G gracenote to the first A.
+W:
+T: Shakes
+L:1/4
+||{gdc}d {gdG}d |{gcG}c {gBG}B {gAG}A | {geA}e ||
+w: light heavy  |shakes               | chere
+W: A shake is a G gracenote to the "melodic" (middle) gracenote followed by a strike.
+W:
+T: Doublings
+L:1/4
+M:7/4
+||{gGd}G {gAd}A {gBd}B {gcd}c {gde}d {gef}e {gfg}f ||
+W: Note that though there are 3 gracenotes, the middle gracenote is the same note as the melody note it is written on.  
+W:
+W: Therefore this is played by the G gracenote taking us to the "melodic" note grace followed by a second gracenote to "double" the embellishment.
+W:
+T: Half Doublings
+L:1/4
+M:8/4
+||{Gd}G {Ad}A {Bd}B {cd}c {de}d {fe}e {fg}f {ga}g ||
+W: Being a half doubling, we still have a doubled sound but without the leading gracenote.
+W:
+T: Throws 
+|| {ag}a {gf}g | (A A) G/4{dc}d3/4  |A {Gdc}d | A {GdGc}(d d) A {Gdc}d ||
+w: dili        |                    |-  tra     
+w: said "chili"
+w:      - -    |  Light D throw Played |    | ||
+w:             |                  -     | D throw  written | Heavy D throw  written
+W: At first glance a throw could be confused for a half doubling. But where the half doubling uses a "lift" gracenote the throw uses a strike.  
+W: The Heavy D throw is played more like a Grip.  The Heavy D throw is also known as the closed D throw and the light as open.
+W:
+W: Older terminology also calls these throws doublings!
+W:
+T: Grips (Lemluath) (Dro / tro)
+M:4/4
+|| A {GdG}A A{GdG}c | c{GdG}A c{GdG}c | A{GdG}B||
+w: - - - dro         |                 | en tro
+W: Note the distinct movements in the grip: 1 - Close to Low G, 2 - D gracenote on Low G 3 - move to next melody note.
+W:
+T: Taorluath - darid (Lemluath + E grace)
+|| A{GdGe}A A{GdGe}c | c{GdGe}A c{GdGe}c||
+w: en dariden en darido | o dariden o dariden
+W: Note the distinct movements in the grip: 1 - Close to Low G, 2 - D gracenote on Low G 3 - move to next melody note with an E gracenote.
+W: The toarluath can only be played on low hand notes because of the E gracenote completing the movement.
+
+
+X: 5
+O:Kevin Fraser
+Z:Kevin Fraser
+T: Pibroch Rudiments
+Q:1/4=78
+K:HP
+V:gstem=up stem=down
+M:9/4
+L:1/4
+R:March
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T: Throws
+|| {GdG}c !trill!c | {Gdc}d !trill!d  ||
+w: written abbrev | written abbrev ||
+W:
+T: Taorluath (Pibroch)
+L:1/16
+|| c4{GdGe}A "T"c4 | B4{GdGe}A | e4{GdGe}A | f4{GdGe}A ||
+w:                  |          |           |           
+w: o darid   abbrev | o darid    |  e darid   |  vi darid ||
+W: In pibroch, the taorluath always ends on A, and it is a shorter note (not theme note)
+W:
+T: Closed Taorluath
+||{G}B2 {GdGe}G ||
+W: The taorluath ends on a Low G instead of the A
+W:
+T: Taorluath a mach
+||{g}B{GdGe}B4 | {g}c{GdGe}c4 | {g}d{Gdc}d{e}d4 ||
+w: hio tro-eo | ho dro-eo   | hio tra ea ||
+W:
+L:1/16
+T: Crumluath (toarluath + F grace) (Pibroch)
+|| A3G{d}G{e}A{f}Ae1 A3{GdGeAfA}e1 "^C"A3| A3{GdGeAfA}e1 B3{GdGeAfA}e1 | c3{GdGeAfA}e1 d3{GBGeAfA}e1 ||
+w: played written abbrev | | ||
+W: Note the distinct movements in the grip: 1 - Close to Low G, 2 - D gracenote on Low G 3 - E gracenote to Low A 4 - F gracenote on Low A, Finish on E
+W: The crumluath always ends on E. The E is short like the ending A on the taorluath.
+W:
+W:
+T: Crunluath a mach (Pibroch)
+|| {g}B{GdG}B{eBfB}e2 | {g}c{GdG}c{ecfc}e2 | {g}B{Gdc}d{edfd}e2 ||
+w:  hio tro dre       |    ho dro dre      | hio tra dre ||
+W: The crunluath a mach is only played pon B,C and D.
+W: Even though written as 2 embellishments here, you don't pause between them.
+W: You play them as one larger smooth embellishment.  The final E is emphasized.
+W:
+T: Crunluath fosgailte (foss gailch)
+|| {g}A4{d}B{eAfA}e2 | {g}B4 {d}c{eAfA}e2 | {g}c4 d{eAfA}e4 ||
+w:    hin  to    dre |   hio   do     dre |    ho da    dre ||
+W: Note how the middle note changes with the melody note.
+W:
+T: Crunluath Breabach (bray bach)
+|| {g}A4{GdGeAfA}eA2e2 ||
+W:
+L:1/4
+T: Rodin (same as Grip from D)
+|| c {GBG}A2 | 
+W:
+L:1/16
+T: Cherede (Chirray-n-day)
+|| {geA}eAe8 | {g}e{A}e3Ae8 ||
+w: written | Played
+W:
+T: Herere - Double Echo (hayRay-ir-Ray)
+|| {gfe}f8 e f8 ||
+W: Similar to the Cherede
+W:
+T: Siubhal Variation (shoo-al)
+|: {g}A{d}c4 {g}A{d}B4 | {g}A E4 {g}A E4 | {g}A f4 {g}A{d}c4 | {g}A e4 {g}a e4 :|
+w: hin do hin to | hin e hin e | hin ve hin do | hin e hin e
+W: The Siubhal variation is playing "open" *doublings* on the theme notes in Pibroch
+W:
+T: Dithis Variation (gee-ish)
+||{g}A4{e}A {g}D4{e}A {g}C4{e}A {g}B4{e}A ||
+W: In this variation the Theme note gets a G gracenote, and it is ended by a Low A with an E gracenote.
+W: If the G and E gracenotes aren't possible, they are substituted (High A, G) or dropped.
+W:
+T: hinenen (hindanen) - Triplets (GDE)
+||{g}A{d}A{e}A {d}c4 |
+w: hin en en   do
+W:
+T: Throw on E - Dre
+|| {eAfA}e4 !uppermordent!e4|| A{eAfA}e4 B{eAfA}e4 c{eAfA}e4 d{eAfA}e4 ||
+w: dre abbrev    | en dre     o dre     o dre     a dre
+W:
+T: Throw on F - Dare
+|| {fege}f4 !uppermordent!f4 || A{fege}f4 B{fege}f4 c{fege}f4 d{fege}f4 ||
+w: dasre  abbrev      | en dare     o dare     o dare     a dare
+W:
+T: Throw on G - Dari
+||G {eGfG}g | {g}e{fegefe}g | {g}f {egefe}g  | {a}g {fegefe}g | a {fegefe}g ||
+w: em bari  | che dari      | ve dari        | hi dari        | I dari      ||
+W:
+T: Cadences (Hiodin Hiharin hiarara)
+L:1/8
+|| {g}e{d}B2{g}A3 || {g}e2d/2{AGAG}A3 {g}e2{dAGAG}A3| {g}e d/4 {G}d2{Gdc}d6 ||
+w: hi o din       | played hiharin  - written       |   hi a      ra     ra
+W:
+T: Darodo (Bubbly)
+||c2 {GdGcG}B2 !turn!B2 ||
+w: o darodo  abbrev
+W:
+T: Chelalho
+L:1/16
+|| {g}e3 fd{f}d c6 ||
+w:  che  la - - lo
+
+
+X: 1
+T: ABC2Midi signs
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+V:gstem=up stem=down
+M:9/4
+L:1/4
+R:March
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+||!trill!A         y y      ||
+w:!trill!
+w: "tr" (trill mark)
+||!trill(!A||
+w:!trill(!
+w:               start of an extended trill
+||!trill)!A               ||
+w:!trill)!
+w: end of an extended trill
+||!lowermordent!A         ||
+w:!lowermordent!
+w: short /|/|/ squiggle with a vertical line through it
+||!uppermordent!A         ||
+w:!uppermordent!
+w: short-/|/|/-squiggle
+|| !mordent!A              ||
+w:!mordent!
+w: !lowermordent!
+||!pralltriller!A         ||
+w:!pralltriller!
+w: !uppermordent!
+||!roll!A                 ||
+w:!roll!
+w: a roll mark (arc) as used in Irish music
+||!turn!A                 ||
+w:!turn!
+w: a turn mark (also known as gruppetto)
+||!turnx!A                ||
+w:!turnx!
+w: a turn mark with a line through it
+||!invertedturn!A         ||
+w:!invertedturn!
+w: an inverted turn mark
+||!invertedturnx!A        ||
+w:!invertedturnx!
+w: an inverted turn mark with a line through it
+||!arpeggio!A||             
+w:!arpeggio!
+w: vertical squiggle
+||!>!A                    ||
+w:!>!
+w: > mark
+||!accent!A               ||
+w:!accent!
+w: same as !>!
+||!emphasis!A             ||
+w:!emphasis!
+w: same as !>!
+||!fermata!A              ||
+w:!fermata!
+w: fermata or hold (arc above dot)
+||!invertedfermata!A      ||
+w:!invertedfermata!
+w: upside down fermata
+||!tenuto!A               ||
+w:!tenuto!
+w: horizontal line to indicate holding note for full duration
+||!0!!5!    A          ||
+w:!0!!5!
+w: fingerings
+||!+!A           aaaaaaa         ||
+w:!+!
+w: left-hand pizzicato, or rasp for French horns
+||!plus!A                 ||
+w:!plus!
+w: same as !+!
+||!snap!A aaaaaaa                 ||
+w:!snap!
+w: snap pizzicato mark, visually similar to !thumb!
+||!slide!A                ||
+w: slide up to a note, visually similar to a half slur
+||!wedge!A                ||
+w: small filled-in wedge mark
+||!upbow!A                ||
+w: V mark
+||!downbow!A              ||
+w: squared n mark
+||!open!A                 ||
+w: small circle above note indicating open string or harmonic
+||!thumb!A                ||
+w: cello thumb symbol
+||!breath!A               ||
+w: a breath mark (apostrophe-like) after note
+||!pppp!A !ppp!A !pp!A !p!A  ||
+w:!pppp! !ppp! !pp! !p!
+w: dynamics marks
+||!mp!A !mf!A !f!A !ff!A     ||
+w: more dynamics marks
+||!fff!A !ffff!A !sfz!A     ||
+w: more dynamics marks
+||!crescendo(!A           ||
+w:!crescendo(!
+w: start of a < crescendo mark
+||!<(!A                   ||
+w:!<(!
+w: same as !crescendo(!
+||!crescendo)!A           ||
+w:!crescendo)!
+w: end of a < crescendo mark, placed after the last note
+||!<)!A                   ||
+w:!<)!
+w: same as !crescendo)!
+||!diminuendo(!A          ||
+w:!diminuendo(!
+w: start of a > diminuendo mark
+||!>(!A                   ||
+w: same as !diminuendo(!
+||!diminuendo)!A          ||
+w: end of a > diminuendo mark, placed after the last note
+||!>)!A||
+w: same as !diminuendo)!
+||!segno! aaaaaa               ||
+w:!segno!
+w: 2 ornate s-like symbols separated by a diagonal line
+||!coda!        a         ||
+w:!coda!        
+w: a ring with a cross in it
+||!D.S.!        a         ||
+w: the letters D.S. (=Da Segno)
+||!D.C.!         a        ||
+w: the letters D.C. (=either Da Coda or Da Capo)
+||!dacoda!        a       ||
+w: the word "Da" followed by a Coda sign
+||!dacapo!         a      ||
+w: the words "Da Capo"
+||!fine!            a     ||
+w: the word "fine"
+||!shortphrase!      a    ||
+w: vertical line on the upper part of the staff
+||!mediumphrase!      a   ||
+w: same, but extending down to the centre line
+||!longphrase!   a

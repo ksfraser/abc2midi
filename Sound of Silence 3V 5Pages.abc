@@ -1,0 +1,270 @@
+X:944031
+T:The Sound of Silence 3Voice P1
+H: 
+B: https://musescore.com/georgewu/ptxsoundofsilence, https://musescore.com/abchords321/scores/5449091
+C:Simon and Garfunkel (Pentatonix / disturbed)
+O:Transcribed by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+%K:AMix
+K:A
+%K:AMix sound=A_b
+%K:{g}B{d}BMix score=_{g}B{e}A %concert Pitch
+M:2/4
+L:1/8
+U: R = ///
+U: r = //
+I:MIDI=program 110
+% I:linebreak $
+%%MIDI gracedivider 100
+V:M gstem=up stem=down name="Melody" sname=Melody transpose=1
+V:H gstem=up stem=down name="Chord" sname=Ch transpose=1
+V:C gstem=up stem=down name="Bass" sname=Bass transpose=1
+V:P3 gstem=up stem=down name="Piper 3" sname=P3 transpose=1
+V:P4 gstem=up stem=down name="Piper 4" sname=P4 transpose=1
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=0  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=0
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=0
+V:P gstem=up stem=down name="Piano" transpose=0 clef=treble
+V:Pb gstem=up stem=down name="Piano Bass" transpose=0 clef=bass
+% %landscape off
+%%landscape 
+%%score {M H C (( P Pb ) 1 2 3 15 16 )}
+% %barsperstaff 4
+[V:P]
+%%MIDI voice P instrument=1     %Piano
+%%MIDI program 1
+[V:P]    z =d- [=G2-d2] | [_e-=G] [e=c-] [=G=c] =d- | [d=G-]2 [G]2 | =G3 z | z d- [d2=G2-] |$ [_e-=G] [_e=c-] [=G=c] d- | [d=G-]2 G2- | =G3 z | z z z =F- | %9
+[V:P]=F z z =c- | =c2 z z |$ z z z z | z z z =G- | =G =c- [=G=c] z | =G4- | =G3 z |$ =c z3 | z3z | _E4-  | %19
+[V:P] _E3 z | [=c_a_e,2]2 [_B=g]2- |$ [_B=g_E,=G,_B,]2 z z | [_E=G_B] z z z | [_A=c-_e]c- c2- | =c2 z z | z z z z | z z z z | _B4 |$ z z z z | z z z z | z z z z | %31
+[V:P]z z z z | z z z z | z z z z | =c2 =f2- |$ =f4- |] =f4- | =f4 | z z[K: clef=bass] z =F,- | [=F,-=D]3 =F,- |$ %40
+[V:P][=F,_B,]2- [=F,-_B,=D-]2 | [=F,=D]4 | z z z =C- | =C =C- [=G,-=C] =G, |$ =C,4- | =C,4 | z z z z |] %47
+[V:Pb]
+%%MIDI voice P instrument=1     %Piano
+%%MIDI program 1
+[V:Pb][=C_E=G] z z z | =C,4 | =C,4 | =C,4 | [=C_E=G]4 |$ =C,4 | =C,4 | =C,4 | [_B,=D=F] z _B,2 | _B,4 | _B,4 |$ _B,4 | [=C_E=G]- [=C_E=G] _B,2 | %13
+[V:Pb]=C,4 | =C,4 | =C,4 |$=C, z z z | =C,4 | =C,4 | =C,3 z | =C,2 =C,2 |$ =C, z =C,2 | =C, z =C,2 | %23
+[V:Pb]=C, z =C,2 | =C,4 | =C,4 | =C,4 |[K: clef=bass] [_E=G_B] z _B,2 |$ _B,4 | [=C_E=G]2 =C,2 | =C,4 | =C,4 | [_B,=D=F]2 _B,2 | %33
+[V:Pb]_B,4 | [=C_E=Gc-] c [f-=C,]2 |$ [f-=C,-]4 |] [f=C,]4 | [f=C,]4 | [_B,=D=F-] F _B,2 | _B,4 |$ _B,4 | _B,4 | [=C_E=G]2 =C,2 | =C,4 |$ =C,4 | =C,4 | %46
+[V:Pb]=C,4 |] %47
+[V:M]
+%%MIDI program 110
+[V:H]
+%%MIDI program 110
+[V:C]
+%%MIDI program 110
+     [V:M]                         z4                              | z4                                         | z4                           | z4                          | z4                      | z4             | z z       {g}A{d}A |  {g}c{d}c {g}e{G}e | {gde}d4- | {gde}d4- | dG {g}G{d}G | {g}B{d}B {g}d{e}d | {gcd}c4- | {gcd}c4- | cA {g}A{d}A | {g}c{d}c {g}e{G}e | $
+     [V:H]                         z4                              | z4                                         | z4                           | z4                          | z4                      | z4             | z z       {g}A{d}A |  {g}c{d}c {g}e{G}e | {gde}d4- | {gde}d4- | dG {g}G{d}G | {g}B{d}B {g}d{e}d | {gcd}c4- | {gcd}c4- | cA {g}A{d}A | {g}c{d}c {g}e{G}e | $
+     [V:C]                         z4                              | z4                                         | z4                           | z4                          | z4                      | z4             | z z       {g}A{d}A |  {g}c{d}c {g}e{G}e | {gde}d4- | {gde}d4- | dG {g}G{d}G | {g}B{d}B {g}d{e}d | {gcd}c4- | {gcd}c4- | cA {g}A{d}A | {g}c{d}c {g}e{G}e | $
+w:  | | | | |       Hel-lo   dark-ness my old | friend   | -I've come to  talk with you  a  | gain      | - be cause a   vision softly | cre-ep-ing        |   -  left its seeds while I was |  sle-ep-ing |  $
+% %barsperstaff 5
+     [V:H]                         {g}d2{c}d{e}c-                  | c4-                                        | {g}c4                        | {g}c4                       | {g}d2{c}d{e}c-          | c4             | {AGAG}A2 {gef}e2  |
+     [V:M]                         {g}f2{A}f{g}e-                  | e4-                                        | e2                  {g}A{d}A | {g}c{d}c           {g}e{G}e | {g}f2{A}f{g}e-          | e4-            | e2       {g}A{d}A |
+     [V:C]                         {g}A4-                          | A4                                         | {g}A4-                       | A4                          | {g}A4-                  | A4             | {gcd}c4           |
+% %barsperstaff 5
+     [V:M]                         [M:4/4] {g}f{g}f- f2- | f2 {g} fg | {g}a{g}a-               a2 |{f}gf- f{gef}e- | e4-                 e2 fe-   | {gcd}c4- |c4-                    | cA      {g}A{d}A |  e4-| e2- eG | Af-      f2- | f4-      |]
+w:    |                                   - and the                    |        vision   - - -       that was                      | planted   in   my brain                         | - - still     re-                         | mains                                                | -     within the                    |        sound   of | silence     | $
+     [V:H]                         [M:4/4] {gde}d4 | {g}d2 G2        | {gAGAG}A4     | A4                            | {AGAG}A4            {gcd}c4  | {gef}e4        |    e2 f2-   |         f4       |  {g}c4 | c4  | Ac       GB |Ac Bd |]
+     [V:C]                         [M:4/4] {AGAG}A4- |A2 d2         | {gfg}f4-|                {gde}d4            | {gcd}c4             {AGAG}A4 | {AGAG}A4       |    G2 A2-   |         A4       |  {g}A4 | A4  | c2       B2 |c2 d2 |]
+W: Use Gracenotes or Strikes to separate repeated notes that don't have gracenote separators.
+
+
+X:944031
+T:The Sound of Silence 3Voice P2
+H: 
+B: https://musescore.com/georgewu/ptxsoundofsilence, https://musescore.com/abchords321/scores/5449091
+C:Simon and Garfunkel (Pentatonix / disturbed)
+O:Transcribed by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:AMix
+%K:AMix sound=A_b
+%K:{g}B{d}BMix score=_{g}B{e}A %concert Pitch
+M:4/4
+L:1/8
+U: R = ///
+U: r = //
+I:MIDI=program 110
+% I:linebreak $
+%%MIDI gracedivider 100
+V:M gstem=up stem=down name="Melody" sname=Melody
+V:1 gstem=up stem=down name="Chord" sname=Ch
+V:2 gstem=up stem=down name="Bass" sname=Bass 
+V:3 gstem=up stem=down name="Piper 3" sname=P3 
+V:4 gstem=up stem=down name="Piper 4" sname=P4 
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+% %landscape off
+%%landscape 
+%%score {M 1 2}
+% %barsperstaff 4
+[V:M]                [| A2                  {g}A{d}A {g}c{d}c {g}e{G}e | {gde}d8-                                                       | d2                   {g}G{d}G {g}B{d}B {g}d{e}d | {gcd}c8-                                  | cA                        {g}A{d}A {g}c{d}c {g}e{G}e | $ 
+[V:1]                [| f2                  {g}A{d}A {g}c{d}c {g}e{G}e | f8-                                                            | d2                   {g}G{d}G {g}B{d}B {g}d{e}d | {gef}e4                   {gcd}c4-        | {gef}e4                   {g}c{d}c {g}e{G}e          |$ 
+[V:2]                [| {gfg}f4             {AGAG}A4                   | {g}A4{g}B4                                                     | A8                                              | A4                        G4              | A4                        G2 {g}A2                   | $ 
+% %barsperstaff 4
+[V:M]                {g}f2{A}f{g}e-e4-                   | e2              {g}A{d}A {g}c{d}c {g}e{G}e |  {g}f2{A}f{g}e-e4-                           |  [M:2/4]e2           {g}A{d}A                   |[M:4/4]                           {g}f2 {g}ff- f2 {g}fg        | $
+[V:1]                d2{g}dc-           c4               | c2              e2 {g}c{d}c c2             |  d2                      {g}dc- c4           |  [M:2/4]ed           c2                         |[M:4/4]                           {AGAG}A4- d2{g}de            | $
+[V:2]                {g}A8                               | {g}A8                                      |  d2                      A6                  |  [M:2/4]{AGAG}A4                                |[M:4/4]                           {gde}d4- {AGAG}A4            | $
+% %barsperstaff 4
+[V:M]                 {ag}a{g}a-           a2 {f}gf- f{gef}e-         | e4-                       eA {g}fe        | {gcd}c8-                                             | [M:2/4]cA          {g}A{d}A         | [M:4/4]{gef}e6- eG                         |  {g}A                    f7                  |] $
+[V:1]                 f2{g}f{g}f           {g}e{g}d- d{gcd}c-         | c6-                       {g}c2           | {g}f3G{g}A2{g}f2                                     | [M:2/4]{AGAG}A4                     | [M:4/4]{g}c8                               |  {g}Ac                   {g}Bd {g}Ac {g}GB   |] $
+[V:2]                 {g}A8                                           | {g}A4                     {g}A4           | {g}A3B{g}A2{d}c2                                     | [M:2/4]{gef}e4                      | [M:4/4]{g}A8                               |  {g}c2                   {g}d2 {g}c2 {g}B2   |] $
+W: Use Gracenotes or Strikes to separate repeated notes that don't have gracenote separators.
+
+w:        In rest-less dreams I walked a-|lone     |     narrow streets of cobble  | stone   |  beneath the ha-lo    of a   |
+w:         street lamp     | I turned my collar to the     | cold and damp  |           When my  |$
+w:    |        eyes  were stabbed by the|flash of  a  ne-on  light   | that  split the | night          |       and touched the| sound of    | silence             |] $
+
+
+X:944033
+T:The Sound of Silence 3Voice P3
+H: 
+B: https://musescore.com/georgewu/ptxsoundofsilence, https://musescore.com/abchords321/scores/5449091
+C:Simon and Garfunkel (Pentatonix / disturbed)
+O:Transcribed by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:AMix
+%K:AMix sound=A_b
+%K:{g}B{d}BMix score=_{g}B{e}A %concert Pitch
+M:4/4
+L:1/8
+U: R = ///
+U: r = //
+I:MIDI=program 110
+% I:linebreak $
+%%MIDI gracedivider 100
+V:M gstem=up stem=down name="Melody" sname=Melody
+V:1 gstem=up stem=down name="Chord" sname=Ch
+V:2 gstem=up stem=down name="Bass" sname=Bass 
+V:3 gstem=up stem=down name="Piper 3" sname=P3 
+V:4 gstem=up stem=down name="Piper 4" sname=P4 
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+% %landscape off
+%%landscape 
+%%score {M 1 2}
+% %barsperstaff 4
+[V:M]                [| Af                  {g}f{g}f {g}A{d}A {g}B{e}A | {gBd}B8-                                                       | B{g}e                {A}e{G}e {g}G{d}G {g}B{d}B | {gAd}A8-                                  | A2                        {g}A{d}A {g}c{d}c {g}e{G}e | $ 
+[V:1]                [| Af                  {g}f{g}f {g}A{d}A {g}B{e}A | {g}a3/2{g}a3/2{f}g3/2{f}g3/2{f}g2                              | {g}e2{ag}a2{f}g2     e2                         | {ag}a3/2{f}g3/2f-fe       {g}f/g/a        | {g}a2{g}ce{gfg}f2{ag}a2                            | $
+[V:2]                [| Af                  {g}f{g}f {g}A{d}A {g}B{e}A | {g}e3/2{A}e3/2{g}e3/2{A}e3/2{g}e2                              | {g}G2{d}A2{g}B2{e}G2                            | {g}f3/2{g}e3/2{g}c-cB     {g}c/e/f        | {gfg}f2fG{g}A2{g}c2                                 | $
+% %barsperstaff 4
+[V:M]                 {g}f2{g}fe-e4-                      | e2              {g}A{d}A {g}c{d}c {g}e{G}e |  {g}f2{g}fe-e2           {g}A{d}A            |  [M:2/4]ce- ef   | [M:4/4]{gfg}f4-f2e2                            |$
+[V:1]                 {g}d2{c}d{gcd}c-c4                  | {g}AG           {g}fe {g}A2 {d}c2          |  {gdc}d2{g}dc-c2{g}A{d}A                     | [M:2/4]ce- ed-  | [M:4/4]d4-          d2 c2                      | $
+[V:2]                 {g}a2{g}A{d}A-A4                    | {ag}ag          {fg}fe {gfg}f2{ag}a2       |  {gBd}B2{g}B{e}A-        a2{g}A{d}A          | [M:2/4]{g}A4  | [M:4/4]A4-          a2 A2                      |$
+% %barsperstaff 4
+[V:M]  ff-                               f2 ed- dc-              | c4-                  cA fe-                     | ec-cB/A/-A4-                              | [M:2/4]{g}A{d}A           {g}A{d}A                   | [M:4/4]            {gef}e4 e2- eG   | Af-             f4- fc                     |  cA-                     A2 B2 c2            |] $
+[V:1] {g}d{e}d3                         {g}A{d}A- {g}A{d}A-     | {g}A8                                           | {gef}e4f2c2                               | [M:2/4]                   {gcd}c4                    | [M:4/4]            {gde}d4- {gef}e4 | Ac              Ac Ac Ac                   |  f6                      gc                  |] $
+[V:2]  {g}A{d}A3                         gf- fe-                 | e8                                              | A3B                       c2 e2-          | [M:2/4]                   {gef}e4                    | [M:4/4]            B4- B4-          | f2              B2 a2 g2                   |  fc                      Bc Bc e2            |] $
+
+W: Use Gracenotes or Strikes to separate repeated notes that don't have gracenote separators.
+
+w:      And in the   naked     light I | saw       | ten thousand    people    maybe | more     |     
+w:      people talking    without | speaking     | -  Peo-ple hear-ing with-out  | lis-ten-ing .    Peo-ple      | $
+
+
+
+X:944034
+T:The Sound of Silence 3Voice P4
+H: 
+B: https://musescore.com/georgewu/ptxsoundofsilence, https://musescore.com/abchords321/scores/5449091
+C:Simon and Garfunkel (Pentatonix / disturbed)
+O:Transcribed by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:AMix
+%K:AMix sound=A_b
+%K:{g}B{d}BMix score=_{g}B{e}A %concert Pitch
+M:4/4
+L:1/8
+U: R = ///
+U: r = //
+I:MIDI=program 110
+I:linebreak $
+%%MIDI gracedivider 100
+V:M gstem=up stem=down name="Melody" sname=Melody
+V:1 gstem=up stem=down name="Chord" sname=Ch
+V:2 gstem=up stem=down name="Bass" sname=Bass 
+V:3 gstem=up stem=down name="Piper 3" sname=P3 
+V:4 gstem=up stem=down name="Piper 4" sname=P4 
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+%%staff { M [ 1 2 ] }
+% Standard papaer is 8.5x11 which is 22cmx27.5
+% %landscape off
+%%landscape 
+I:linebreak $
+%%score {M 1 2}
+%%barsperstaff 5
+[V:1]                [| B8                                             | [K:d]{g}c3/2{g}c3/2{g}c3          {g}c{d}c                | c6                   B2                         | {g}f3/2{g}f3/2{g}f3-{g}fe                 | {g}f2{g}fd                {g}fA d2                   | $ 
+[V:1]                g2{a}gf3-fe/f/                      | g2              f2 d2 A2                   |  g2                      {g}gf- f4-          |  [M:2/4]             f2 {g}d{e}d                | [M:4/4]                           G7 f                    | $
+[V:1]                {g}G{d}G3            fe- ed-                                                                  | d3                        {g}A{d}A2-Af/e/| B3d                       {g}d{e}d- d{e}d/d/         | {g}c8                               | dB-             B6-                        |] $
+[V:2]                [| G8                                             | [K:d]{g}A3/2{g}A3/2{g}A3          Ae                      | {g}e3/2{g}e3/2{g}e3  {g}e{G}e                   | {g}d3/2{g}d3/2{g}d3       {g}dc | B4                        d2 f2                      | $
+[V:2]                G4                 {gde}d4          | d3A             d2 f2                      |  G4                      {gde}d4             | [M:2/4]             d2 {g}d{e}d-               | [M:4/4]{gde}d4                    G2 A2                   |  $
+[V:2]                {g}B{d}B3            AG ff-                    | f2-f/e/d                  c3 B/A/         | {gfg}f4                   {g}d{e}d- d{e}d/d/         | e8                                  | df              ef df Bf-                  |] $
+[V:M]                [| f2                  {g}B{d}B {g}d{e}d f/e/d    | [K:d]                             e8-                     | e2                   {g}A{d}A {g}c{d}c {g}e{G}e | d8-                                       | d2                        {g}d{e}d {g}f{e}f {g}A{d}A | $ 
+[V:M]                B2                 {g}B{e}A- A4-    | A2              dc {g}B{e}A ed             |  B2-                     B/{g}A/{g}A- A4-    | [M:2/4]             A2 {g}d{e}d                | [M:4/4]                           {gBd}B6 c2              |  $
+[V:M]                 | {g}d{e}d3            cB {g}A{d}A-               | A2                        A/G/f e3 d/c/   | B2-                       Bd dd- dd/d/               | A6-                Ac               | dB-             B6-                        |] $
+W: Use Gracenotes or Strikes to separate repeated notes that don't have gracenote separators.
+
+w:        Fools said I you do not |      know          | - Thou-sand Peo-ple May-be    |    more      |-   Hear my words that I might | teach you         | - take my arms that I might | reach you      | $
+w:   |        -    but my  |        words      like | si-lent rain drops fell              |                   |  e-choed            in the | wells    of | si-lence    |] $
+w:      -   and the  peo-ple bowed and| prayed | -  to the   ne-on    god | they made | -  and the sign flashed out its| war-ning   | - and the words that it was| for-ming  | and the sign said the |  $
+w:   |  -         words of the pro-phet are |          written on the   sub-way walls | and            tenement        |halls         | and whispered  in the       | sound   | of  si-lence     |] $
+
+
+X:944034
+T:The Sound of Silence 3Voice P5
+H: 
+B: https://musescore.com/georgewu/ptxsoundofsilence, https://musescore.com/abchords321/scores/5449091
+C:Simon and Garfunkel (Pentatonix / disturbed)
+O:Transcribed by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:AMix
+%K:AMix sound=A_b
+%K:{g}B{d}BMix score=_{g}B{e}A %concert Pitch
+M:4/4
+L:1/8
+U: R = ///
+U: r = //
+I:MIDI=program 110
+I:linebreak $
+%%MIDI gracedivider 100
+V:M gstem=up stem=down name="Melody" sname=Melody
+V:1 gstem=up stem=down name="Chord" sname=Ch
+V:2 gstem=up stem=down name="Bass" sname=Bass 
+V:3 gstem=up stem=down name="Piper 3" sname=P3 
+V:4 gstem=up stem=down name="Piper 4" sname=P4 
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+%%staff { M [ 1 2 ] }
+% Standard papaer is 8.5x11 which is 22cmx27.5
+% %landscape off
+%%landscape 
+I:linebreak $
+%%score {M 1 2}
+% %barsperstaff 5
+[V:1]                [| fe                  fA B2 d2-                  | A2                                c2 e2 c2-               | c2                   c2 e2 c2                   | {g}d4                     f2 d2-          | z2                        ff {g}A{d}A {g}d{e}d-| $ 
+[V:1]                B2                 {g}B{e}A- A4-    | A2              dc {g}B{e}A f/e/d          |  B2                      {g}BA- A2 {g}A/G/f- |  f2      {g}d{e}d f2 {g}A{d}A | B2                  {g}B{d}B {g}B{d}B c2       | $
+[V:1]                 {g}d/{g}d/{g}d-                   {g}d{e}d cB {g}A{d}A-   | A4-                  A{g}d {g}B/{g}B/A-         | Af-                       f6-             | f3d                       {g}d{e}d- {g}d{e}d/d/      | {g}A8-                              | Ac              dB- B4                     |] $
+[V:2]                [| dc                  {g}B{e}A fd Bf             | {g}A8-                                                    | {g}A8                                           | B8-                                       | {gBd}B2 {g}d{e}d {g}f{g}f                    {g}A{d}A                         |  $ 
+[V:2]                G4                 {gde}d4          | d6              d2                         |  {g}A4                   d2 d/B/A-             |  A2 {gde}d2 d2 d2                |  G2                  {g}G{d}G {g}G{d}G A2       | $ 
+[V:2]                {g}B/{g}B/{g}B-                   {g}B{d}B AG {g}f{g}f-   | f4-                  d{g}d {g}B/{g}B/A-         | B3c                       d2 c2           | B8                                                   | c8-                                 | ec              dB- B4                     |] $
+[V:M]                [| B2                  {g}B{d}B {g}d{e}d f/e/d    | e8-                                                       | e2                   {g}A{d}A {g}c{d}c e2       | {g}f{g}f7-                                | f2                        {g}B{d}B {g}d{e}d {g}f{g}f | $ 
+[V:M]                g2-gf-             f4-              | f2              dc {g}B{e}A f/e/d          |  g2                      gf- f2 f/e/d-       |  d2      {g}d{e}d f2 {g}A{d}A | d2                  {g}d{e}d {g}d{e}d f2       | $
+[V:M]                 | {a}g/{a}g/{a}g-                   {a}g{a}g fe d2-         | {gde}d4-             {g}d{e}d {g}e/{g}e/d-      | Af-                       f6-             | f3d                       {g}d{e}d- {g}d{e}d/d/      | e8-                                 | ec              dB- B4                     |] $
+W: Use Gracenotes or Strikes to separate repeated notes that don't have gracenote separators.
+
+w:        Fools said I you do not |      know          | - Thou-sand Peo-ple May-be    |    more      |-   Hear my words that I might | teach you         | - take my arms that I might | reach you      | $
+w:   |        -    but my  |        words      like | si-lent rain drops fell              |                   |  e-choed            in the | wells    of | si-lence    |] $
+w:      -   and the  peo-ple bowed and| prayed | -  to the   ne-on    god | they made | -  and the sign flashed out its| war-ning   | - and the words that it was| for-ming  | and the sign said the |  $
+w:   |  -         words of the pro-phet are |          written on the   sub-way walls | and            tenement        |halls         | and whispered  in the       | sound   | of  si-lence     |] $

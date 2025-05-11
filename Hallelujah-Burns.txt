@@ -1,0 +1,77 @@
+% %abc-include "../Ceol Mhor/Medleys/format.abh"
+% %abc-include "../Ceol Mhor/guitarchords.fmt"
+
+X:1
+T:Hallelujah
+%%scale 0.83
+%%pagewidth 21.00cm
+%%leftmargin 1.00cm
+%%rightmargin 1.00cm
+% %score 1 { ( 2 3 ) | ( 4 5 ) } ( 6 7 ) ( 8 9 ) 10 ( 11 12 )
+B:
+H:
+C:
+O:Transcribed by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=80
+K:G
+% K:Amix
+%K:AMix sound=A_b
+%K:{g}B{d}BMix score=_{g}B{e}A %concert Pitch
+M:9/8 | 
+L:1/8
+U: R = ///
+U: r = //
+I:MIDI=program 110
+I:linebreak $
+V:b bass nm="Piano" snm="Pno."
+V:t treble nm="Piano" snm="Pno."
+V:3 treble 
+V:4 bass 
+V:5 bass 
+V:6 treble-8 nm="Classical Guitar" snm="Guit."
+V:7 treble-8 
+V:8 treble-8 nm="Acoustic Guitar" snm="Guit."
+V:9 treble-8 
+V:10 bass-8 nm="Contrabass" snm="Cb."
+V:P treble transpose=-2 nm="Bagpipe" snm="Bagp."
+V:12 treble transpose=-2 
+%%MIDI gracedivider 100
+%%MIDI gchord
+%%MIDI beatstring
+% %MIDI program 109 #bagpipes
+%%MIDI vol 100
+% %MIDI droneon
+[V:P] [|Z                         | Z                                         |: z3 Ae{B}e                           | {g}e{B}ef/f/{g}f2{g} c | 
+       | e/e<ee/ eff              | {g}f3/4e3/4{A}.e3/4.f3/4{g} f3/2 f3/4f3/4 |{g} fe{A}e/d/{g} e3/4{A}e3/4{g} e3/2- | e3 z2 A | 
+       | {g}e{f}e{A}e{g} ef{A}f   | gea/{g}a/{g} a2 f                         | a3/4{g}a3/4 B3/2 AB/B/B-             | BBc c3/2 c3/4B3/4 | 
+       | B3/4A3/4 A3/2- A3        | cef- f f2-                                | f2 f e c2                            |{AeA} c3 z ce | 
+       |{g} f2 f- f3              | f .e2 z z/ .d/-.c                         | B3 A{ABA} A2-                        | A3 z3       :| 
+       | z3 Eee                   | eef/f/ f2 c                               | e/e<ee/ eff                          | f3/4e3/4.e3/4.f3/4 f3/2 f3/4f3/4 | 
+       | fee/d/ e3/4e3/4 e3/2-    | e3 z2 E                                   | eee eff                              | ^gea/a/ a2 f | 
+       | a3/4a3/4 b3/2 ab/b/b-    |  bbc' c'3/2 c'3/4b3/4                     | b3/4a3/4 a3/2- a3                    | cef- f f2-                           | 
+       | f2 f e c2                | c3 z ce z2                                | f2 f- f3                             |  f .e2 z z/ .d/-.c | 
+       | B3 A A2- | A3 z3 |]
+
+
+X:2
+T:Untitled 2
+C:Unknown composer
+M:4/4
+L:1/4
+Q:1/4=120
+%%MIDI drummap ^a 49
+%%MIDI drummap ^g 42
+%%MIDI drummap _g 46
+%%MIDI drummap c 38
+%%MIDI drummap F 35
+V:1
+V:2
+%%score ( 1 2 )
+K:C clef=perc
+V:1
+%%MIDI channel 10
+^a^g[c^g]^g | ^g^g[c^g]_g | ^g^g[c^g]^g | ^g/c/^g c/^a3/ ||
+V:2
+%%MIDI channel 10
+FF/F/ z3/{/F}F/ | zF/F/ z/F3/ | FF/F/ z3/F/ | z3/F/ z/F3/ ||

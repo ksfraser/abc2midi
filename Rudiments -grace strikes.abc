@@ -1,0 +1,74 @@
+
+X:1201
+T:G Gracenotes
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/2/
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+|| {g}G {g}A {g}B {g}c | {g}d {g}e {g}f {g}f| {g}e {g}d {g}c {g}B | {g}A {g}G ||
+w: G A B c | d e f f| e d c B | A G ||
+w: him  hin  ho   hio  |  ha  he   che   che | he  ha   hio   ho  | hin him ||
+T:D Gracenotes
+|| {d}G {d}A {d}B {d}c | {d}c {d}B {d}A {d}G||
+w: dam   dan do   dio   | dio   do   dan   dam||
+w:
+T:E Gracenotes
+|| {e}G {e}A {e}B {e}c | {e}d {e}d {e}c {e}B | {e}A {e}G ||
+w:  em   en   eo   eio  |  ea   ea   eio   eo  |  en    em ||
+w: em en ayo ayio | ayah ayah ayio ayoh | en em ||
+W:
+T:High A (thumb) Gracenote
+|| e | {a}G {a}A {a}B {a}c | {a}d {a}e {a}f {a}g| {a}g {a}f {a}e {a}d | {a}c {a}B {a}A {a}G ||
+w: e | him   hin  ho  hio   | ha   he    che chi | chi  che  he   ha   |  hio  ho  hin  him ||
+W: Note the canntaireachd re-uses the aspirant 'h' from the G gracenote.  This gracenote would typically 
+W: be played ONLY (Piobroch) from high G.  Therefore there would be no confusion as to which gracenote since 
+W: the G gracenote couldn't be played from High G.
+L:1/8
+|| e | g{a}G  g{a}A  g{a}B g{a}c | g{a}d g{a}e g{a}f  g{a}g| 
+w:  * | di him di hin di ho di hio| di ha di he di che di chi | 
+       g{a}g  g{a}f  g{a}e g{a}d | g{a}c  g{a}B g{a}A  g{a}G ||
+w:     di chi di che di he di ha | di hio di ho di hin di him ||
+T: Strikes
+||{G}A | {c}d | {A}e | {e}f | {f}g | {g}a ||
+w: den | dio | ende | | | li ||
+W: Notice that a strike is a "striking" (close-down) movement where the grace is lower than the melody note it is written on.
+W:
+X:1201
+T: Birl (Echo Beat)
+O:Kevin Fraser
+Z:Kevin Fraser
+B: http://svenax.net/site/canntaireachd/2/
+Q:1/4=120
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+T: Birl Played
+| A {G}A{G}A | 
+w: 2 G Strikes
+w: ha ra rin
+T: Birl Written
+| A {GAG}A | 
+w: Birl written
+w: en hararin
+| c {AGAG}A | c A{G}A{G}A
+w: Birl written | Played
+w: o hararin | o ha ra rin
+||A {GAG}A | c {AGAG}A | e {gAGAG}A ||
+w: Birl written
+w: on A | other note | G gracenote
+w: en hararin | io hararin | e hihararin
+W: Notice that a birl is 2 low G strikes on A. A variation includes a leading G gracenote to the first A.
+W:

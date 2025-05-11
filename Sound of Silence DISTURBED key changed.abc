@@ -1,0 +1,944 @@
+X:1
+T:Title
+%%scale 0.83
+%%pagewidth 21.00cm
+%%leftmargin 1.00cm
+%%rightmargin 1.00cm
+%%score { ( 1 2 ) | ( 3 4 ) } ( 5 6 ) ( 7 8 ) 9 ( 10 11 ) ( 12 13 ) 14 ( 15 16 )
+L:1/4
+Q:1/4=200
+M:4/4
+I:linebreak $
+K:Cmaj
+V:1 clef=treble nm="Piano, untitled" snm="Pno." 
+V:2 clef=treble
+V:3 clef=bass
+V:4 clef=bass
+V:5 clef=treble-8 nm="Electric Guitar" snm="El. Guit." 
+V:6 clef=treble-8
+V:7 clef=treble transpose=-9 nm="Alto Saxophone" snm="A. Sax." 
+V:8 clef=treble transpose=-9
+V:9 clef=treble nm="Violins" snm="Vlns." 
+V:10 clef=treble-8 nm="Acoustic Guitar" snm="Guit." 
+L:1/8
+V:11 clef=treble-8
+V:12 clef=bass nm="Effect Synthesizer" snm="Synth." 
+V:13 clef=bass
+V:14 clef=bass-8 nm="Contrabasses" snm="Cbs." 
+V:15 clef=bass nm="Piano" snm="Pno." 
+V:16 clef=bass
+V:1
+z =B3 | c2 z =B- | B2 z2 | z4 | z =B3 |$ c2 z =B- | B2 z2 | z4 |
+z2 =A z | =B- [GB] D z | D4- |$ %11
+D3 z | z2 =B2 | c2 z =B- | B2 z2 | z4 |$ [=Af]2 .f =e- | e3[K: clef=bass] .C, | z2 G2 | z4 | %20
+[K: clef=treble] z z/2 z/4 [Af]/4- [Af] z |$ z4 | z2 [=Ec]2 | f4- | f3 z | [c=a]4- | [ca]2 f2 | =e4- |$ %28
+e z f .=e | [=Ac]4- | [Ac]4 | z4 | [=Bg]4- | [Bg]4 | z =e z e |$ c z z2 | =A4- | A4 | %38
+z2[K: clef=bass] =A,2- | A,2 =A,2- |$ A,3 z | z4 | z2 =B,2 | C3 z |$ z =E,- [E,=A,]2- | [E,-A,] E,2 z | %46
+z4 |] %47
+V:2
+z2 =E2- | E =A- [=EA] z | =E4- | E3 z | z2 =E2- |$ E =A- [=EA] z | =E4- | E3 z | z2 z D- | %9
+D z z =A- | A2 z2 |$ x4 | z2 z =E- | E =A- [=EA] z | =E4- | E3 z |$ x4 | x3[K: clef=bass] x | C,4- | %19
+C,3 z |[K: clef=treble] [=Af]2 [G=e]2- |$ [Ge]2 z2 | x4 | =A4- | A2 z2 | x4 | x4 | G4 |$ x4 | x4 | x4 | %31
+x4 | x4 | x4 | =A2 d2- |$ d4- | d4- | d4 | z2[K: clef=bass] z D,- | [D,-=B,]3 D,- |$ %40
+[D,G,]2- [D,-G,=B,-]2 | [D,B,]4 | z2 z =A,- | A, =A,- [=E,-A,] E, |$ =A,,4- | A,,4 | x4 |] %47
+V:3
+z =E2 z | z4 | z2 c2- | c3 z | z =E2 z |$ z4 | z2 c2- | c3 z | z D z2 | z4 | z2 =B2- |$ B4 | %12
+z =E z2 | z4 | z2 c2- | c3 z |$ z2[K: clef=treble] .=A [CG]- | [CG]3 z | z2 z =e- | e2 z2[K: clef=bass] | %20
+F,2 z C- |$ C2 z .C, | z2 C2 | F,3 .F, | z2[K: clef=treble] .=A z |[K: clef=bass] F,2 z .F, | F,2 =A2 | %27
+z2 z .C |$ C2- [C-d] [Cc] | =A,3 =B, | C3 .C, | C,4 | G,4- | G,3 G, |[K: clef=treble] z2 =B z |$ %35
+=A =e =B2- | [=A,B]4- | [A,B]4 |[K: clef=bass] z G,3- | G, z z2 |$ z2 z =A,- | %41
+A, G,- [G,=A,]- [G,,G,A,] | z =E,3- | E,2 z2 |$ z2 z C- | C3 z | z4 |] %47
+V:4
+A,4- | A,4 | =A,4- X| A,3 z | =A,4- |$ A,4 | =A,4- | A,3 z | G,4- | G,4 | G,4- |$ G,3 z | =A,4- | %13
+A,4 | z =A,3- | A,3 z |$ F,3[K: clef=treble] z | x4 | x4 | C- [CG]- [CG=e][K: clef=bass] C | z2 F,2 |$ %21
+x4 | C,4 | x4 | F,3[K: clef=treble] z |[K: clef=bass] x4 | x4 | C,4- |$ C,3 z | x4 | x4 | x4 | x4 | x4 | %34
+[K: clef=treble] =A,4- |$ A,3 e- | e4- | e4 |[K: clef=bass] G,,4- | G,,4- |$ G,,2 G,,2- | G,,3 z | =A,,4- | %43
+A,,3 =B,- |$ B,4- | B, z z2 | x4 |] %47
+V:5
+X | X | X | X | X |$ X | X | X | X | X | X |$ X | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | %19
+w: |||||||||||||||||||
+z4 | z4 |$ z4 | z4 | z4 | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | z4 | z4 | z4 | z4 |$ z4 | z4 | %37
+w: ||||||||||||||||||
+z2 z g- | g4- | g4 |$ z4 | z4 | z4 | z4 |$ z4 | z4 | z4 |] %47
+w:a|lone~|||||||||
+V:6
+x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | %19
+x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | %37
+z2 z z/2 d/4-[Gcd]/4- | [DGAcd]- [G,DGAcd]3- | [G,-D-G-Acd]4 |$ [G,DG] z z2 | x4 | x4 | x4 |$ %44
+x4 | x4 | x4 |] %47
+V:7
+X | X | X | X | X |$ z4 | z2 .^F, .F, | .A, A, .^C C | B,4- | B,2 z2 | %10
+z .E, ^G,/2 z/4 G,/4 G,- |$ G, ^G, B, B,- | B, z A,2- | A,2 z2 | z A, .A, A, | .^C C .E E |$ %16
+z ^F2 z | z4 | z4 | ^C .C .E E | ^F2 F E- |$ E4 | z2 .A, A, | ^F F3- | F z ^F ^G | A A3 | %26
+^G z E2- | E4 |$ z2 ^F2- | F E ^C2- | C z z2 | z .A, .A, A, | E4- | E z z ^G, | A, ^F,3- |$ %35
+F,3 z | z .^F, .F, F, | .A, A, ^C A, | B,4- | B,3 z |$ z E, ^G, .G, | ^G, G, B, z | A,4- | %43
+A,2 z2 |$ z2 A, A, | .^C z z2 | z4 |] %47
+V:8
+x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 |$ ^F z E2- | %17
+E4- | E z .A, A, | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | z ^F2 z | x4 |$ x4 | x4 | x4 | x4 | x4 | %33
+x4 | x4 |$ x4 | x4 | x4 | x4 | x4 |$ x4 | z2 z ^G,- | G, z z2 | x4 |$ x4 | x4 | x4 |] %47
+V:9
+X | X | X | X | X |$ X | X | X | X | X | X |$ z4 | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | %19
+z4 | z4 |$ z4 | z4 | z4 | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | %38
+[G,,,G,,]4- | [G,,,G,,]4- |$ [G,,,G,,]4- | [G,,,G,,]2 z2 | [A,,,A,,]4- | [A,,,A,,]4- |$ %44
+[A,,,A,,]4- | [A,,,A,,]4 | z4 |] %47
+V:10
+X | X | X | X | X |$ X | X | X | X | X | X |$ X | X | X | X | X |$ X | X | X | %19
+X | X |$ X | X | X | X | X | X | X |$ X | X | X | X | X | X | X |$ X | X | X | %38
+X | X |$ X z2 d2- | d4 g2- [dg]2 | z8 | z2 GA BcB (3z/8 A/8G/2-G/2 |$ A4 X | G8 | z8 |] %47
+V:11
+x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | %19
+x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | %38
+x4 | x4 |$ G4- | G3 z | x4 | x4 |$ z2 A,2- | A,4 | x4 |] %47
+V:12
+X | X | X | X | X |$ X | X | X | X | X | X |$ X | X | X | X | X |$ z4 | z4 | z4 | %19
+z4 | z4 |$ z4 | z4 | z4 | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | %38
+z4 | z4 |$ z4 | z4 | [A,,E,A,]4- | [A,,E,A,]4- |$ [A,,E,A,]4- | [A,,E,A,]4- | [A,,E,A,] z z2 |] %47
+V:13
+x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | %19
+x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | %38
+[G,,D,G,]4- | [G,,D,G,]4- |$ [G,,D,G,]4- | [G,,D,G,]4- | [G,,D,G,] z z2 | x4 |$ x4 | x4 | %46
+x4 |] %47
+V:14
+X | X | X | X | X |$ X | X | X | X | X | X |$ X | X | X | X | X |$ z4 | z4 | z4 | %19
+z4 | z4 |$ z4 | z4 | z4 | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | %38
+[G,,G,]4- | [G,,G,]4- |$ [G,,G,]4- | [G,,G,]2 z2 | [A,,A,]4- | [A,,A,]4- |$ [A,,A,]4- | [A,,A,]4 | %46
+z4 |] %47
+V:15
+[A,CE] z z2 | z4 | z4 | z4 | z4 |$ z4 | z4 | z4 | [G,B,D] z z2 | z4 | z4 |$ z4 | [A,CE] z z2 | %13
+z4 | z4 | z4 |$[K: clef=treble] A z z2 | z4 | z4 | z4 | c2 z2 |$ [CEG] z z2 | [CEG] z z2 | %23
+[FAc] z z2 | z4 | z4 | z4 |[K: clef=bass] [CEG] z z2 |$ z4 | [A,CE]2 z2 | z4 | z4 | [G,B,D]2 z2 | %33
+z4 | [A,CE] z z2 |$ z4 | z4 | z4 | [G,B,D] z z2 | z4 |$ z4 | z4 | [A,CE]2 z2 | z4 |$ z4 | z4 | %46
+z4 |] %47
+V:16
+x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 |$ %16
+[K: clef=treble] [Fc]2 z [CEG]- | [CEG] z z2 | x4 | x4 | [FA] z z2 |$ x4 | x4 | x4 | x4 | x4 | x4 | %27
+[K: clef=bass] x4 |$ x4 | x4 | x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 | x4 |$ x4 | x4 | x4 | x4 |$ %44
+x4 | x4 | x4 |] %47
+
+X:1
+T:from C:\Users\bagpi\OneDrive\Documents\PipingLessons\SoundOfSilence.mid
+M:4/4
+L:1/8
+Q:1/4=200
+K:Cmaj% 5 sharps
+V:1
+%%clef treble
+%note track
+z2 
+%%MIDI program 0
+%%scale 0.83
+%%pagewidth 21.00cm
+%%leftmargin 1.00cm
+%%rightmargin 1.00cm
+%%score { ( 1 2 3 4 ) } ( 5 6 ) ( 7 8 ) 9 ( 10 11 ) ( 12 13 ) 14 ( 15 16 )
+%%MIDI program 0
+B6| \
+c4 z2 B2-| \
+B4 z4| \
+z8|
+z2 B6| \
+c4 z2 B2-| \
+B4 z4| \
+z8|
+z4 A2 z2| \
+B2- [BG]2 D2 z2| \
+%11
+D8-| \
+D6 z2|
+z4 B4| \
+c4 z2 B2-| \
+B4 z4| \
+z8|
+[fA]4 fz e2-| \
+e6 C,z| \
+z4 G4| \
+z8|
+z3z/2
+%20
+[f-A-]2[fA]/2 z2| \
+z8| \
+z4 [cE]4| \
+f8-|
+f6 z2| \
+[a-c-]8| \
+[ac]4 f4| \
+%28
+e8-|
+e2 z2 f2 ez| \
+[c-A-]8| \
+[cA]8| \
+z8|
+[g-B-]8| \
+[gB]8| \
+z2 e2 z2 e2| \
+c2 z6|
+A8-| \
+A8| \
+z4 
+%38
+A,4-| \
+A,4 A,4-|
+A,6 z2| \
+z8| \
+z4 B,4| \
+C6 z2|
+z2 E,2- [A,-E,-]4|[A,E,-]2 
+%46
+%47
+V:2
+%%clef bass
+%note track
+z4 
+%%MIDI program 0
+E4-| \
+E2 A2- [AE]2 z2| \
+E8-| \
+E6 z2|
+z4 E4-| \
+E2 A2- [AE]2 z2| \
+E8-| \
+E6 z2|
+z6 
+%9
+D2-| \
+D2 z4 A2-| \
+A4 z4| \
+z8|
+z6 E2-| \
+E2 A2- [AE]2 z2| \
+E8-| \
+E6 z2|
+z8| \
+z8| \
+%19
+C,8-| \
+C,6 z2|
+[fA]4 [e-G-]4| \
+[eG]4 z4| \
+z8| \
+A8-|
+A4 z4| \
+z8| \
+z8| \
+G8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+%31
+A4 d4-| \
+d8-|
+d8-| \
+d8| \
+z6 D,2-| \
+[B,D,-]6 D,2-|
+%40
+[G,-D,-]4 [B,-G,D,-]4| \
+[B,D,]8| \
+z6 A,2-| \
+A,2 A,2- [A,E,-]2 E,2|
+A,,8-|A,,8|
+%47
+V:3
+%%clef treble
+%note track
+z2 
+%%MIDI program 0
+E4 z2| \
+z8| \
+z4 c4-| \
+c6 z2|
+z2 E4 z2| \
+z8| \
+z4 c4-| \
+c6 z2|
+z2 D2 z4| \
+z8| \
+z4 B4-| \
+B8|
+z2 
+%12
+E2 z4| \
+z8| \
+z4 c4-| \
+c6 z2|
+z4 Az [G-C-]2| \
+[GC]6 z2| \
+z6 e2-| \
+e4 z4|
+%20
+F,4 z2 C2-| \
+C4 z2 C,z| \
+z4 C4| \
+F,6 F,z|
+z4 Az3| \
+F,4 z2 F,z| \
+F,4 A4| \
+z6 
+%27
+Cz|
+C4- [dC-]2 [cC]2| \
+A,6 B,2| \
+C6 C,z| \
+C,8|
+G,8-| \
+G,6 G,2| \
+z4 B2 z2| \
+%35
+A2 e2 B4-|
+[B-A,-]8| \
+[BA,]8| \
+z2 G,6-| \
+G,2 z6|
+z6 
+%41
+A,2-| \
+A,2 G,2- [A,-G,-]2 [A,G,G,,]2| \
+z2 E,6-| \
+E,4 z4|
+z6 C2-|C6 
+%47
+V:4
+%%clef bass
+%note track
+%%MIDI program 0
+A,8-| \
+A,8| \
+A,8| \
+z8|
+A,6 z2| \
+A,8-| \
+A,8| \
+A,8-|
+A,6 z2| \
+G,8-| \
+G,8| \
+G,8-|
+G,6 z2| \
+%13
+A,8-| \
+A,8| \
+z2 A,6-|
+A,6 z2| \
+F,6 z2| \
+z8| \
+z8|
+C2- [G-C-]2 [eGC]2 C2| \
+z4 F,4| \
+z8| \
+%21
+C,8|
+z8| \
+F,6 z2| \
+z8| \
+z8|
+C,8-| \
+C,6 z2| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+%34
+A,8-|
+A,6 e2-| \
+e8-| \
+e8| \
+G,,8-|
+G,,8-| \
+G,,4 G,,4-| \
+G,,6 z2| \
+%43
+A,,8-|
+A,,6 B,2-|B,8-|B,2 
+%47
+V:5
+%notes/lyric track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z6 
+%%MIDI program 0
+%19
+%37
+w:af2-|f8-|f8|
+lonf -
+V:6
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z6 z
+%%MIDI program 0
+%19
+%37
+D/2-[D-C-G,-]/2| \
+[D-C-A,-G,-D,-]2 [D-C-A,-G,-D,-G,,-]6|[DCA,G,-D,-G,,-]8|
+[G,D,G,,]2 
+%44
+%47
+V:7
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z4 
+%%MIDI program 0
+A,,z A,,z| \
+C,z C,2 E,z E,2|
+D,8-| \
+D,4 z4| \
+z2 
+%10
+G,,z B,,z/2B,,/2 B,,2-| \
+B,,2 B,,2 D,2 D,2-|
+D,2 z2 C,4-| \
+C,4 z4| \
+z2 C,2 C,z C,2| \
+E,z E,2 G,z G,2|
+z2 
+%16
+A,4 z2| \
+z8| \
+z8| \
+E,2 E,z G,z G,2|
+A,4 A,2 G,2-| \
+G,8| \
+z4 C,z C,2| \
+A,2 A,6-|
+A,2 z2 A,2 B,2| \
+C4<C4| \
+%26
+B,2 z2 G,4-| \
+G,8|
+z4 A,4-| \
+A,2 G,2 E,4-| \
+E,2 z6| \
+z2 C,z C,z C,2|
+G,8-| \
+G,2 z4 B,,2| \
+C,2 
+%35
+A,,6-| \
+A,,6 z2|
+z2 A,,z A,,z A,,2| \
+C,z C,2 E,2 C,2| \
+D,8-| \
+D,6 z2|
+z2 G,,2 B,,2 B,,z| \
+B,,2 B,,2 D,2 z2| \
+%43
+C,8-| \
+C,4 z4|
+z4 C,2 C,2| \
+E,
+%47
+V:8
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+%%MIDI program 0
+A,2 z2 
+%17
+G,4-| \
+G,8-| \
+G,2 z2 C,z C,2| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z2 A,4 z2| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z6 
+%33
+B,,2-|B,,2 
+%47
+V:9
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+%%MIDI program 0
+%19
+%38
+[G,,-G,,,-]8| \
+[G,,-G,,,-]8|
+[G,,-G,,,-]8| \
+[G,,G,,,]4 z4| \
+%44
+[A,,-A,,,-]8|[A,,-A,,,-]8|
+[A,,-A,,,-]8|[A,,A,,,]8|
+%47
+V:10
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z2 
+%%MIDI program 0
+%19
+%38
+d6| \
+g2- [gd]2 z4| \
+z6 GA|
+Bc BG A4| \
+z8| \
+G8|
+%47
+V:11
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+%%MIDI program 0
+%19
+%38
+G,8-| \
+G,6 z2| \
+z8| \
+z8|
+z4 A,,4-|A,,8|
+%47
+V:12
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+%%MIDI program 0
+%19
+%38
+[A,-E,-A,,-]8|[A,-E,-A,,-]8|
+[A,-E,-A,,-]8|[A,-E,-A,,-]8|[A,E,A,,]2 
+%47
+V:13
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+%%MIDI program 0
+%19
+%38
+[G,-D,-G,,-]8|[G,-D,-G,,-]8|
+[G,-D,-G,,-]8|[G,-D,-G,,-]8|[G,D,G,,]2 
+%46
+%47
+V:14
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+%%MIDI program 0
+%19
+%38
+[G,-G,,-]8| \
+[G,-G,,-]8|
+[G,-G,,-]8| \
+[G,G,,]4 z4| \
+[A,-A,,-]8|[A,-A,,-]8|
+[A,-A,,-]8|[A,A,,]8|
+%46
+%47
+V:15
+%%clef bass
+%note track
+%%MIDI program 0
+[ECA,]2 z6| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+[DB,G,]2 z6| \
+z8| \
+z8| \
+z8|
+[ECA,]2 z6| \
+z8| \
+z8| \
+z8|
+%13
+A2 z6| \
+z8| \
+z8| \
+z8|
+c4 z4| \
+[GEC]2 z6| \
+[GEC]2 z6| \
+%23
+[cAF]2 z6|
+z8| \
+z8| \
+z8| \
+[GEC]2 z6|
+z8| \
+[ECA,]4 z4| \
+z8| \
+z8|
+[DB,G,]4 z4| \
+z8| \
+%33
+[ECA,]2 z6| \
+z8|
+z8| \
+z8| \
+[DB,G,]2 z6| \
+z8|
+z8| \
+z8| \
+[ECA,]4 
+%46
+%47
+V:16
+%note track
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+%%MIDI program 0
+%16
+[cF]4 z2 [G-E-C-]2| \
+[GEC]2 z6| \
+z8| \
+z8|
+[AF]2 
+%27
+%44
+%47
+

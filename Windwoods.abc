@@ -1,0 +1,374 @@
+%%abc-include "../Ceol Mhor/format.abh"
+%%beginsvg
+%%endsvg
+%%chordprog 1
+%%bassprog 1
+%%chordvol 50
+%%bassvol 50
+%%MIDI gracedivider 40
+
+X:3
+T:Top Gun
+M:4/4
+L:1/8
+Q:1/4=120
+K:Abmaj
+% %score {3}
+V:M name="Melody" sname="Melody" " " gstem=up stem=down transpose=2
+V:H name="Harmony" sname="Harmony" " " gstem=up stem=down transpose=2
+V:C name="Bass" sname="Bass" " " gstem=up stem=down transpose=2
+V:S clef=perc name="Snare" sname="Snare" middle=G " " gstem=up stem=down dyn=up stafflines=1 transpose=2
+V:B clef=none name="Bass" sname="Bass" " " gstem=up stem=down dyn=up transpose=2
+V:T clef=none name="Tenor" sname="Tenor" " " gstem=up stem=down dyn=up transpose=2
+V:BB clef=bass octave=-1 transpose=-1 name="Brass Bass" sname="ABCD-C" " " gstem=up stem=down transpose=2
+V:BC transpose=-1 name="Brass Chord" sname="ABCD-D" " " gstem=up stem=down transpose=2
+V:BD transpose=-1 name="Brass Chord 2" sname="ABCD-B" " " gstem=up stem=down transpose=2
+V:P octave=-1 name="Piano" " gstem=up stem=down transpose=2
+V:Organ name="Organ" sname="Organ" " " transpose=2
+V:BassG clef=bass octave=-2 name="Bass Guitar" sname="Bass Guitar" " " transpose=2
+V:Guitar name="Guitar" sname="Guitar" " " transpose=2
+V:Drums name="drums" sname="drums" " " 
+%%MIDI channel 10
+%%MIDI program 0
+%%MIDI drummap F 36 %bass drum 1
+%%MIDI drummap c 38 %acoustic snare
+%%MIDI drummap ^D 44 %pedal hi-hat
+%%MIDI drummap ^f 51 %ride cymbal 1
+%%MIDI drummap ^g 42 %closed hi hat
+%%MIDI drummap ^a 49 %crash cymbal 1
+%%MIDI drummap ^b 52 %chinese cymbal
+%%MIDI drummap e 50 %high tom
+%%MIDI drummap d 48 %hi mid tom
+%%MIDI drummap B 45 %low tom
+%%MIDI drummap A 41 %low floor tom
+%%MIDI Channel 10
+%%MIDI gracedivider 40
+%%MIDI beatstring 
+%%MIDI vol 100
+V:Organ
+%%MIDI channel 1
+%%MIDI program 19
+%%MIDI vol 100
+%%MIDI nobeataccents
+% %score { Organ BassG }
+[V:Organ] | X | X | X | X | $
+[V:Organ][K:Amaj][EAc]8 | [FAd]8 | [EAc]4 [FAd]2 [EAc]2 | [EAc]2 [EGB]6 | 
+[EAc]8 | [FAd]8 | [EAc]4 [FBd]2 [EAc]2 | [E=G=c]8 |]
+[V:Organ][K:Amaj][EAc]8 | [FAd]8 | [EAc]4 [FAd]2 [EAc]2 | [EAc]2 [EGB]6 | 
+[EAc]8 | [FAd]8 | [EAc]4 [FBd]2 [EAc]2 | [E=G=c]8 |]
+[V:Organ] [K:Dmaj][Adf]8 | [Bdg]8 | [Adf]4 [Bdg]2 [Adf]2 | [Adf]2 [Ace]6 | 
+[Adf]8 | [Beg]8 | [Adf]4 [Beg]2 [Adf]2 | [EAc]8 |
+[V:Organ][K:Amaj][EAc]8 | [FAd]8 | [EAc]4 [FAd]2 [EAc]2 | [EAc]2 [EGB]6 | 
+[EAc]8 | [FAd]8 | [EAc]4 [FBd]2 [EAc]2 | [EAc]8 |]
+V:BassG
+%%MIDI channel 15
+%%MIDI program 20
+[V:BassG] | X | X | X | X | $
+[V:BassG] [K:Amaj][A]8 | [D]8 | [A]4 [D]2 [A]2 | [A]2 [E]6 | [A]8 | [D]8 | [A]4 [B]2 [A]2 | [=C]8 |]
+[V:BassG] [K:Amaj][A]8 | [D]8 | [A]4 [D]2 [A]2 | [A]2 [E]6 | [A]8 | [D]8 | [A]4 [B]2 [A]2 | [=C]8 |]
+[V:BassG] [K:Dmaj][D]8 | [D]8 | [A]4 [D]2 [A]2 | [D]2 [A]6 | [D]8 | [E]8 | [D]4 [E]2 [D]2 | [A]8 |
+[V:BassG] [K:Amaj][A]8 | [D]8 | [A]4 [D]2 [A]2 | [A]2 [E]6 | [A]8 | [D]8 | [A]4 [B]2 [A]2 | [A]8 |]
+V:Bell transpose=-12 name="Bass Bell" sname="Bass Bell" " " 
+%%MIDI program 15
+%%MIDI vol 100
+%%MIDI nobeataccents
+[V:Bell][K:Amaj] | A,,8- | A,,8 | A,,8- | A,,8 | $
+[V:Bell][K:Amaj] [| A,,8- | A,,8 | A,,8- | A,,8 | A,,8- | A,,8 | A,,8- | Z |]
+[V:Bell] X | X | X | X | X | X | X | X |]
+[V:Bell] [K:Gmaj]"D,,8"X | X | X | X | X | X | X | X |
+[V:Bell] [K:Abmaj]X | X | X | X | X | X | X | X |]
+V:Guitar
+%%MIDI program 30
+%%MIDI vol 100
+| Z | Z | Z | Z | $
+[| Z | Z | Z | Z | Z | Z | Z | Z |]
+[K:Amaj]A2 e2 e2 dc | dc B2 B2 AB | c2 Bc d2 cA | c2 B2 B2 z2 | A2 e2 e2 dc | dc B2 B2 AB | c2 Bc d2 cB | e4 z4 |]
+[K:Dmaj]d2 a2 a2 gf | g f e2 e2 de | f2 e f g2 f d | f2 e6 | d2 a2 a2 gf | g f e2 e2 de | f2 e f g2 f d | d8 |
+[K:Amaj]A2 e2 e2 dc | dc B2 B2 AB | c2 Bc d2 cA | c2 B2 B2 z2 | A2 e2 e2 dc | dc B2 B2 AB | c2 Bc d2 cB | A4 z4 |]
+V:M
+%%MIDI program 110
+%%MIDI vol 70
+| Z | Z | Z | Z | $
+[| Z | Z | Z | Z | Z | Z | Z | Z |]
+[K:Amaj]A2 e2 e2 dc | dc B2 B2 AB | c2 Bc d2 cA | c2 B2 B2 z2 | A2 e2 e2 dc | dc B2 B2 AB | c2 Bc d2 cB | e8 |]
+[K:Dmaj]d2 a2 a2 gf | g f e2 e2 de | f2 e f g2 f d | f2 e6 | d2 a2 a2 gf | g f e2 e2 de | f2 e f g2 f d | d8 |
+[K:Amaj]A2 e2 e2 dc | dc B2 B2 AB | c2 Bc d2 cA | c2 B2 B2 z2 | A2 e2 e2 dc | dc B2 B2 AB | c2 Bc d2 cB | A4 z4 |]
+V:H
+| X | X | X | X | $
+[| X | X | X | X | X | X | X | X |
+X | X | X | X | X | X | X | X |]
+[| X | X | X | X | X | X | X | X |
+X | X | X | X | X | X | X | X |]
+V:C
+| X | X | X | X | $
+[| X | X | X | X | X | X | X | X |
+X | X | X | X | X | X | X | X |]
+[| X | X | X | X | X | X | X | X |
+V:Drums 
+%Midi Channel 10/11 designated for DRUMS
+% 35 - Acoustic Bass    B0
+% 38 - Acoustic Snare   D1
+% 39 - Hand Clap        Eb1
+% 41 - Floor Tom        F1
+% 42 - Closed High hat  F#1
+% 43 - High floor tom   G1
+% 44 - Pedal High hat   Ab1
+% 45 - Low Tom          A1
+% 46 - Open hi hat      Bb1
+% 47 - Low-mid tom      B1
+% 48 - High-mid tom     C2
+% 49 - Crash            C#2
+% 50 - High Tom         D2
+% 51 - Ride             D#2
+% 53 - Ride Bell        F2
+% 55 - Splash           G2
+% 57 - Crash 2          A2
+% 59 - Ride 2           B2
+% 81 - Triangle         A4
+L:1/8
+             [V:Drums][^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g ^g^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g ^g^g ^g^g |
+[V:Drums] [| [^gF]^g          ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g ^g^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g ^g^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g ^g^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g      [ABD^g][ABD^g] [ACD^g][ACD^g] [ABD^g][ABD^g] |]  [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g [^gc]^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g [^gc]^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g [^gc]^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | "Fills"[^gF]^g ^g^g [^gc]^g ^g^g |
+             [V:Drums][^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g [^gc]^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g [^gc]^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g [^gc]^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g      [^gBC][^gBC] [^gBC][^gBC] [^gBC][^gBC] |  [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g [^gc]^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g [^gc]^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g ^g^g [^gc]^g ^g^g | [^gF]^g ^g [^gF] [^gc] [^g_c] ^g [^gF] | [^gF]^g [^gBC][^gBC] [^gBC][^gBC] ^g^g |]
+T:Here Comes the Sun (Beatles)
+L:1/8
+V:Drums
+V:M
+%%MIDI program 110
+%%MIDI vol 100
+V:H
+%%MIDI program 110
+%%MIDI vol 100
+V:C
+%%MIDI program 110
+%%MIDI vol 100
+% %MIDI gchord on
+[V:M][K:Dmaj]!mp! "D"z2 fd ef-fd- | "D"d2 fe-ed-dB | "G"Bd-de-ed-dB | "A7"cB cd-de3 | $
+[V:H][K:Dmaj]!mp! X | X |X |X | $
+[V:C][K:Dmaj]!mp! X | X |X |X | $
+[V:M] "D"z2 fd ef-fd- | "D"d2 fe-ed-dB | "G"Bd-de-ed-dc- | "A7"c6 z2 |] $
+[V:H] X | X |X |X |] $
+[V:C] X | X |X |X |] $
+[V:M] "D"z2 fe-ef-fd- | "D"d2 fd ef3 | "Gmaj7"z2 fe-ef-fd- | "E7/G#"d3d e2 d2 | $
+[V:H] X | X |X |X | $
+[V:C] X | X |X |X | $
+[V:M] "D"z2 fe- ed-dA | "G"Bde"D/F#"A de"Em7"Gd |e"D"Ade "A7"dcBA | A8 |] $
+[V:H] X | X |X |X |] $
+[V:C] X | X |X |X |] $
+[V:M][K:Dmaj] "D"z2 fd ef-fd- | "D"d2 fe-ed-dB | "G"Bd-de-ed-dB | "A7"cB cd-de3 | $
+[V:H]
+%%MIDI program 30
+[V:H][K:Dmaj] dAa4Ad | dAa4AB | dGdG3d2 | AG AB-Bc3 | $
+[V:C][K:Dmaj] d8 | d8 | G8 | A8 | $
+[V:M] "D"z2 fd ef-fd- | "D"d2 fe-ed-dB | "G"Bd-de-ed-dc- | "A7"c6 z2 |] $
+[V:H] dAa4Ad | dAa4AB | d4-d3 g- | g6 z2 |] $
+[V:C] d8 | d8 | G4-G3 A- | A6 z2 |] $
+[V:M] "D"z2 fe-ef-fd- | "D"d2 fd ef3 | "Gmaj7"z2 fe-ef-fd- | "E7/G#"d3d e2 d2 | $
+[V:H] da-ag-ga-aB | dA A6| eG B4 Gd | GA/B/ de gedB | $
+[V:C] A8 | A8 | G8 | G8 | $
+[V:M] "D"z2 fe- ed-dA | "G"Bde"D/F#"A de"Em7"Gd |e"D"Ade "A7"dcBA|A8 |A8 |] $
+[V:H] dA B3 dA2 | g2 e2 d2 d2- | d d3 A2 z2|A8 |A8 |] $
+[V:C] d8 | G2-Gd-d2 e2- |ed d2 A2 A2 |A8 |A8|]$
+V:Guitar
+%%MIDI program 28
+%%MIDI vol 100
+[V:Guitar][K:Dmaj]!f![DFA]2 [DFA]2 [DFA]2 [DFA]2 | [DFA]2 [DFA]2 [DFA]2 [DFA]2 | [GBd]2 [GBd]2 [GBd]2 [GBd]2 | [Aceg]2 [Aceg]2 [Aceg]2 [Aceg]2 | 
+[V:Guitar][K:Dmaj][DFA]2 [DFA]2 [DFA]2 [DFA]2 | [DFA]2 [DFA]2 [DFA]2 [DFA]2 | [GBd]2 [GBd]2 [GBd]2 [GBd]2 | [Aceg]2 [Aceg]2 [Aceg]2 [Aceg]2 |]
+[V:Guitar][K:Dmaj][DFA]2 [DFA]2 [DFA]2 [DFA]2 | [DFA]2 [DFA]2 [DFA]2 [DFA]2 | [GBd]2 [GBd]2 [GBd]2 [GBd]2 | [EGB]2 [EGB]2 [EGB]2 [EGB]2  |  
+[V:Guitar][K:Dmaj] [DFA]2 [DFA]2 [DFA]2 [DFA]2 | [Gd] [GB] [GBe] [^FA] de [E-G] [E | d] |[Ee][DA][Dd][De] [Ad] [Ac] [Beg] [Aceg] | [Aceg]2 [Aceg]2 [Aceg]2 [Aceg]2|]
+[V:Guitar][K:Dmaj][DFA]2 [DFA]2 [DFA]2 [DFA]2 | [DFA]2 [DFA]2 [DFA]2 [DFA]2 | [GBd]2 [GBd]2 [GBd]2 [GBd]2 | [Aceg]2 [Aceg]2 [Aceg]2 [Aceg]2 | 
+[V:Guitar][K:Dmaj][DFA]2 [DFA]2 [DFA]2 [DFA]2 | [DFA]2 [DFA]2 [DFA]2 [DFA]2 | [GBd]2 [GBd]2 [GBd]2 [GBd]2 | [Aceg]2 [Aceg]2 [Aceg]2 [Aceg]2 |]
+[V:Guitar][K:Dmaj][DFA]2 [DFA]2 [DFA]2 [DFA]2 | [DFA]2 [DFA]2 [DFA]2 [DFA]2 | [GBd]2 [GBd]2 [GBd]2 [GBd]2 | [EGB]2 [EGB]2 [EGB]2 [EGB]2  |  
+[V:Guitar][K:Dmaj] [DFA]2 [DFA]2 [DFA]2 [DFA]2 | [GBd]3 ^F3 E2- |ED3 [Aceg]2 [Aceg]2 | [Aceg]2 [Aceg]2 [Aceg]2 [Aceg]2 |  [Aceg]8|]$
+V:BassG
+% %MIDI channel 4
+%%MIDI program 20
+%%MIDI vol 100
+[V:BassG][K:Dmaj]!fff! D2 D2 D2 D2 | D2 D2 D2 D2  | G2 G2 G2 G2 | A2 A2 A2 A2 | $
+[V:BassG] D2 D2 D2 D2 | D2 D2 D2 D2  | G2 G2 G2 A2 | A2 A2 A2 A2 |] $
+[V:BassG] D2 D2 D2 D2 | D2 D2 D2 D2  | G2 G2 G2 G2 | ^G2 G2 G2 G2 | $
+[V:BassG] d8 | G3 ^F3 E2- |ED3 A2 A2 | A2 A2 A2 A2|]
+[V:BassG][K:Dmaj] D2 D2 D2 D2 | D2 D2 D2 D2  | G2 G2 G2 G2 | A2 A2 A2 A2 | $
+[V:BassG] D2 D2 D2 D2 | D2 D2 D2 D2  | G2 G2 G2 A2 | A2 A2 A2 A2 |] $
+[V:BassG] D2 D2 D2 D2 | D2 D2 D2 D2  | G2 G2 G2 G2 | ^G2 G2 G2 G2 | $
+[V:BassG] d8 | G3 ^F3 E2- |ED3 A2 A2 |A2 A2 A2 A2 | A8 |]$
+V:Drums 
+% %MIDI program 14
+%Midi Channel 10/11 designated for DRUMS
+% 35 - Acoustic Bass    B0
+% 38 - Acoustic Snare   D1
+% 39 - Hand Clap        Eb1
+% 41 - Floor Tom        F1
+% 42 - Closed High hat  F#1
+% 43 - High floor tom   G1
+% 44 - Pedal High hat   Ab1
+% 45 - Low Tom          A1
+% 46 - Open hi hat      Bb1
+% 47 - Low-mid tom      B1
+% 48 - High-mid tom     C2
+% 49 - Crash            C#2
+% 50 - High Tom         D2
+% 51 - Ride             D#2
+% 53 - Ride Bell        F2
+% 55 - Splash           G2
+% 57 - Crash 2          A2
+% 59 - Ride 2           B2
+% 81 - Triangle         A4
+L:1/8
+[V:Drums] [| [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g| [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g |
+[V:Drums]    [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g |]
+[V:Drums] [| [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g |
+[V:Drums]    [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gFc]^g  [^gc]^g [^gFB][^gB]  [^gcC][^gC] |]
+[V:Drums] [| [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g| [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g |
+[V:Drums]    [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g |]
+[V:Drums] [| [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g |
+[V:Drums]    [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gF]^g  [^gc]^g [^gF]^g  [^gc]^g | [^gFd][^g_c]  [^gcd][^g_c] [^gdF][^g_c]  [^gcd][^g_c] | [c']8 |]
+
+
+
+X:94404
+T:We Will Rock You
+Q:1/4=70
+K:HP
+M:4/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody"
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname=C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass Drum" sname="BassD"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+V:Drums name="drums" sname="drums" 
+%%MIDI channel 10
+%%MIDI program 0
+%%MIDI drummap F 36 %bass drum 1
+%%MIDI drummap c 38 %acoustic snare
+%%MIDI drummap ^D 44 %pedal hi-hat
+%%MIDI drummap ^f 51 %ride cymbal 1
+%%MIDI drummap ^g 42 %closed hi hat
+%%MIDI drummap ^a 49 %crash cymbal 1
+%%MIDI drummap ^b 52 %chinese cymbal
+%%MIDI drummap e 50 %high tom
+%%MIDI drummap d 48 %hi mid tom
+%%MIDI drummap B 45 %low tom
+%%MIDI drummap A 41 %low floor tom
+%%MIDI Channel 10
+%%MIDI vol 100
+V:B
+%%MIDI channel 11
+%%MIDI drumon
+%%MIDI vol 10
+V:S
+%%MIDI channel 11
+%%MIDI drumon
+%%MIDI vol 10
+V:M
+%%MIDI program 110
+%%MIDI vol 60
+V:H
+%%MIDI program 110
+%%MIDI vol 60
+[V:M]|| !ppp!                                               "drum solo"Z | Z | Z | Z || $
+[V:H]||      !ppp!                                          "drum solo"Z | Z | Z | Z || $
+[V:M]|:{g}d/e/{A}e/d/ {g}e{A}e/d/ {g}e{A}e {g}d/e/{A}e/d/ |{g}e{A}e/d/ {g}e/d/e ag {f}gB/d/ | 
+[V:H]|:X |X| 
+[V:M]  {g}e/{A}ed/ {g}e>d {g}e{A}e {G}e2 | {g}e/d/{g}d {G}d{g}d/e/ 7{g}B/A/G {g}AB/d/ |  $
+[V:H]  X | X |  $
+[V:M]  {gf}g2 f2 {gef}e2 d2 | {g}e{A}e z2 z4 |
+[V:H]  {gef}e2 d2 {gcd}c2 B2 | {g}c{G}c z2 z4 | 
+[V:M]  {gf}g2 f2 {gef}e2 d2 | {g}e{A}e z2 z4 :| $
+[V:H]  {gef}e2 d2 {gcd}c2 B2 | {g}c{G}c z2 z4 :| $
+[V:M][|{g}d/e/{A}e/d/ {g}e{A}e/d/ {g}e{A}e {g}d/e/{A}e/d/ |{g}e{A}e/d/ {g}e/d/e ag {f}gB/d/ | 
+[V:H][|X |X | 
+[V:M]  {g}e/{A}ed/ {g}e>d {g}e{A}e {G}e2 | {g}e/d/{g}d {G}d{g}d/e/ {g}B/A/G {g}AB/d/ | $
+[V:H]  X| X| $
+[V:M]  {gf}g2 f2 {gef}e2 d2 | {g}e{A}e z2 z4 |
+[V:H]  {gef}e2 d2 {gcd}c2 B2 | {g}c{G}c z2 z {g}A{d}ce |
+[V:M]  {gf}g2 f2 {gef}e2 d2 | {g}e{A}e z2 z4  |]
+[V:H]  {gef}e2 d2 {gcd}c2 B2 | {g}c{G}c z2 z4  |] $
+V:Drums 
+%%MIDI Channel 10
+%%MIDI program 14
+%%MIDI drumon
+%Midi Channel 10/11 designated for DRUMS
+% 35 - Acoustic Bass    B0
+% 38 - Acoustic Snare   D1
+% 39 - Hand Clap        Eb1
+% 41 - Floor Tom        F1
+% 42 - Closed High hat  F#1
+% 43 - High floor tom   G1
+% 44 - Pedal High hat   Ab1
+% 45 - Low Tom          A1
+% 46 - Open hi hat      Bb1
+% 47 - Low-mid tom      B1
+% 48 - High-mid tom     C2
+% 49 - Crash            C#2
+% 50 - High Tom         D2
+% 51 - Ride             D#2
+% 53 - Ride Bell        F2
+% 55 - Splash           G2
+% 57 - Crash 2          A2
+% 59 - Ride 2           B2
+% 81 - Triangle         A4
+L:1/8
+[V:Drums] [| [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g| [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g ||
+[V:Drums] [|:[^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g |
+[V:Drums] [| [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g :|]
+[V:Drums] [|   [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gFc]^g  [^gD,,]^g [^gFB][^gB]  [^gcC][^gD,,] |
+[V:Drums]  | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g| [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g :|]
+[V:Drums][I:MIDI droneoff][|: "Clumsy Lover" [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g :|]
+[V:Drums][|: [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g :|]
+[V:Drums][|: [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g :|]
+[V:Drums][|: [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g :|]
+[V:Drums][|: [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g :|]
+[V:Drums][|: [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g | [^gB,,,][^gB,,,]  [^gD,,]^g [^gB,,,][^gB,,,]  [^gD,,]^g :|]
+
+
+X:763401
+T:Amazing Grace
+Q:1/4=90
+K:HP
+M:3/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody"
+V:H gstem=up stem=down name="Harmony"
+V:C gstem=up stem=down name="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+V:M
+%%MIDI program 110
+%%MIDI vol 60
+|: {g}Ad | {gdG}d4 {g}fe/d/ | {gfg}f4 {g}fe | {Gdc}d4 {g}B2 | {G}A4 {g}Ad | $
+V:M
+         | {gdG}d4 {g}fe/d/ | {gfg}f4 {g}ef | {ag}a6        |{g}a4 fa     | $
+V:M
+         | {g}a4   {fg}fe/d/| {gfg}f4 {g}fe | {Gdc}d4 {g}B2 | {G}A4 {g}Ad | $
+V:M
+         | {gdG}d4 {g}fe/d/ | {gfg}f4 e2    | [1{Gdc}d6     | {gdG}d4 :|[2{gef}e6 | {Gdc}d4|| $
+V:H
+%%MIDI program 110
+%%MIDI vol 60
+|: {gf}g2| {gfg}f4 {g}dA    | {gdc}d4 {g}dc | {gbd}B4 {gf}g2| {gfg}f4 {gf}g2 | $
+V:H
+         | {gfg}f4 {g}dA    | {gdc}d4 {g}cd | {gef}e4   {g}B2|{gcd}c4 {g}cd   | $
+V:H
+         | {gdc}d4 {fg}cB/A/| {gcd}c4 {g}A2 | {gBd}B4 {gf}g2| {gfg}f4 {gf}g2 | $
+V:H
+         | {gfg}f4 {g}dA    | {gdc}d4 {g}cd | [1{gBd}B6     | {G}A4 :|[2{gcd}c2{e}A2{d}G2 | {g}A4|| $
+

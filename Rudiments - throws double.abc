@@ -1,0 +1,360 @@
+
+X:15
+T: Doublings
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/4
+R:March
+L:1/1
+M:4/4
+V:1
+||{gGd}G |{gAd}A |{gBd}B |{gcd}c| {gde}d |{gef}e| {gfg}f ||
+w: | -| | | | | | | |
+w: | -| | | | | | | |
+w: | -| | | | | | | |
+V:2 clef=none stem=none
+L:1/2
+%%stafflines 7
+%%staffscale 2.0
+[|{[EGBdfae']} [EGBdfac'e'] {[EGBfac'e']} [EGBdfac'e'] |
+|{[EGBdfae']} [GBdfac'e'] {[GBfac'e']} [GBdfac'e'] |
+|{[GBdfae']} [Bdfac'e'] {[GBfac'e']} [Bdfac'e'] |
+|{[Bdfae']} [Edfac'e'] {[Efac'e']} [Edfac'e'] |
+|{[Edfae']} [Efac'e'] {[Eac'e']} [Efac'e'] |
+|{[GBdfae']} [GBdac'e'] {[GBdc'e']} [GBdac'e'] |
+|{[GBde']} [GBdc'e'] {[GBde']} [GBdc'e'] |
+W: Note that though there are 3 gracenotes, the middle gracenote is the same note as the melody note it is written on.  
+W:
+W: Therefore this is played by the G gracenote taking us to the "melodic" note grace followed by a second gracenote to "double" the embellishment.
+W:
+
+X:1601
+T:Doublings from Low A
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=86
+M:2/4
+L:1/4
+R:March
+V:1 gstem=up stem=down
+I:MIDI=program 110
+K:HP
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+%%landscape
+|| A{gGd}G   | A{gAd}A   | A{gBd}B | A{gcd}c |
+w: en himdem | en hindim | en hoto | en hodo |
+   A{gde}d   | A{gef}e   | A{gfg}f | g  a | 
+w: en hada   | en chehe   | en hete | di I |
+ a g   |   A{gfg}f | A{gef}e   | A{gde}d   | 
+w:I di | en hete | en chehe   | en hada   | 
+  A{gcd}c |A{gBd}B | A{gAd}A  | A{gGd}G   ||
+w:en hodo |en hoto |en hindim | en himdem ||
+W:You need to be able to play this exercise for SQCF Level 2 
+W: We can't play (G) doublings on High G nor High A as we can't play G gracenotes on those notes.
+W:
+W:
+W:
+T:F Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|| G {gfg}f A {gfg}f | B {gfg}f c {gfg}f |d {gfg}f e {gfg}f | f {gfg}f  g {afg}f  | 
+w: EM hete EN hete   | O hete   O  hete  |A  hete  E  hete  | VE hete   DI hete  |
+w: |||- thumb gracenote ^|
+  a {fg}f  a {fg}f  | g {afg}f  f {gfg}f | e {gfg}f d {gfg}f | c {gfg}f B {gfg}f | 
+w: I hete  I hete   | DI hete   VE hete  | E hete   A hete  | O hete   O  hete  |
+w: ^ half doublings ^|||
+   A {gfg}f G {gfg}f ||
+w: EN hete  EM hete  ||
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+W:
+W: http://svenax.net/site/canntaireachd/5/ has a consolidated Doubling and Throws page
+W: without diagrams so the canntaireachd here might be for a different movement...
+W: Doublings on F have 3 different Canntaireachd names depending on where the melody note is coming from.
+
+
+
+
+X:1603
+T:E Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: G {gef}e A {gef}e | B {gef}e c {gef}e | d {gef}e e {gef}e | f {gef}e g {aef}e | 
+w: em chehe en chehe | o chehe o chehe   | a chehe e chehe | ve chehe di chehe |
+w: |||- thumb gracenote ^|
+   a {ef}e a {ef}e | g {aef}e f {gef}e | e {gef}e d {gef}e | c {gef}e B {gef}e | A {gef}e G {gef}e :|
+w: I chehe  I chehe  |  di chehe ve chehe  | e chehe a chehe | o chehe o chehe | en chehe em chehe
+w: ^ Half Doublings ^|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+W:
+W: http://svenax.net/site/canntaireachd/5/ has a consolidated Doubling and Throws page
+W: without diagrams so the canntaireachd here might be for a different movement...
+W:
+W:http://www.teachyourselfbagpipes.co.uk/cant.html concurs
+W:
+W:
+W:
+T:D Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: G {gde}d A {gde}d | B {gde}d c {gde}d | d {gde}d e {gde}d | f {gde}d g {ade}d | 
+w: em hada en hada | o hada o hada   | a hada e hada | ve hada di hada |
+w: |||- thumb gracenote ^|
+   a {de}d a {de}d | g {ade}d f {gde}d | e {gde}d d {gde}d | c {gde}d B {gde}d | A {gde}d G {gde}d :|
+w: I ada  I ada  |  di hada ve hada | e hada a hada | o hada o hada | en hada em hada
+w: ^ Half Doublings ^|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+
+
+
+X:1605
+T:C Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: G {gcd}c A {gcd}c | B {gcd}c c {gcd}c | d {gcd}c e {gcd}c | f {gcd}c g {acd}c | 
+w: em hodo en hodo | o hodo o hodo   | a hodo e hodo | ve hodo di hodo |
+w: |||- thumb gracenote ^|
+a {cd}c a {cd}c | g {acd}c f {gcd}c | e {gcd}c d {gcd}c | c {gcd}c B {gcd}c | A {gcd}c G {gcd}c :|
+w: I iodo  I iodo  |  di hodo ve hodo | e hodo a hodo | o hodo o hodo | en hodo em hodo
+w: ^ Half Doublings ^|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+W:
+W:
+W:
+T:B Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: G {gBd}B A {gBd}B | B {gBd}B c {gBd}B | d {gBd}B e {gBd}B | f {gBd}B g {aBd}B | 
+w: em hoto en hoto | o hoto o hoto   | a hoto e hoto | ve hoto di hoto |
+w: |||- thumb gracenote ^|
+   a {Bd}B a {Bd}B   | g {aBd}B f {gBd}B | e {gBd}B d {gBd}B | c {gBd}B B {gBd}B | A {gBd}B G {gBd}B :|
+w: I odo  I odo  |  di hoto ve hoto | e hoto a hoto | o hoto o hoto | en hoto em hoto
+w: ^ Half Doublings ^|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+
+
+
+X:1607
+T:A Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: G {gAd}A A {gAd}A   | B {gAd}A c {gAd}A | d {gAd}A e   {gAd}A   | f {gAd}A g {aAd}A | 
+w: EM hindin EN hindin | O hindin O hindin |w: | A hindin E hindin | VE hindin DI hindin |
+w: |||- thumb gracenote ^|
+   a {Ad}A   a {Ad}A   | g {aAd}A   f {gAd}A |e {gAd}A d {gAd}A | c {gAd}A B {gAd}A |
+w: I endin   I endin   | DI hindin VE hindin |E hindin A hindin | O hindin O hindin |
+w: ^ Half Doublings ^|
+   A {gAd}A G {gAd}A :|
+w: EN hindin EM hindin :|
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+W:
+W:
+W:
+T:G Doubling Scale
+C: Kevin Fraser
+B: https://bagpipes.ksfraser.com
+O: Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: G {gGd}G A {gGd}G | B {gGd}G c {gGd}G | d {gGd}G e {gGd}G | f {gGd}G g {aGd}G | 
+w: em hemdim en hemdim | o hemdim o hemdim   | a hemdim e hemdim | ve hemdim di hemdim |
+w: |||- thumb gracenote ^|
+   a {Gd}G  a {Gd}G  | g {aGd}G f {gGd}G | e {gGd}G d {gGd}G | c {gGd}G B {gGd}G | A {gGd}G G {gGd}G :|
+w: I emdim  I emdim  |  di hemdim ve hemdim | e hemdim a hemdim | o hemdim o hemdim | en hemdim em hemdim
+W:
+W: Note the High A gracenote from High G for this doubling!
+W: Note the Half Doubling from High A
+
+
+X:17
+T: Throws 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:
+M:9/4
+L:1/4
+R:March
+|| {ag}a {gf}g | (A A) G/4{dc}d3/4  |A {Gdc}d | A {GdGc}(d d) A {Gdc}d ||
+w: dili        |                    |-  tra     
+w: said "chili"
+w:      - -    |  Light D throw Played |    | ||
+w:             |                  -     | D throw  written | Heavy D throw  written
+W: At first glance a throw could be confused for a half doubling. But where the half doubling uses a "lift" gracenote the throw uses a strike.  
+W: The Heavy D throw is played more like a Grip.  The Heavy D throw is also known as the closed D throw and the light as open.
+W:
+W: Older terminology also calls these throws doublings!
+W:
+T: D Throw Scale
+|: G {dc}d A {Gdc}d | B {Gdc}d  c {Gdc}d |   e {Gdc}d f {Gdc}d | g {Gdc}d  a {Gdc}d :| 
+w: | | |
+w: EM tra  EN tra   | O tra     io tra| E tra    VE tra   | DI tra    I tra|
+|| G>{dc}d A>{Gdc}d | B>{Gdc}d  c>{Gdc}d ||  e>{Gdc}d f>{Gdc}d | g>{Gdc}d  a>{Gdc}d || 
+w: EM tra  EN tra   | O tra     io tra|E tra    VE tra   | DI tra    I tra|
+|| G<{dc}d A<{Gdc}d | B<{Gdc}d  c<{Gdc}d ||  e<{Gdc}d f<{Gdc}d | g<{Gdc}d  a<{Gdc}d |] 
+w: EM tra  EN tra   | O tra     iO tra|E tra    VE tra   | DI tra    I tra|
+W: D Throw on D is not indicated in these exercises.  While it is possible to play a 
+W: D throw on D, You could provide similar emphasis using either a lemluath or toarluath.
+W:
+W: As written here, the throw is a "light" throw.  There is a Heavy throw that resembles
+W: a Grip to C ending on a D.
+T: Heavy Throw
+[| G{dGc}d A{GdGc}d | B{GdGc}d  c{GdGc}d |e{GdGc}d f{GdGc}d | g{GdGc}d  a{GdGc}d || 
+w: | | |
+w: EM tra  EN tra   | O tra     O tra|E tra    VE tra   | DI tra    I tra|
+|| G>{dGc}d A>{GdGc}d | B>{GdGc}d  c>{GdGc}d ||  e>{GdGc}d f>{GdGc}d | g>{GdGc}d  a>{GdGc}d || 
+w: EM tra  EN tra   | O tra     O tra|E tra    VE tra   | DI tra    I tra|
+|| G<{dGc}d A<{GdGc}d | B<{GdGc}d  c<{GdGc}d ||  e<{GdGc}d f<{GdGc}d | g<{GdGc}d  a<{GdGc}d |] 
+w: EM tra  EN tra   | O tra     O tra|E tra    VE tra   | DI tra    I tra|
+
+
+
+
+X:2518
+T:D Throw from A             
+O:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: A {Gdc}d |   
+w: written  |            
+w: EN tra   |
+T: Light (Open) Throw
+|: A {Gdc}d A {Gdc}d    | A {G}{d}{c}d A G//d///{c}d    |
+w: Played |             
+w: EN tra   EN tra      |
+T: Heavy (Closed) Throw
+|: A {GdGc}d  A {GdGc}d |A {G}{d}{G}{c}d  A G//{d}G//c///d |
+w: Played |            
+w: EN tra     EN tra    |
+W:
+W: It has been written that a Light D Throw should be played in light tunes
+W: and a heavy D throw played in heavy tunes.  Of course light and heavy weren't clearly
+W: defined.  I interpret this to mean light tunes have doublings but few if any lemluath
+W: and toarluaths where as Heavy tunes would have lemluaths and toarluaths sprinked in.
+W:
+W: Most bands will standardize on one throw or the other.  
+W: Airdrie Scots Pipes and Drums uses the light throw.
+
+
+
+X:2519
+T:High G Throw Scale (vili)
+O:Kevin's Tune Generator
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+[|: G {gf}g A {gf}g | B {gf}g c {gf}g |   d {gf}g e {gf}g | f {gf}g  f {gf}g |   e {gf}g d {gf}g | c {gf}g B {gf}g | A {gf}g G {gf}g :|]
+w:
+w: EM vili EN vili | O vili  O vili |  A  vili E  vili | VE vili  VE vili    |  E  vili A  vili | O vili  O vili | EN vili EM vili |
+|: G>{gf}g A>{gf}g | B>{gf}g c>{gf}g |  d>{gf}g e>{gf}g | f>{gf}g f>{gf}g | 
+w: EM vili EN vili | O vili  O vili |A  vili E  vili | VE vili  VE vili |
+|  e>{gf}g d>{gf}g | c>{gf}g B>{gf}g |  A>{gf}g G>{gf}g :|
+w: E  vili A  vili | O vili  O vili |EN vili EM vili :|
+|: G<{gf}g A<{gf}g | B<{gf}g c<{gf}g |  d<{gf}g e<{gf}g | f<{gf}g f<{gf}g | 
+w: EM vili EN vili | O vili  O vili |A  vili E  vili | VE vili  VE vili |
+|  e<{gf}g d<{gf}g | c<{gf}g B<{gf}g |  A<{gf}g G<{gf}g :|
+w: E  vili A  vili | O vili  O vili |EN vili EM vili :|
+W:
+W:
+W:
+T:High A Throw Scale (dili)
+O:Kevin's Tune Generator
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+|: G {ag}a A {ag}a | B {ag}a c {ag}a | d {ag}a e {ag}a | f {ag}a  g {ag}a  |
+w: EM dili EN dili | O  dili O dili  | A dili  E dili  | VE dili  DI dili |
+ | g {ag}a  f  {ag}a | e {ag}a d {ag}a | c {ag}a B {ag}a | A {ag}a  G {ag}a :|
+w: DI dili VE  dili  | E dili  A dili  | O dili  O dili  | EN dili  EM dili :|
+
+

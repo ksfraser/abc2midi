@@ -1,0 +1,634 @@
+﻿% %abc-include "../Ceol Mhor/guitarchords.fmt"
+%%abc-include "../Ceol Mhor/Medleys/format.abh"
+
+
+%%beginsvg
+<defs>
+% x-shaped head
+<path id="x_head"
+d="m -3 -3 l 6 6 m 0 -6 l -6 6"
+class="stroke" style="stroke-width:1.2"/>
+% triangle head
+<path id="triangle"
+d="m -3.5 3.5 l 3.5 -7 l 3.5 7 l -7 0"
+class="fill" />
+% diamond head
+<path id="diamond"
+d="m 0 -3.5 l -3.5 3.5 l 3.5 3.5 l 3.5 -3.5 l -3.5 -3.5"
+class="fill" />
+</defs>
+%%endsvg
+
+%%chordprog 1
+%%bassprog 1
+%%chordvol 50
+%%bassvol 50
+% %MIDI beatstring fpppmpmpmppp
+% %MIDI gchord czfzczfzczfz
+X:14402
+T:Maple Leaf Forever
+H: 
+C:Alexander Muir(1867)
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody"
+V:H gstem=up stem=down name="Harmony"
+V:C gstem=up stem=down name="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+I:MIDI=program 110
+%%landscape 
+[V:S][|z{AA}c | {c}A"^9"(rc c)(rc c){c}A (rcc) | {c}A(rc c)(rc c){c}A (rcc) | {c}A(rc c)(rc c){c}A (rcc) | {c}A2 "^13"(rc2 c2) z2 | $
+[V:S]           {c}A    (rc c)(rc c){c}A (rcc) | {c}A(rc c)(rc c){c}A (rcc) | {c}A(rc c)(rc c){c}A (rcc) | {c}A2      (rc2 c2)  |] $
+[V:S][|:  z2  | {c}A    (rc c)(rc c){c}A (rcc) | {c}A(rc c)(rc c){c}A (rcc) | {c}A(rc c)(rc c){c}A (rcc) | {c}A2      (rc2 c2) cA | $
+[V:S]           {c}A    (rc c)(rc c){c}A (rcc) | {c}A(rc c)(rc c){c}A (rcc) | {c}A(rc c)(rc c){c}A (rcc) | {c}A2      (rc2 c2) :|]  $
+[V:B][| z2    |  !>!cA cA !>!cA cA | !>!cA cA !>!cA cA | !>!cA cA !>!cA cA | !>!c2 A2 c2    z2  | $
+[V:B]            !>!c2 A2 c2    A2 | !>!c2 A2  c2   A2 | !>!c2 A2 c2    A2 | !>!c2 A2 c2     |] $ 
+[V:B][|: z2   |  !>!cA cA !>!cA cA | !>!cA cA !>!cA cA | !>!cA cA !>!cA cA | !>!cA cA !>!cA cA  | $
+[V:B]            !>!c2 A2 c2    A2 | !>!c2 A2  c2   A2 | !>!c2 A2 c2    A2 | !>!c2 A2 c2     :|] $ 
+
+
+X:168021
+T:Bonnie Dundee (Snare)(Ontario Massed Bands 6/8)
+C:
+H:
+B: Canadian Cadet Program
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:3/8=90
+K:HP
+M:6/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody"
+V:H gstem=up stem=down name="Harmony"
+V:C gstem=up stem=down name="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%T:Bonnie Dundee (Snare)
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+V:S
+ A   |: (rc2c) {c}A2 {A}c | z/2(3A/2c/2A/2)c A>c{c}A | {A}c>A{A}c (rc3 | c)>A{A}c {c}>A2 A|
+     |  (rc2c) {c}A2 {A}c | z/2(3A/2c/2A/2)c A>c{c}A | {A}c>A{A}c (rc3 | c)>A{A}c {c}>A2  :|
+A   |:  (rc2A) (rc2A)      | (3cAc){c}A {A}c>Ac  | {A}c>A{A}c (rc3 | c)>A{A}c {c}>A2 A|
+     |  (rc2A) (rc2A)      | (3cAc){c}A {A}c>Ac  | {A}c>A{A}c (rc3 | c)>A{A}c {c}>A2  :|
+
+
+
+X:168022
+T:Bonnie Dundee (Bass/Tenor)(Ontario Massed Bands)
+C:
+H:
+B: Canadian Cadet Program
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:3/8=90
+K:HP
+M:6/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody"
+V:H gstem=up stem=down name="Harmony"
+V:C gstem=up stem=down name="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+I:MIDI=program 110
+%%MIDI gracedivider 4
+T:Bonnie Dundee (Bass/Tenor)
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+V:B
+     ||  !>!c3 A3    	| z2 !>!cA3 	| !>!c3 A3          | z2 !>!cA3 | $
+[V:B]     |  !>!c3 A3       	| z2 !>!cA3 	| !>!c3 A3          | z2 !>!cA3 | $
+[V:B]     | !>!c3 A3         | !>!c2c A3     | !>!c3 A3          | z2 !>!cA3 |$
+[V:B]     | !>!c3 A3         | !>!c2c A3     | !>!c3 A3          | z2 !>!cA3 ||$
+
+
+X:198010
+T:Heights of Dargai
+C: J Wallace
+B: Scots Guard 1
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:3/8=90
+K:HP
+M:9/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody"
+V:H gstem=up stem=down name="Harmony"
+V:C gstem=up stem=down name="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 4
+% %score {M H}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+%%landscape
+% %landscape off
+[V:S]|:  {A}c  | {A}c>A{A}c   (Rc3 c2) A | {A}c>A{A}c   (Rc3 c2) z | {A}c>A{A}c   (Rc3 c)>A{A}c | {c}A>cA (Rc3 c2) c | 
+[V:S]          | {A}c>A{A}c   (Rc3 c2) A | {A}c>A{A}c   (Rc3 c2) z | {A}c>A{A}c   (Rc3 c)>A{A}c | {c}A>cA (Rc3 c2)  :| 
+[V:S]|:  {A}c  | {A}c>A{A}c   (Rc3 c)>A{A}c | {A}c>A{A}c   (Rc3 c2) z | {A}c>A{A}c   (Rc3 c)>A{A}c | {c}A>cA (Rc3 c2) c | 
+[V:S]          | {A}c>A{A}c   (Rc3 c)>A{A}c | {A}c>A{A}c   (Rc3 c2) z | {A}c>A{A}c   (Rc3 c)>A{A}c | {c}A>cA (Rc3 c2)  :| 
+
+
+
+X:344011
+T:High Road to Linton (Snare)
+C:
+B:
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:C/
+L:1/8
+R:Reel
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+I:MIDI=program 110
+%%MIDI gracedivider 4
+I:linebreak $
+% %score {M H}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:S]|:         {A}c2 (RA2Vc2) (RA2          | Vc)>Ac>c   A>cA>A     | {A}c2 (RA2Vc2) (RA2          | Vc)>Ac>c (Rc2 VA2) :|
+||         {AA}c2 {AA}c2 {A}c>A {A}c2 | {A}c>VAc>c (3:cAc {c}A2 | {AA}c2 {AA}c2 {A}c>A {A}c2  | {A}c>VAc>c (Rc2 VA2) |
+          V(3:cAc(3:AcA c2 {c}A2   | V(3:cAc(3:AcA c>A {A}c2 | V(3:cAc(3:AcA Vc2 {c}A2   | {A}c>VAc>c (Rc2 VA2) ||
+
+X:344012
+T:High Road to Linton (Bass/Tenor)
+C:
+B:
+H:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:C/
+L:1/8
+R:Reel
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody" 
+V:H gstem=up stem=down name="Harmony" sname="Harmony"
+V:C gstem=up stem=down name="C-Harmony" sname="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass" sname="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor" sname="Tenor"
+I:MIDI=program 110
+%%MIDI gracedivider 4
+I:linebreak $
+% %score {M H}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:B]|:         c2 A2 c2 A2 | c2 A2 c>A c2 | c2 A2 c2 A2 | c2 A2 c>A c2 :|
+[V:B]|:         c2 A2 c2 A2 | c2 A2 c>A c2 | c2 A2 c2 A2 | c2 A2 c>A c2 :|
+[V:B]|:         c2 A2 c2 A2 | c2 A2 c>A c2 | c2 A2 c2 A2 | c2 A2 c>A c2 :|
+[V:B]|:         c2 A2 c2 A2 | c2 A2 c>A c2 | c2 A2 c2 A2 | c2 A2 c>A c2 :|
+[V:T]|:         c2 A2 c>A c2 | (3:2cAc(3:2AcA c>A c2 | c2 A2 c>A c2 | (3:2cAc(3:2AcA c2 A2 :|
+[V:T]|:         c2 A2 c>A c2 | (3:2cAc(3:2AcA c>A c2 | c2 A2 c>A c2 | (3:2cAc(3:2AcA c2 A2 :|
+[V:T]|:         c2 A2 c>A c2 | (3:2cAc(3:2AcA c>A c2 | c2 A2 c>A c2 | (3:2cAc(3:2AcA c2 A2 :|
+[V:T]|:         c2 A2 c>A c2 | (3:2cAc(3:2AcA c>A c2 | c2 A2 c>A c2 | (3:2cAc(3:2AcA c2 A2 :|
+
+X:768011
+T:Skye Boat Song (Snare/Bass/Tenor)
+H:
+C:
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:3/8=60
+K:HP
+M:6/8
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody"
+V:H gstem=up stem=down name="Harmony"
+V:C gstem=up stem=down name="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+I:MIDI=program 110
+%%MIDI gracedivider 4
+I:linebreak $
+%%score {S B}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+[V:S]    (rA [| !>!c)>cA (rc3 | !>!c)>cA (rc3 | c)>cA {AA}c>cA | (rc3 c2) (rA | $
+[V:S]	        | !>!c)>cA (rc3 | !>!c)>cA (rc3 | c)>cA {AA}c>cA | (rc3 c2)  |] $
+[V:S]	     A [| (rc3 c2) A | (rc3 c2) (rc | c)>cA {AA}c>cA | (rc3 c2) A | $
+[V:S]         | (rc3 c2) A | (rc3 c2) (rc | c)>cA {AA}c>cA | (rc3 c2)  |] $
+[V:S]	   (rA [| !>!c)>cA (rc3 | !>!c)>cA (rc3 | c)>cA {AA}c>cA | (rc3 c2) (rA | $
+[V:S]	        | c)>cA (rc3 | c)>cA (rc3 | c)>cA {AA}c>cA | (rc3 c2) z |] $
+[V:S]	[| !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | $
+[V:S]	  !>!c3 A3 | !>!c3 A3 | !>!c2A A3 | !>!c3 A2 |] $
+[V:B]	z[| !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | $
+[V:B]	  !>!c3 A3 | !>!c3 A3 | !>!c2A A3 | !>!c3 A2 |] $
+[V:B]	z[| !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | $
+[V:B]	  !>!c3 A3 | !>!c3 A3 | !>!c2A A3 | !>!c3 A2 |] $
+
+
+X:79801
+T:Mingulay Boat Song (Snare / Bass)
+H: 
+C: 
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:3/8=60
+K:HP
+M:9/8
+L:1/8
+R:Aire
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody"
+V:H gstem=up stem=down name="Harmony"
+V:C gstem=up stem=down name="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+% %alignbars 80
+% %landscape
+I:linebreak $
+%%score {S B}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+%%flatbeams
+[V:S]    (rA || !>!c)>cA (rc3 | !>!c)>cA (rc3 | c)>cA {AA}c>cA | (rc3 c2) (rA |
+[V:S]| !>!c)>cA (rc3 | !>!c)>cA (rc3 | c)>cA {AA}c>cA | (rc3 c2) A ||
+[V:S]|| (rc3 c2) A | (rc3 c2) (rc | c)>cA {AA}c>cA | (rc3 c2) A |
+[V:S]| (rc3 c2) A | (rc3 c2) (rc | c)>cA {AA}c>cA | (rc3 c2) (rA ||
+[V:S]|| !>!c)>cA (rc3 | !>!c)>cA (rc3 | c)>cA {AA}c>cA | (rc3 c2) (rA |
+[V:S]| c)>cA (rc3 | c)>cA (rc3 | c)>cA {AA}c>cA | (rc3 c2) z ||
+[V:B][ !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | $
+[V:B]!>!c3 A3 | !>!c3 A3 | !>!c3 A3 | !>!c3 A3 |] $
+[V:B][ !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | $
+[V:B]!>!c3 A3 | !>!c3 A3 | !>!c3 A3 | !>!c3 A3 |] $
+[V:B][ !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | !>!c3 A3 | $
+[V:B]!>!c3 A3 | !>!c3 A3 | !>!c3 A3 | !>!c3 A3 |] $
+
+
+X:992401
+T:North America Massed Band 2/4 (2022)
+H: 
+C:
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/8
+R:March
+I:linebreak $
+U: R = ///
+U: r = //
+U: V = !accent!
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%score {M H}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+T:Snare
+V:S
+|: {A}!>!c(rc A)(rc |A)!>!c/>A/ c/>c/A | ["chips" {A}!>!c(rc A)(rc |A)!>!c/>A/ c/>c/A | $
+V:S
+  | {A}!>!c(rc A)(rc |A)!>!c/>A/ c/>c/A | ["chips" {A}!>!c2 (Rc2 | c)!>!A !>!cA :| $
+V:S
+  |: (Rc2 c)!>!A cA  | (Rc2 c)!>!A cA  | ["chips" {A}!>!c(rc A)(rc |A)!>!c/>A/ c/>c/A | $
+V:S
+  | (Rc2 c)!>!A cA  | (Rc2 c)!>!A cA  | ["chips" {A}!>!c2 (Rc2 | c)!>!A !>!cA :|] $
+
+X:992402
+T:North America Massed Band 2/4 (2022)
+H: 
+C:
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/8
+R:March
+I:linebreak $
+U: R = ///
+U: r = //
+U: V = !accent!
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=bass dyn=up name="Bass" octave=-2
+V:T gstem=up stem=down clef=perc dyn=up name="Tenor" 
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%MIDI vol 100
+T:Bass and Tenor
+V:B
+ [| !>!cA !V!cA | !>!cA !V!cA | !>!c2 z2 |!>!c2 z2 | 
+V:T
+[| ^g^e ^g^e | ^g^e  ^g^e  | ^g2 z2 | eg/>e/ g/>g/e | 
+V:B
+   !>!cA !V!cA | !>!cA !V!cA | !>!c2 !V!A2 |z!>!A !>!c2 | $
+V:T
+ ^g^e ^g^e | ^g^e  ^g^e  | g2 z2 | ze g/>g/e | $
+T:
+V:B
+  | !>!cA !V!cA | !>!cA !V!cA | !>!c2 z2 |!>!c2 z2 | $
+V:T
+ ^g2 ^e2  | ^g2 ^e2    | ^g2 z2 | eg/>e/ g/>g/e |
+V:B
+   !>!cA !V!cA | !>!cA !V!cA | !>!c2 !V!A2 |z!>!A !>!c2 |] $
+V:T
+^g2 ^e2  | ^g2 ^e2    | g2 z2 | ze g/>g/e |]
+T:
+V:B
+ [| !>!c2 !V!cA | !>!c2 !V!cA | !>!c2 z2 |!>!c2 z2 | $
+V:T
+[| ^g^e ^g^e | ^g^e  ^g^e  | ^g2 z2 | eg/>e/ g/>g/e |
+V:B
+   !>!c2 !V!cA | !>!c2 !V!cA | !>!c2 !V!A2 |z!>!A !>!c2 | $
+V:T
+^g^e ^g^e | ^g^e  ^g^e  | g2 z2 | ze g/>g/e |
+T:
+V:B
+   !>!c2 !V!cA | !>!c2 !V!cA | !>!c2 z2 |!>!c2 z2 | $
+V:T
+ ^g2 ^e2  | ^g2 ^e2    | ^g2 z2 | eg/>e/ g/>g/e |
+V:B
+   !>!c2 !V!cA | !>!c2 !V!cA | !>!c2 !V!A2 |z!>!A !>!c2 |] $
+V:T
+^g2 ^e2  | ^g2 ^e2    | g2 z2 | ze g/>g/e |]
+
+X:124021
+T:Ontario Massed Band 2/4
+C: Ontario Massed Bands
+B:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:2/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+I:MIDI=program 110
+I:linebreak $
+V:S
+[V:S]|:         {A}c(RA Vc)(RA  | Vc/)>A/c/>c/   {c}A(RA     | c)(RA Vc)(RA          | Vc/)>A/c/>c/   {c}A(RA | $
+[V:S]           c)(RA Vc)(RA     | Vc/)>A/c/>c/   {c}A(RA     | Vc/)>A/c/>c/ c/>VA/c/>c/  |  {A}c(RA A2) :| $
+[V:S]|:         (RAVRc A/)>c/A/>c/ | (RAVRc A){A}c | (RAVRc A/)>c/A/>c/ | (RAVRc A){A}c | $
+[V:S]           (RAVRc A/)>c/A/>c/ | (RAVRc A){A}c | Vc/>A/c/>c/   c/>VA/c/>c/  |  {A}c(RA A2) :|
+T: Ontario Massed Band 2/4 Bass
+[V:B]||         VcA cA | VcA cA | VcA cA | VcA c2 | $ 
+[V:B]           VcA cA | VcA cA | VcA cA | VcA c2 | $
+[V:B]	   Vc2  A2  | Vc2  A2  | Vc2  A2  | Vc2  A2  | $ 
+[V:B]       	   Vc2  A2  | Vc2  A2  | Vc2  A2  | Vc2  z2|| $
+[V:B]           VcA cA | VcA cA | VcA cA | VcA c2 | $ 
+[V:B]           VcA cA | VcA cA | VcA cA | VcA c2 | $
+[V:B]	   Vc2  A2  | Vc2  A2  | Vc2  A2  | Vc2  A2  | $ 
+[V:B]       	   Vc2  A2  | Vc2  A2  | Vc2  A2  | Vc2  z2|| $
+
+
+X:992401
+T:Ontario Massed Band 4/4
+H: 
+C:
+B: 
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:HP
+M:4/4
+L:1/8
+R:March
+I:linebreak $
+U: R = ///
+U: r = //
+U: V = !accent!
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+% V:B gstem=up stem=down clef=none dyn=up name="Bass"
+% V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+I:MIDI=program 110
+%%MIDI vol 100
+c2>A2 	| "^9"(rc>!>!c)!>!A>"^5"(rc c)>A"^9"(rc>!>!c) !>!A>"^5"(rcc)>A  {A}c2"^13"r(c2 | (3:2A)cA{A}c>A  (3:2AcA{A}c>A   c>!>!Ac/A/c/A/ !>!c2c>A  | $
+V:S
+	  "^9"(rc>!>!c)!>!A>"^5"(rc c)>A"^9"(rc>!>!c) !>!A>"^5"(rcc)>A  {A}c2"^13"r(c2 | (3:2A)cA{A}c2   A{A}>cA>A       {A}c2(rc2 A2)c>A | $
+V:S
+	  "^9"(rc>!>!c)!>!A>"^5"(rc c)>A"^9"(rc>!>!c) !>!A>"^5"(rcc)>A  {A}c2"^13"r(c2 | (3:2A)cA{A}c>A  (3:2AcA{A}c>A   c>!>!Ac/A/c/A/ !>!c2c>A  | 
+V:S
+	  "^9"(rc>!>!c)!>!A>"^5"(rc c)>A"^9"(rc>!>!c) !>!A>"^5"(rcc)>A  {A}c2"^13"r(c2 | A4) (rc4 c4) z2c>A || $
+V:S
+	  "^5"(!>!rc!>!"^9"A !>!"^5"A>"^9" c) >A"^9"(rc>!>!c) !>!A>"^5"(rcc)>A  {A}c2"^13"r(c2 | (3:2A)cA{A}c>A  (3:2AcA{A}c>A   c>!>!Ac/A/c/A/ !>!c2c>A  | 
+V:S
+	  "^9"(rc>!>!c)!>!A>"^5"(rc c)>A"^9"(rc>!>!c) !>!A>"^5"(rcc)>A  {A}c2"^13"r(c2 | (3:2A)cA{A}c2   A{A}>cA>A       {A}c2(rc2 A2)c>A | $
+V:S
+	  "^9"(rc>!>!c)!>!A>"^5"(rc c)>A"^9"(rc>!>!c) !>!A>"^5"(rcc)>A  {A}c2"^13"r(c2 | (3:2A)cA{A}c>A  (3:2AcA{A}c>A   c>!>!Ac/A/c/A/ !>!c2c>A  | 
+V:S
+	  "^9"(rc>!>!c)!>!A>"^5"(rc c)>A"^9"(rc>!>!c) !>!A>"^5"(rcc)>A  {A}c2"^13"r(c2 | A4) (rc4 c4) z4 || $
+
+X:934021
+T:North America Massed Bands 3/4 (Snare)
+C:
+B:
+O:
+Z:Kevin Fraser
+H:
+Q:1/4=78
+M:3/4
+L:1/8
+R:March
+K:HP
+U: R = ///
+U: r = //
+U: V = !accent!
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=bass dyn=up name="Bass" octave=-2
+V:T gstem=up stem=down clef=perc dyn=up name="Tenor" 
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%MIDI vol 100
+V:S
+|:         {A}c(RA Vc)(RA RcA)  | {A}c["chips"(RA A)c/2>A/2 c/2>c/2{c}A | {A}c](RA Vc)(RA RcA)  | {A}c2 ["" (Rc2 c2) ]  | $
+[V:S]      {A}c(RA Vc)(RA RcA)  | {A}c["chips"(RA A)c/2>A/2 c/2>c/2{c}A | {A}c](RA Vc)(RA RcA)  | {A}c2 ["" (Rc2 c2) ] :| $
+[V:S]|:    {A}c(RA Vc)A A/cA/   | {A}c["chips"(RA A)c/2>A/2 c/2>c/2{c}A | {A}c](RA Vc)A A/cA/   | {A}c2 ["" (Rc2 c2) ]  | $
+[V:S]      {A}c(RA Vc)A A/cA/   | {A}c["chips"(RA A)c/2>A/2 c/2>c/2{c}A | {A}c](RA Vc)A A/cA/   | {A}c2 ["" (Rc2 c2) ] :| $
+
+
+X:934022
+T:North America Massed Bands 3/4 (Bass/Tenor)
+C:
+B:
+O:
+Z:Kevin Fraser
+H:
+Q:1/4=78
+M:3/4
+L:1/8
+R:March
+K:HP
+U: R = ///
+U: r = //
+U: V = !accent!
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=bass dyn=up name="Bass" octave=-2
+V:T gstem=up stem=down clef=perc dyn=up name="Tenor" 
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%MIDI vol 100
+[V:B][|         Vc>A cA cA| Vc>A cA cA| Vc>A cA cA| Vc2 A2 c2 | $ 
+[V:B]           Vc2 A2 c2 | VA2 c2 A2 | Vc2 A2 c2 | VA2 z2 z2 | $ 
+[V:B]           Vc>A cA cA| Vc>A cA cA| Vc>A cA cA| Vc2 A2 c2 | $ 
+[V:B]           Vc2 A2 c2 | VA2 c2 A2 | Vc2 A2 c2 | VA2 z2 z2 |] $ 
+[V:B][|         Vc>A cA cA| Vc>A cA cA| Vc>A cA cA| Vc2 A2 c2 | $ 
+[V:B]           Vc2 A2 c2 | VA2 c2 A2 | Vc2 A2 c2 | VA2 z2 z2 | $ 
+[V:B]           Vc>A cA cA| Vc>A cA cA| Vc>A cA cA| Vc2 A2 c2 | $ 
+[V:B]           Vc2 A2 c2 | VA2 c2 A2 | Vc2 A2 c2 | VA2 z2 z2 |] $ 
+[V:T][| ^g^e ^g^e ^g^e | ge eg/>e/ g/>g/e  | ^g^e ^g^e ^g^e | g2 g2 g2  | $ 
+[V:T]   ^g^e ^g^e ^g^e | ge eg/>e/ g/>g/e  | ^g^e ^g^e ^g^e | g2 g2 g2  | $ 
+[V:T]   ^g2 ^e2 ^g2    | ge eg/>e/ g/>g/e  | ^g2 ^e2 ^g2    | g2 z2 g2  | $ 
+[V:T]   ^g2 ^e2 ^g2    | ge eg/>e/ g/>g/e  | ^g2 ^e2 ^g2    | g2 z2 g2  |] $ 
+[V:T][| ^g^e ^g^e ^g^e | ge eg/>e/ g/>g/e  | ^g^e ^g^e ^g^e | g2 g2 g2  | $ 
+[V:T]   ^g^e ^g^e ^g^e | ge eg/>e/ g/>g/e  | ^g^e ^g^e ^g^e | g2 g2 g2  | $ 
+[V:T]   ^g2 z2 z2      | ge eg/>e/ g/>g/e  | ^g2 z2 z2      | g2 z2 g2  | $ 
+[V:T]   ^g2 z2 z2      | ge eg/>e/ g/>g/e  | ^g2 z2 z2      | g2 z2 g2  |] $ 
+
+
+X:968021
+T:North America Massed Bands 6/8 (Snare)
+C:
+B:
+O:
+Z:Kevin Fraser
+H:
+Q:1/4=78
+M:6/8
+L:1/8
+R:March
+K:HP
+I:MIDI=program 110
+%%MIDI gracedivider 100
+U: R = ///
+U: r = //
+U: V = !accent!
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=bass dyn=up name="Bass" octave=-2
+V:T gstem=up stem=down clef=perc dyn=up name="Tenor" 
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%MIDI vol 100
+[V:S] |: {A}c2(rcA2) (rc | A)>2cA {A}c>A{A}c | [""{A}c2(rcA2) (rc | A)>2cA {A}c2]A | $
+[V:S] |  {A}c2(rcA2) (rc | A)>2cA {A}c>A{A}c | [""{A}c3(rc3) | A)>2cA {A}c2A] :| $
+[V:S] |: (rc3  A)>2cA | (rc3  A)>2cA | [""{A}c2(rcA2) (rc | A)>2cA {A}c2]A | $
+[V:S] |  (rc3  A)>2cA | (rc3  A)>2cA  | [""{A}c3(rc3) | A)>2cA {A}c2A] :| $
+
+
+X:968022
+T:North America Massed Bands 6/8 (Bass/Tenor)
+C:
+B:
+O:
+Z:Kevin Fraser
+H:
+Q:1/4=78
+M:6/8
+L:1/8
+R:March
+K:HP
+I:MIDI=program 110
+U: R = ///
+U: r = //
+U: V = !accent!
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=bass dyn=up name="Bass" octave=-2
+V:T gstem=up stem=down clef=perc dyn=up name="Tenor" 
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%MIDI vol 100
+
+
+X:934021
+T:Ontario Massed Bands 3/4 (Snare/Bass)
+C:
+B:
+O:
+Z:Kevin Fraser
+H:
+Q:1/4=78
+M:3/4
+L:1/8
+R:March
+K:HP
+U: R = ///
+U: r = //
+U: V = !accent!
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"" sname="Snare"
+V:B gstem=up stem=down clef=bass dyn=up name="Bass" octave=-2
+V:T gstem=up stem=down clef=perc dyn=up name="Tenor" 
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%MIDI vol 100
+[V:S]|:         {A}c(RA Vc)(RA RcA)  | {A}c(RA (3:A/2)c/2A/2 {A}c/2>A/2 c/2>c/2{c}A | {A}c(RA Vc)(RA RcA)  | {A}c2 (Rc2 c2) | $
+[V:S]           {A}c(RA Vc)(RA RcA)  | {A}c(RA (3:A/2)c/2A/2 {A}c/2>A/2 c/2>c/2{c}A | {A}c{A}c/2>A/2 c/2>A/2Vc/4A/4c/4A/4 Vc/4A/4c/4A/4Vc | {A}c2 (Rc2 c2) :| $
+[V:B]|:         Vc>A cA cA| Vc>A cA cA| Vc>A cA cA| Vc2 A2 c2 | $
+[V:B]           Vc2 A2 c2 | VA2 c2 A2 | Vc2 A2 c2 | VA2 z2 z2 :| $
+
+

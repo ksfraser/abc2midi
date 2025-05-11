@@ -1,0 +1,158 @@
+X:1
+T:The Sound of Silence
+H: 
+B: https://musescore.com/georgewu/ptxsoundofsilence, https://musescore.com/abchords321/scores/5449091
+C:Simon and Garfunkel (Pentatonix / Disturbed)
+O:Transcribed by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+M:4/4
+L:1/8
+K:D
+V:1 gstem=up stem=down name="Melody" sname=Melody
+V:2 gstem=up stem=down name="Harmony" sname=Harmony 
+V:3 gstem=up stem=down name="Harmony 2" sname=Harmony2
+V:4 gstem=up stem=down name="Harmony 3" sname=Harmony3 % vol 60
+[V:1]||  Z                         |    Z   |              Z               |  Z  |             Z              | 
+[V:2]||  Z                         |    Z   |              Z               |  Z  |             Z              |
+[V:3]||  Z                         |    Z   |              Z               |  Z  |             Z              | 
+[V:4]|| z2 FF       AA        cc   | B8     | zE   EE      GG        BB    | A8  | zA AA      cc      ee      |
+w:         Hel-lo Dark-ness my old | friend | I've come to talk with you a-|gain | Be cause a vi-sion soft-ly |
+[V:1]| (A8        |  A6)       z2              |       (A8     | A2) z2 "10" F2  E2 | F2 G2 (A4            | 
+[V:2]| F4    (E4  |  E6)       z2              |    F4 (E4     | E2) z2      (D4    | D2) E2 (F4           | 
+[V:3]| d4    (c4  |  c6)       z2              |    d4 (c4     | c2) z2      (A4    | A2) d6               | 
+[V:4]| f2 f(e e4) |  z2 AA cc ee               |"8" f2 f(e e4) | z2 AA       f(f f2 | f2) fg       a(a a2) |
+w:   |  creep-ing | left its seeds while I was |    sleep-ing  | and the     vision |     that was planted |
+[V:1]"12"A8           | A2)  z2   C4       | E2  F2  z4            | e6      z2 | Ac GB Ac Bd || 
+[V:2]    F4)      (e4 | e2)  z2   A,4      | B2  C2  z4            | c6      z2 | z2 B2 c2 d2 ||             
+[V:3]    d2 z2    (c4 | c2)  z2   F4       | G2  A2  z4            | A6      z2 | A2 G2 A2 B2 ||
+[V:4]   g(f f)(e  e4) | z2   fe  (c4       | c4)     z A AA        | e6     zG  | A(F F6)     ||
+w:      in my brain   |      still remains |           within the  | sound   of | silence     ||
+% %score {2 (1 3 4)}
+[V:1]||                      Z                |(E8        | E6)                    z2    | F4   G4  | F4           G2    (A2   |
+[V:2]|| "17" z  F  FF        AA      c A      | B6 z2     | z2   EE      GG        BB    | A8       | zA AA        cc    ee    |
+w:             In rest-less dreams I walked a-|lone       |      narrow streets of cobble| stone    |  beneath the ha-lo of a  |
+[V:3]||  f                   z7               |G4   A4    | G6                     z2    | A4   B4  | A4           B2    c2    |
+[V:4]||                      Z                |(E,8       | E,6)                   z2    | (F,8     | F,6)                A,2  |
+[V:1]|"22" A2) A(A A4)| z2 C,2        E2     A2    | A2   A(A A4)   |
+[V:2]|     f2 f(e e4) |zA  A      A  cc     e  e   | f2   f(e e4)   | 
+w:   |     street lamp| I  turned my collar to the | cold and damp  |
+[V:3]|     d2  d(c c4)| z2 E2        B2     c2     | d2   d(c c4)   |
+[V:4]|     D,4 (A,4   | A,8)                       | D,4      A,4   | 
+[V:1]     ED C2      (A4               | A)z AA     A2     AA   | A(A A)(A    A4) | z2   C2 "29"A,3 B        | C4      E4         | B6    z2 | zc zc zc zc    ||
+[V:2] "25"z2 AA      f2   f    (f      | f2) fg     a2    a  a  | g(f f)(e    e4) | zA   fe     (c4          | c4) z A AA         | e6    zG | A F7           ||
+w:           When my Eyes were stabbed |     by the flash of a  | neon  light     |that  split the night     |    and touched the | sound of | silence        ||
+[V:3]     cB A2      (d4               | d)z de     f2     ff   | e(d d)(c    c4) | z2   A2     F3 G         | A2  F2  A4         | G6    z2 | f2 g2 f2 e2    ||
+[V:4]     A,4        (D,4              | D,8                    | D,4)        (A,4| A,4)        F,3 G,       | A,2 C,2 E,4        | E,6   z2 | z2 B,2 A,2 G,2 ||
+% %score {4 (2 3 1)}
+[V:1]|| "33"Z                        | a3/2 a3/2 g3/2 g3/2 g z | e2   f2      g2    e2     |  a3/2 g3/2 (f f)e f/g/a/z/ |
+w:   ||                              | In the Light I saw      | oh_______________________ |  may-be more_______________|
+[V:2]||     Z                        | e3/2 e3/2 e3/2 e3/2 e z | G2   A2      b2    G2     |  f3/2 e3/2 (c c)b c/e/f/z/ |
+[V:3]||     Z                        | E7                    B | E8                        | F7                       C |
+[V:4]|| z   F   F  F   A A   B     A | B8                      | zE  EE       GG     BB    | A8                         | 
+w:          And in the naked light I | saw                     | ten thousand people maybe | more                       |
+[V:1] "37" z2   FG   A2      c2      | d2 d(c c4) | AG FE     A2     c2       | d2   d(c   c2) AA     |[M:2/4] c(e e)(d | [M:4/4]  d4  d2) c2   | dd3   a(a a)(a       | a6) z2       | E4 F2 A2   |
+[V:2]      z2   ce   f2      a2      | a2 a(a a4) | ag fe     f2     a2       | B2   B(a   a2) AA     |[M:2/4] c(e e)(a | [M:4/4]  a4  a2) g2   | aa3   g(f f)(e       | e6) z2       | A3b c2 (e2 |
+[V:3]      F4        F2      A2      | D4     (A4 | A4)       A2     C2       | D4         (A4        |[M:2/4] A4)      | [M:4/4]  (D4 D3)  A   | D8                   | A8           | F3G A2 C2  |
+[V:4]      z2 AA     cc      ee      | f2 f(e e4) |z2  A  A   cc      e  e    | f2   f  (e e2) AA     |[M:2/4] c(e e)(f | [M:4/4]  f4  f2) e2   | "43"f(f f2) e(d d)(c | c4 zA f (e   | e) (c c)B/(A/ A4) |
+w:            people talking without | speaking   |    People hearing without | listening.     People | writing       | M:4/4  songs   that | voices never share   |   and no one |   dared |
+[V:1][M:2/4] "46" G4     |[M:4/4] (E4  E2) z2  | zc zc    zc    zc | F3G A(F  F2)    | F8)              ||
+[V:2][M:2/4]      e4     |[M:4/4] (b4  b2) z2  | z2 Bz    az    gz | f3f f(c  c2     | c6)           e2 ||
+[V:3][M:2/4]      c4     |[M:4/4] f4   e2  z2  | fz gz    fz    gz | fc' b'c' ac' gc'| fc' b'c' b'c' gc'||
+[V:4][M:2/4]      zA AG  |[M:4/4] E4   E,2 zG, | A,(F, F,4)    zC  | A(F F4)     zB  | c(A A2)  B2   c2 ||
+w:           disturb the | sound            of | silence        of | si-lence     of | si-lence_________||
+% %score {1 (2 3 4)}
+[V:1] "51"  z2 BB DD F/E/D | [K:D] D(E   E6)            | z2 AA       CC      E(C    | C)(D D6)            |
+w:    Fools said I you do not|             know           | Thou-sand Peo-ple May-be |    more             |
+[V:2]       d8               |       E3/2  E3/2 (E E)z zE | E3/2  E3/2 (E E)z zE     | F3/2 F3/2 (F F)z zE |
+[V:3]       b8               |       c3/2  c3/2 (c c)z zc | c3/2  c3/2 (c c)z zc     | d3/2 d3/2 (d d)z zc |
+w:                           |       Do     Not Know   You| Do     Not Know          | oh it grows       ah|
+[V:4]       G8               |       (C,8                 | C,6)              B,2    | D,8
+[V:1] "55"  z2 DD FF      AA      | B2 B/A/(A A4)         | z2 dc   BA        ED      | B2 B/A/(A A4)  |[M:2/4] z2  DD |
+w:     Hear my words that I might | teach you             | take my arms that I might | reach you      | but my   |   
+[V:2]       F2 FE FA      B2      | D2 D(D    D2) zA      | B2  A2  F2        D2      | D2 D(D    D4)  |[M:2/4] z2  DD  |
+[V:3]       d2 dc de      f2      | g2 g(f    f2) ze/f/   | g2  f2  d2        A2      | g2 g(f    f4)  |[M:2/4] z2  dd  |
+w:    oh_______________           | might teach you oh ooh| oh________________________| might reach you| but my     |
+[V:4]       B4    D2      F2      | G4        D4          | D3   A  D,2       F,2     | G,4       D,4  |[M:2/4] D,2 D,2  |
+[V:1] [M:4/4] "60" B6    c2   |  d  d3    c    BA    (A      | A2)     A/G/F E3 D/C/  | 
+w:                 words  like |  si-lent  rain drops fell__ |                        |
+[V:2][M:4/4]     z4    G2  A2  |  B  B3    AG2        (F     | (F2) F/)E/d C3 B,/A,/  |
+[V:3][M:4/4]     z2 d4     f2  | g  g3   f(e e)(d            |  d3) A  A3     F/E/    |
+w:                 words  like | si-lent   rain drops fell__ |                        |
+[V:4][M:4/4]     G,7        D, | G,8                         |  D6             A,2    |
+[V:1] "63" B2 zD  D(D D)D/D/        | A6       zC |  D(B, B,4 z2  |
+w:             e-choed in the       | wells____of |  si-lence__   |
+[V:2]      F,4     z4               | E6       z2 | zF  zF  zF   zF |
+[V:3]      D4      z4               | e6       z2 | z2  e2  d2   c2 |
+[V:6]      D,4     z4               | C6       z2 | Z               |
+% %score {3 (2 1 4)}
+[V:1] "66"FE   FA      B2    d2     | z2 A2  C2 A2 | z2 A2     C2    A2  | Bz B2 d2 B2        | z2  FF  AA  d(d              | d2) d(d d4)  |
+[V:2]     DC   DE      F2    b2     | z2 C2  E2 C2 | z2 C2     E2    C2  | Dz D2 F2 D2        | z2  DD  FF  AA               | B2 B(A A4 )  |
+[V:3]     z2   BB      dd    f/e/d  | e8           | z2 AA     cc    e2  | f3/2 (f3/2 (f) f4) | z2  BB  dd  ff               |  g2 g(f f4)  |
+w:    and the  peo-ple bowed and    | prayed       |    to the ne-on god | they made          | and the sign flashed out its | war-ning     |
+[V:6]     D,C, B,,A,,  F,,D,, B,,F, | (A,,8        | A,,8)               | (B,,8              | B,,6)       F,2              | G,4     D,4  |
+% %score {3 (2 1 4)}
+[V:1] "72" z2 dc BA F/E/D | d2 d(d d2) d/B/(A | A)z DD F2 AA |
+[V:2]      z2 dc BA F/E/D | B2 B(A A2) A/G/(F | F)z DD F2 AA |
+[V:3]      z2 dc BA F/E/D | g2 g(f f2) f/e/(d | d)z DD F2 AA |
+w:   and the words that it was | for-ming____ | and the sign said the | 
+[V:6]      z6       D2    | A4     (D4        | D4)    D2 D2 |
+% %score {3 (2 1 4)}
+[V:1] "75" B2  BB    BB       C2  | d/d/(d d)d     cB      A(A    | A5)     D  B/B/(A   |
+[V:2]      G2  GG    GG       A2  | B/B/(B B)B     AG      F(F    | F5)     D  B/B/(A   |
+[V:3]      d2  dd    dd       f2  | g/g/(g g)g     fe      d(d    | d5)     d  e/e/(d   |
+w:      words of the pro-phet are | written on the sub-way walls__|        and tenement |
+[V:6]      G,7                 d, | G,8                   | D,6        C,2    |  
+% %score {3 (2 1 4)}
+[V:1] "78" A)(F F6-)        | f3 D D(D D)D/D/     | A8-   | AC  D(B B4)      ||
+[V:2]      A)(F F6-)        | f3 D D(D D)D/D/     | e8-   | eC  D(B B4  )    ||
+[V:3]      A)(F F6-)        | f3 D D(D D)D/D/     | c8-   | c2  d(B B4)      ||
+w:       ____halls         | and whispered in the | sound | of  si-lence     ||
+[V:6]      B,3C, D,2 C,2   | B,2 z2 z4            | A,8   | zC, D,(B,, B,,4) ||
+V:5 dyn=down gstem=up stem=down grace=up clef=bass dyn=up name="Bass and Snare" sname=drums octave=-2
+L:1/8
+%%MIDI gracedivider 8
+%%MIDI channel 10
+%%MIDI program 0 
+%%MIDI drummap c 38
+%%MIDI drummap A 38
+%%MIDI vol 50
+%%MIDI drumon
+V:5|| Z34  |[AC]3/2 [AC]3/2 [AC]3/2 z e z | [AC]3/2 [AC]3/2 [AC]3/2 z e z | [AC]3/2 [AC]3/2 [AC]3/2 z e z | [AC]3/2 [AC]3/2 [AC]3/2 z e z |
+
+% abc2xml.py percussion maps
+I:percmap C D 52 triangle
+I:percmap A * 60 x
+I:percmap c * 47 diamond
+%
+% abcm2ps / abc2svg percussion maps
+%
+%%map drummap C print=D heads=triangle
+%%map drummap A heads=x_head
+%%map drummap c heads=diamond
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

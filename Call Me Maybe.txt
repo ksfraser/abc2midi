@@ -1,0 +1,62 @@
+X:3000
+T:Call Me Maybe
+O:Kevin Fraser
+Q:1/4=120
+K:C
+M:4/4
+L:1/8
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {g}B {d}B {e}B {g}B {d}B {e}A B2 | {g}B {d}B {e}B {g}B {d}B {e}A B2 | {g}B {d}B {e}B {g}B {d}B {e}A A2| A A G G G d B2 |
+
+| {g}B {d}B {e}B {g}B {d}B {e}A B2 | {g}B {d}B {e}B {g}B {d}B {e}A B2 | {g}B {d}B {e}B {g}B {d}B {e}A A2| A A G G G d B2 |
+
+| d2 d B A G | d2 d2 d B A G | d2 d2 d B A G | G G G G G G A B2 |
+
+|: G2 B d G d2 | B B d B G2 | G B c B G2 | G B A A G2 |
+w:Chorus
+| G2 B d G d2 | B d B2 | G2 G B c B G2 |  G B A A G2 :|
+
+|d B A A G G e | d d d d A2 G2 | d d d A2 G2 | d d d A2 A2|
+
+| G G B A A G G e | d d d d A2 G2 | d d d A2 G2 | d d d A2 A2 | G4
+
+
+X:3000
+T:Call Me Maybe v2
+O:Kevin Fraser
+Q:1/4=120
+K:C
+M:4/4
+L:1/8
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+| {g}e {g}e {e}e {g}e {g}e {e}d e2 | {g}e {g}e {e}e {g}e {g}e {e}d e2 | {g}e {g}e {e}e {g}e {g}e {e}d d2| d d c c c g e2 |
+
+| {g}e {g}e {e}e {g}e {g}e {e}d e2 | {g}e {g}e {e}e {g}e {g}e {e}d e2 | {g}e {g}e {e}e {g}e {g}e {e}d d2| d d c c c g e2 |
+
+| g2 g e d c | g2 g2 g e d c | g2 g2 g e d c | c c c c c c d e2 |
+
+|: c2 e g c g2 | e e g e c2 | c e f e c2 | c e d d c2 |
+w:Chorus
+| c2 e g c g2 | e g e2 | c2 c e f e c2 |  c e d d c2 :|
+
+|g e d d c c e | g g g g d2 c2 | g g g d2 c2 | g g g d2 d2|
+
+| c c e d d c c e | g g g g d2 c2 | g g g d2 c2 | g g g d2 d2 | c4
+
+
+
+X:3000
+T:Scale
+Q:1/4=120
+K:C
+M:4/4
+L:1/4
+|: a  g   f    e  | d   c   B   A  |  G | :|
+w: A  G   F    E  | D   C   B   A  |  G     
+w: I  di  ve   e  | a   o   o   en |  em
+w: ee dee vay  ay | ah  oh  oh  en |  em
+

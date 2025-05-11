@@ -1,0 +1,99 @@
+%%abc-include "../Ceol Mhor/format.abh"
+%%landscape
+
+X:24401
+H:
+T:Strathspey Medley
+C:
+B:
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=132
+K:HP
+M:4/4
+L:1/8
+R:Strathspey
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname="Melody"
+V:H gstem=up stem=down name="Harmony"
+V:C gstem=up stem=down name="C-Harmony"
+V:S gstem=up stem=down dyn=up stafflines=1 clef=perc middle=G name="Snare" sname="Snare"
+V:B gstem=up stem=down clef=none dyn=up name="Bass"
+V:T gstem=up stem=down clef=none dyn=up name="Tenor"
+V:BB gstem=up stem=down name="Brass Bass" sname="ABCD-C" transpose=-1  octave=-1 clef=bass
+V:BC gstem=up stem=down name="Brass Chord" sname="ABCD-D" transpose=-1
+V:BD gstem=up stem=down name="Brass Chord 2" sname="ABCD-B" transpose=-1
+V:P gstem=up stem=down name="Piano" octave=-1
+I:MIDI=program 110
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+% %alignbars 80
+% %landscape
+% abc2xml.py percussion maps
+I:percmap C D 52 triangle
+I:percmap A * 60 x
+I:percmap c * 47 diamond
+I:linebreak $
+%
+% abcm2ps / abc2svg percussion maps
+%
+%%map drummap C print=D heads=triangle
+%%map drummap A heads=x_head
+%%map drummap c heads=diamond
+%
+% %score {M H}
+%%score {M}
+%%MIDI program 109 #bagpipes
+%%MIDI vol 100
+T:Devil in the Kitchen
+[V:M]a  |{ef}e>A {gGAGA}A2 {gef}e>A {g}f/e/d    |{gef}e>A {gGAGA}A2  {gf}g2 {a}f<a     |{ef}e>A {gGAGA}A2 {gef}e>A {g}f/e/d |{gBd}B>{e}A {g}G2    {gf}g2 {a}f<a   | $
+[V:M]z  |{ef}e>A {gGAGA}A2 {gef}e>A {g}f/e/d    |{gef}e>A {gGAGA}A2  {gf}g2 {a}f<a     |{ef}e>A {gGAGA}A2 {gef}e>A {g}f/e/d |{gBd}B>{e}A {g}G2    {gf}g2 {a}f>g   ||  $
+[V:M]z  | a>A     {gGAGA}A2 {gef}e>A {gGAGA}A2  |a>A      {gGAGA}A2  {gf}g2 {a}f>g     |a>A     {gGAGA}A2 {gef}e>A {g}f/e/d |{gBd}B>{e}A {g}G2    {gf}g2 {a}f>g   | $
+[V:M]z  |a>A     {gGAGA}A2 {gef}e>A {gGAGA}A2   |a>A      {gGAGA}A2  {gf}g2 {a}f>g     |a/g/f   {gf}g>e   {gfg}f>d {gef}e>c |{g}B>c      {Gdc}d>e {gf}g2 {a}f>a   || $
+T:Keel Row 
+V:M
+ |: d |{gcd}c2 {e}A>c   {Gdc}d2 {e}B>d   |{gcd}c2 {e}A>c     {gBd}B>A {e}G>d |{gcd}c2 {e}A>c   {Gdc}d2 {gBd}B>d |{g}c>{e}A {g}B>{e}G {g}A2   {GAG}A2:| 
+V:M
+ |:    {g}c<e  {A}e>a   {fg}f2  {gef}e>d |{gcd}c2 {g}A>{d}c  {gBd}B>A {e}G>d | {g}c<e {A}e>a   {fg}f2  {gef}e>d |{g}c>{e}A {g}B>{e}G {g}A2   {GAG}A2:|                                 
+V:M
+ |: e |{gfg}f2 {Gdc}d>f {gf}g2  {ef}e>g  |{gfg}f2  {Gdc}d>f  {gef}e>c {g}A>g |{gfg}f2 {Gdc}d>f {gf}g2  {ef}e>g  |{fg}f>d   {g}e>c    {Gdc}d2 {gdc}d :| 
+V:M
+ |:    {g}c<e  {A}e>a   {fg}f>d {gef}e>d |{gcd}c>B {g}A>{d}c {gBd}B>A {e}G>d | {g}c<e {A}e>a   {fg}f>d {gef}e>d |{g}c>{e}A {g}B>{e}G {g}A2   {GAG}A2::|                                 
+T:Orange and Blue
+V:M
+a  |f<d {gdG}d2 {g}A>d {gdG}d2 | {g}f>g {ag}a>f {Gdc}d2 {gdG}d2 |{g}c>e  {A}e2   {g}c<{d}A {gef}e>A |{g}c2     {GdG}e>c {g}A2   {GAG}A>a |
+V:M
+z  |f<d {gdG}d2 {g}A>d {gdG}d2 | {g}f>g {ag}a>f {Gdc}d2 {g}f>g  |{ag}a>f {gf}g>e {gfg}f>d  {gef}e>d |{g}c<{d}A {g}B>c   {Gdc}d2 {gdG}d  ||
+V:M
+g  |{a}f<a {g}a2 f<a   {g}a2   | f>g    {ag}a>f {Gdc}d2 {gdG}d2 |{g}c>e  {A}e2   {g}c<{d}A {gef}e>A |{g}c2     {GdG}e>c {g}A2   {GAG}A>g |
+V:M
+z  |{a}f<a {g}a2 f<a   {g}a2   | f>g    {ag}a>f {Gdc}d2 {g}f>g  |{ag}a>f {gf}g>e {gfg}f>d {gef}e>d  |{g}c<{d}A {g}B>c   {Gdc}d2 {gdG}d  ||
+
+%%MIDI channel 10
+%%MIDI program 0 
+%%MIDI drummap c 38
+%%MIDI drummap A 38
+%%MIDI vol 50
+%%MIDI drumon
+% %MIDI drumoff
+V:S
+% %MIDI program 116 #taiko drum
+% %MIDI program 0 
+%%MIDI channel 10
+%%MIDI vol 80
+%%MIDI drummap A 35
+%%MIDI drumon
+L:1/8
+V:B
+%%MIDI drumoff
+%%MIDI drummap e 43
+%%MIDI channel 10
+%%MIDI program 117 #Melodic Tom
+%%MIDI vol 70
+%%MIDI drumon
+V:T
+%%MIDI drumoff
+

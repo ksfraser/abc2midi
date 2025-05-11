@@ -1,0 +1,40 @@
+X:9104
+T:What Makes You Beautiful
+C: One Direction
+B: 
+O:Arranged by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=135
+M:4/4
+L:1/8
+R:March
+V:1 gstem=up stem=down
+I:MIDI=program 110
+K:HP
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring 
+%%landscape
+
+T: As Sung
+|| z4 z A AA   | A4 zA AA        |   A4 zA AA   | A2 AA A2 AA   | Bc B2 zA AA |
+               | A4 zA AA        |   A4 zA AA   | A2 AA A2 AA   | Bc B2 z4 ||
+
+|| A2   ce  f2   fe  | c2 c(c c)(B B2) |  A2  ce  f2   fe  | c2 z(B B)c  BA  ||
+
+|| A>(A A)A A>(A A)A | B2 c(B B)c  BA  | A>(A A)A A>(A A)A | B2 c(B B)c  BA  |
+ | A>(A A)A A>(A A)A | B2 c(B B)c  BA  | A2   zB  c2   z2  | cc cc c>(B B)A  |
+ | A>(A A)A A>(A A)A | B2 c(B B)c  BA  | A>(A A)A A>(A A)A | B2 c(B B)c  BA  |
+ | A>(A A)A A>(A A)A | B2 c(B B)c  BA  | A2   zB  c2   z2  | cc cc c>(B B)A  |
+ |A2   zB  c2   z2  | "rit"Bc cc c>(B B)(A  | A2) z6 ||
+
+T: Embellished
+|| z4 z {g}A {d}A{e}A| {gAd}A4 z{g}A {d}A{e}A| {gAd}A4 z{g}A {d}A{e}A| {g}A2 {g}A{d}A {g}A2 {g}A{d}A | {g}Bc {gBd}B2 z{g}A {d}A{e}A|
+                     | {gAd}A4 z{g}A {d}A{e}A| {gAd}A4 z{g}A {d}A{e}A| {g}A2 {g}A{d}A {g}A2 {g}A{d}A | {g}Bc {gBd}B2 z4 ||
+
+|| {g}A2   {d}ce  {gfg}f2   {g}fe  | c2 c(c c)(B B2) |  {g}A2   {d}ce  {gfg}f2   {g}fe  | {gcd}c2 z{e}(B B){d}c  {g}BA  ||
+
+|: {g}A2 {g}A{d}A {g}A2 {g}A{d}A  | {gBd}B2 {g}c{e}(B B){d}c  {g}B{d}A | {g}A2   {g}A{d}A {g}A2 {g}A{d}A | {gBd}B2 {g}c{e}(B B){d}c  {g}B{d}A
+ | {g}A2 {g}A{d}A {g}A2 {g}A{d}A  | {gBd}B2 {g}c{e}(B B){d}c  {g}B{d}A | {gAd}A2   z{d}B  {e}c2 z2       | {g}c{d}c {g}c{d}c {g}c>{d}(B B){e}A :|
+
+ || {gAd}A2   z{d}B  {e}c2      z2     | "rit"{g}B{d}c {g}c{d}c {g}c>{d}(B B){e}(A  | A2) z6 ||

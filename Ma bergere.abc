@@ -1,0 +1,77 @@
+% adapted from abctab2ps
+
+% -- bataille
+
+% insert the fonts from abctab2ps
+% %format frFrancisque.ps
+
+% U:i=!invisible!
+
+X:1
+%%indent         1.5cm
+%%wordsfont      Times-Italic 10
+T:Ma bergere, non l\'egere
+C:Gabriel Bataille
+L:1/4
+M:none
+% %leftmargin 1cm
+% %rightmargin 1cm
+%%staves [F | L]
+K:Dm
+%%scale 0.6
+%
+V:F clef=treble name=Voice %bracket=2
+V:L clef=frenchtab name=Lute stafflines=6 staffscale=2
+%
+[V:F]F/ G/ A/ F/ A/ B/ c/ c/ d/ e/ f>_e d c/B/ A G/ F/ E>F F3::
+w:Ma ber-ge-re, non l\'e-ge-re En a-mours, me fait re-\cce-vour du bien tous les jours.
+V:L
+% %tablature 10 30 tab6h tab6n tab6b
+	ic/      ic/   ic/   ic/   ic/   ic/  ic \
+w:	,XbXdca/ ,,,,c ,,,,d ,,,,a ,bbcd ,,,a ,abc1 \
+	ic   ic        ic    ic/        ic/     ic   ic \
+w:	bdda a,b,d{(y} {,a)} ,XbXd,,(b/ ,,,,,a) {a}1 {,a} \
+	ic/    ic/   ic      ic    ic2        ic i::
+w:	,d,,c/ ,,,,a ,,,,,d1 ;,dba ,bbcd{(y}2 {,a)}1
+%
+[V:F]c/ B/ A/ F/ B/ A/ G/ A/ F/ G/ E> E F/ F/ G/ G/ A/ A/ =B/ c/ d/ e/ ^c d3:|
+w:Je la mei-ne, la pur mei-ne, par les champs, O\`u nous pre-nons en-sem-ble de doux pas - se temps.
+V:L
+	ic/   ic/  ic/    ic/   ic/   ic/   ic/   ic/   ic/   ic/ \
+w:	,,bc/ ,,,a ,Xb,,d ,,,,a ,,Xda ,,,,d ,,,,c ,,,,d ,,,,a .,,a \ 
+	ic/    ic/  ic/ ic/ ic/   ic/  ic/    ic/   ic/ \
+w:	,,c,,a .,,d ,a .,,c ,,,,a .,,d ,,b,Xc .,,,d ,,,cXd \
+	ic/  ic/  ic/ ic/   ic/ ic \
+w:	,,Xd ,,,a .,a ,b,,a .,d ,a,,,a1 \
+	ic2        ic i:|
+w:	,,dca{(y}2 {,,a)}1
+%
+W:Par la plaine  /  Sans grand peine  /  Nous mettons
+W:A mesmes trouppeau nos petits moutons
+W:Puis \`a l'aise  /  Je luy baise  /  Son beau sein
+W:Et sa bouche vermeille, son joli t\'etin.
+W:
+W:Que si j'ose  /  Autre chose  /  Rechercher,
+W:Elle ne me veut laisser aprocher
+W:Mais subite  /  Prend la fuitte  /  Moy apres,
+W:Je s\ccay bien la poursuivre et la joindre de pres.
+W:
+W:Si je l\`eve  /  Sus sa greve  /  Les genoux
+W:Sa cotte si haut qu'on voye dessoubs:
+W:En furie  /  Elle crie  /  Et me mord;
+W:Et puis en bien peu d'heure nous sommes d'accord
+W:
+W:Je luy cueille  /  Et recueille  /  Tant de fleurs
+W:Qu'elle en peut avoir de toutes couleurs
+W:Elle bonne  /  Me fa\cconne  /  Des bouquets
+W:Qui causent au village beaucoup de caquets
+W:
+W:Pourtant passe  /  Quoy qu'on face  /  L'aymeray
+W:Et magr\'e le bruit je l'estimeray
+W:L'inconstance  /  N'a puissance  /  Sur ma foy
+W:Je veux estre fidelle comme elle est \`a moy.
+W:
+W:Nostre vie  /  Sans envie  /  Nous passons
+W:Charmans nos soucis de gayes chansons
+W:Fy des villes  /  O\`u les filles  /  Ne font cas
+W:Des amants qui pour elle conduise au trespas

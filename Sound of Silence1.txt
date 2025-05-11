@@ -1,0 +1,42 @@
+% %abc-include "../Ceol Mhor/Medleys/format.abh"
+
+X:1
+T:The Sound of Silence
+H: 
+b: https://musescore.com/georgewu/ptxsoundofsilence, https://musescore.com/abchords321/scores/5449091
+c:Simon and Garfunkel (Pentatonix / disturbed)
+O:Transcribed by Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=90
+K:AMix
+%K:AMix sound=A_b
+%K:bbMix score=_bA %concert Pitch
+M:4/4
+L:1/8
+R:March
+U: R = ///
+U: r = //
+U: V = !accent!
+V:M gstem=up stem=down name="Melody" sname=Melody
+V:1 gstem=up stem=down name="Piper 1" sname=P1
+V:2 gstem=up stem=down name="Piper 2" sname=P2 % vol 60
+V:3 gstem=up stem=down name="Piper 3" sname=P3 % vol 60
+V:4 gstem=up stem=down name="Piper 4" sname=P4 % vol 60
+V:6 gstem=up stem=down name="b Guitar" sname=bGuit % vol 60
+
+[V:1]|| z2 AA       cc        ee   | d8-     | dG   GG      BB        dd     | c8-  | cA AA      cc      ee      | A8-       |  A8                        |     A8-     |
+[V:2]|| z2 AA       cc        ee   | d8-     | dG   GG      BB        dd     | c8-  | cA AA      cc      ee      | d2 dc- c4-|  c8                        |  d2- dc-c4- |
+[V:3]|| z2 AA       cc        ee   | d8-     | dG   GG      BB        dd     | c8-  | cA AA      cc      ee      | f2 fe- e4-|  e2 AA cc ee               |  f2 fe- e4- |
+[V:4]|| z2 AA       cc        ee   | d8-     | dG   GG      BB        dd     | c8-  | cA AA      cc      ee      | f2 fe- e4-|  e2 AA cc ee               |  f2 fe- e4- |
+[V:M] || z2 AA       cc        ee   | d8-     | dG   GG      BB        dd     | c8-  | cA AA      cc      ee      |f2 fe- e4- | e2   AA  cc          ee    |  f2 fe- e4- |
+w:          Hel-lo dark-ness my old | friend  | I've come to talk with you  a-| gain | be cause a vi-sion soft-ly | creep-ing | left its seeds while I was |  sleep-ing  |
+% [V:6]||              Z            | Z       |               Z               |  Z   |             Z              |    Z      |             Z              |     Z       |
+
+[V:1]|  A4      d4     | d2  G2       A4-     | A4        A4  | c4        e4       | e2  f6               | c8         | Ac GB Ac Bd || 
+[V:2]|  c4      A4-    | A2  d2       f4-     | d4        c4  | A4        A4       | G2  A6-              | A8         | c2 B2 c2 d2 ||
+[V:3]|  e4      f4-    | f2  fg       aa- a2  | gf- fe-   e4- | e2   fe   c4-      | c4-     cA AA        | e6-    eG  | Af- f6-     ||              
+[V:4]|  e2 AA   ff- f2-| f2  fg       aa- a2  | gf- fe-   e4- | e2   fe   c4-      | c4-     cA AA        | e6-    eG  | Af- f6-     ||
+[V:M] |  e2 AA   ff- f2-| f2  fg       aa- a2  | gf- fe-   e4- | e2   fe   c4-      | c4-     cA AA        | e6-    eG  | Af- f6-     ||
+w:    |  and the vision |     that was planted | in my brain   |      still remains |          within the  | sound   of | silence     ||
+% [V:6]|         Z      |         Z            |     Z         |       Z            |         Z            |     Z      |      Z      ||
+
