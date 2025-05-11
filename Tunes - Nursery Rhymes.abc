@@ -1,0 +1,35 @@
+X: 1
+T:Mary Had a Little Lamb
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/4
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+|: {g}f e {g}d e | {g}f {g}f {g}f2     | {g}e {g}e {g}e2     | {g}f g a2 |
+w: che e ha e |che che che | he he he | che di I
+      f e {g}d e | {g}f {g}f {g}f {g}f | {g}e {g}e {g}f {g}e | {g}d2 {g}d2 :|
+w: che e ha e |che che che che| he he che e | ha ha
+
+X:2
+T:Frere Jacques
+O:Kevin Fraser
+Z:Kevin Fraser
+Q:1/4=78
+K:HP
+M:4/4
+L:1/8
+R:March
+V:gstem=up stem=down
+%%MIDI gracedivider 4
+%%MIDI gchord
+%%MIDI beatstring
+|: {g}A2 B2 {g}c2 {g}A2    | {g}A2 B2 {g}c2 {g}A2  | {g}c2 d2 {g}e4  | {g}c2 d2 {g}e4   |
+w: hem o ho hem | hem o ho hem | ho a he | ho a he|
+   {g}ef {g}ed {g}c2 {g}A2 | {g}ef {g}ed {g}c2 {g}A2 | {g}A2 {g}G2 {g}A4 | {g}A2 {g}G2 {g}A4 :|
+w: he ve he a ho hen | he ve he a ho hen | hen hem hen | hen hem hen

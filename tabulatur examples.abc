@@ -1,0 +1,807 @@
+X:8554
+T:Sample tune - abcm2ps (accordion.abc) - Andro à Patrice Corbel
+F:http://richardrobinson.tunebook.org.uk/tune/6467
+M:4/4
+N: validé 03/05/01 -- 04/08/02
+O:Bretagne
+R:Andro
+K:Am
+% tablature examples
+% --- diatonic accordion
+% length x y n accordh - accordion tablature header with 2 or 3 lines
+/accordh{
+% /Times-Roman 14 selectfont
+/nlines exch def
+.8 SLW
+gsave 20 add T /w exch def
+0 0 M w 0 RL
+0 3 M w 0 RL
+0 21 M w 0 RL
+0 39 M w 0 RL
+nlines 2 eq{
+0 42 M w 0 RL
+stroke
+/barh 42 def
+3 7 M (T:) show
+3 25 M (P:) show
+}{
+0 57 M w 0 RL
+0 60 M w 0 RL
+stroke
+/barh 60 def
+3 7 M (B/a:) show
+3 25 M (T:) show
+3 43 M (P:) show
+}ifelse
+grestore
+}!
+% string x y n accordn - accordion tablature
+/str ( ) def
+/accordn{
+-18 mul add barh add 3 add M showc
+}!
+/accordb{
+0 eq{20 add M 0 barh RL stroke}
+{pop pop}ifelse pop}!
+ "A"A2 cA "F" aAce | "G"dGBd "C"e4 | "F"fedc "G"B2 AB |1 "F"cABc "E"B4 :|2 "F"cABc "A"A4 :|\
+w:    *  * * * * * *   8 6 7 8  7'   * * * *  * * *   * * * *  7   * * * *  *  
+w:    7  8 7 11 7 8 9   * * * *  *   8' 9 7' 8  6' 7 6'   8 7 6' 8  *   8 7 6' 8  7  
+ "A"A2 GF "E"E3 B | "E"c2 d2 "C"e4 | "F"fedc "G"B2 AB |1 "F"cABc "E"B4 :|2 "F"cABc "A"A4 :|
+w:    * 6 *  4' 7   6' 8  7'   * * * *  * * *   * * * *  7   * * * *  *  
+w:    7 * 4'  * *   * *  *   8' 9 7' 8  6' 7 6'   8 7 6' 8  *   8 7 6' 8  7  
+w: 
+
+% created from http://www.cadb.org/tablat/tabyf1.gif
+
+%%beginps
+% length x y n accordh1 - accordion tablature header with 1 line
+/accordfirst 1 def
+/accordh1{
+	/hyphx [3 -1 roll{0}repeat] def
+	.8 SLW
+	accordfirst 0 ne{
+		gsave T
+		pop
+		/Helvetica-BoldOblique 12 selectfont
+		22 24 M 0 34 RL stroke
+		6 9 M (B) show
+		6 27 M (T) show
+		6 46 M (P) show
+		grestore
+		/accordfirst 0 def}
+	{pop pop pop}ifelse}!
+% string x y n accordn1 - accordion tablature note
+/str ( ) def
+/accordn1{
+	/linen exch def
+	linen 0 eq{48 add}
+		{linen -13 mul add 40 add}ifelse
+	hyphx linen get dup 0 ne{
+		2 index sub 20 add 2 index 10 sub 2 index 4 add M 0 RL stroke
+		hyphx linen 0 put}
+	{pop}ifelse
+	M
+	dup dup length 1 sub get 2 eq{		% hyphen ('-' = 0x02)
+		hyphx linen currentpoint pop put
+% should remove the 0x02
+	}if
+	showc}!
+% string x y n accordb1 - accordion tablature bar
+/accordb1{
+	/linen exch def
+	hyphx linen get dup 0 ne{
+		2 index sub 20 add 3 1 roll
+		linen 0 eq{48 add}
+			{linen -13 mul add 40 add}ifelse
+		M -10 4 RM 0 RL stroke
+		hyphx linen 0 put}
+	{pop pop pop}ifelse
+	pop}!
+%%endps
+
+U:i=!invisible!
+%%vocalfont Helvetica 12
+
+X:1
+%%titleformat T+T,C1
+T:MÃ©lodie gavotte
+T:(traditionnel)
+C:arrangement et tablature: Yann-FaÃ±ch Perroches
+M:none
+L:1/8
+%%titlefont Helvetica-Bold 20
+%%subtitlefont Helvetica-Bold 16
+%%tempofont Helvetica 14
+%%setfont-1 Helvetica-Bold 12
+%%setfont-2 Helvetica-Italic 10
+Q:"$1mÃ©lodie$0   "3/8=66 "$2  tempo rubato"
+%%staves [1 2]
+%%timewarn 1
+%%stretchlast 1
+K:C
+% this line is needed in each tune but the first
+%%postscript /accordfirst 1 def
+%%staffnonote 2			% needed for abcm2ps >= 7.6.x
+V:1
+%%sysstaffsep 1.6cm
+d d/e/c3A B >GE3|EE^GB2cA3H[EAc]3::
+V:2 stafflines=1 clef=none
+%%tablature 0 30 accordh1 accordn1 accordb1
+  ic ic/ic/"Am"ic3ic "G"ic >ic"Em7"ic3|ic"E"icicic2ic"Am"ic3ic3::
+w:*  *  *  *      *   7     5' 4'     |4' 4'  x 7  6' *     *
+w:7' 7' 9  8      7   *     *  *      |*  *   * *  *  7     578
+w:*  *  *  A-     *   G-    *  E-     |*  E-  * *  *  A-    *
+w:*  *  *  a-     *   g-    *  *      |*  e-  * *  *  a-    *
+V:1
+e e/d/f3f e/d/c3|defe3de2d/c/B3|
+V:2
+  ic ic/ic/"F"ic3ic "G"ic/ic/"C"ic3|ic "Dm"icic ic3ic ic2ic/ic/"E"ic3|
+w:*  *  *  *     *  *     *  6'    |*  *     *  *  *  *  *  *  7 
+w:9  9  7' 8'    8' 9     7' *     |7' 9     8' 9  7' 9  7' 8  *
+w:*  *  *  F-    *  G-    *  C-    |D- *     *  *  *  *  *  *  E-
+w:*  *  *  f-    *  g-    *  c-    |*  f-    *  *  *  *  *  *  e-
+V:1
+c d/e/c3A A >GE3|EE^GB2cA3H[EAc]3:|
+V:2
+  ic ic/ic/"F"ic3ic ic >"G"ic"C"ic3|ic "E"ic ic ic2ic "Am"ic3ic3:|
+w:*  *  *  *     *  *  5'     4'   |4' 4'    x  7  6' 7      *
+w:8  7' 9  8     7  7  *      *    |*  *     *  *  *  *      576
+w:*  *  *  F-    *  *  G      C-   |*  E-    *  *  *  A-     *
+w:*  *  *  f-    *  *  g      c    |*  e-    *  *  *  a-     *
+V:1
+M:12/8
+Q:"$1gavotte$0   "3/8=146
+|:d3c B AB2GE3|E2^GB2cA3A3:|
+V:2
+M:12/8
+|:"Dm7"ic3ic ic ic "G"ic2ic"Em7"ic3|"E7"ic2icic2ic "Am"ic3ic3:|
+w:*       *  *  *  7     6 4'      |4'     x 7  6' *      *
+w:7'      8  6' 7  *     * *       |*      * *  *  7      7
+w:D       f  *  *  G     * E       |e      * e  *  A      a
+V:1
+|:e2ef2fe2dc3|d e fe2de2cB3|
+V:2
+|:"Am"ic2ic"F"ic2ic "G"ic2ic"C"ic3|"Dm7"ic ic ic "(Dm7/9)"ic2ic ic2ic"Em7"ic3|
+w:*      * *     *  *     *  6'   |*       *  *  *           *  *  * 7
+w:9      9 8'    8' 9     7' *    |7'      9  8' 9           7' 9  8 *
+w:a      * F     *  G     *  C    |D       *  *  f           *  f  * E
+V:1
+x12:|
+V:2
+x4"^premiÃ¨re phrase - first phrase"x4x4:|
+
+
+% adapted from abctab2ps
+
+% -- bataille
+
+% insert the fonts from abctab2ps
+%%format frFrancisque.ps
+
+%%beginps
+% ! stack error in frFrancisque.ps !
+pop
+% width x y n tab6h - tablature header
+/tab6h{
+	/tabfont{/FrenchTabfont 14 selectfont}!
+	/chofont{/Palatino-Roman 13 selectfont}!
+	pop .75 SLW
+%test
+%2 copy M -10 0 RL 0 30 RL 10 0 RL stroke
+	pop pop pop
+	tabfont
+	/barh 60 def
+}!
+% dx dy dslur - draw a down slur/tie
+/dslur{
+%	RL stroke
+	1 index 4 div dup 3 mul			% dx dy x1 x2
+	2 index 2 index mul 4 index div 8 sub exch	% dx dy x1 y1 x2
+	3 index 1 index mul 5 index div 8 sub	% dx dy x1 y1 x2 y2
+	3 index 3 index 3 index 3 index 9 index 9 index RC
+	4 index neg add 2 sub 6 1 roll 4 index neg add 6 1 roll
+	2 index neg add 2 sub 4 1 roll 2 index neg add 4 1 roll
+	exch neg exch neg RC
+	fill
+}!
+% char tabbadd - add the char to the bourdon string
+/tabbadd{
+	tabbstr length dup 1 add string
+	dup tabbstr exch copy pop /tabbstr exch def
+	exch tabbstr 3 1 roll put
+}!
+% functions for tablature notes
+/str( )def
+/tabtiex 0 def
+/tabtiext 0 def
+/tabindex 0 def
+/tablong 0 def
+/tabring 0 def
+% x y h n tflag - flags
+/tflag{
+	1 SLW 3 index 3 index 104 add M
+	dup 0 lt{
+		2.5 7 RM
+		0 -1 0 -7 -5 -7 RC -2 0 0 7 5 7 RC
+		currentpoint stroke moveto}
+	{	3 7 RM
+		0 -1 0 -7 -5 -7 RC -2 0 0 7 5 7 RC
+		currentpoint fill moveto -.5 0 RM
+	}ifelse
+	dup -2 gt{
+		0 13 RL
+		currentpoint stroke moveto
+	}if 
+	dup 0 gt{
+		1.2 -.2 RL currentpoint
+		-1.2 -1.2 RL fill moveto
+		{
+			2.4 -.4 7 0 3.5 -5 RC
+			-1.2 -1.2 RL currentpoint
+			3.5 5 -1.1 4.6 -3.5 5 RC 1.2 1.2 RL
+			fill moveto
+		}repeat
+	}{pop}ifelse
+}!
+% character not handled
+/actno{(char not handled: )print = }!
+% action table
+/tabaction [256{/actno}repeat] def
+% x y h char actchr - print a character
+/actchr{
+	tabbourd 0 eq{
+		3 index 3 index 3 index add M
+		tabtiex 0 ne{		% tie waiting to be drawn
+			currentpoint
+			1 index tabtiex exch sub 1 index tabtiey exch sub
+			dslur
+			/tabtiex 0 def
+			M
+		}if
+		str 0 3 -1 roll put str showc
+		12 sub
+	}{tabbadd}ifelse}!
+tabaction 97/actchr put	% 'a'
+tabaction 98/actchr put	% 'b'
+tabaction 99/actchr put	% 'c'
+tabaction 100/actchr put	% 'd'
+tabaction 101/actchr put	% 'e'
+tabaction 102/actchr put	% 'f'
+% '"' - enter in quoted string
+/act34{	pop
+	/inquote 1 def
+	chofont
+	/quoted 0 string def
+	1 index 17 add}!
+tabaction 34/act34 put
+% '(' - slur start
+/act40{	pop
+	/tabslurx 3 index def
+	tabbourd 0 eq{2 copy add 2 sub}
+	{1 index 18 add}ifelse
+	 /tabslury exch def}!
+tabaction 40/act40 put
+% ')' - slur end
+/act41{	pop
+	tabbourd 0 eq{3 copy add 10 add}
+	{2 index 2 index 18 add}ifelse
+	2 copy M exch tabslurx exch sub exch tabslury exch sub
+	dslur}!
+tabaction 41/act41 put
+% ',' - go to the next line or count the bourdon number
+/act44{pop
+	tabbourd 0 eq{12 sub}
+	{/tabbourd tabbourd 1 add def}ifelse}!
+tabaction 44/act44 put
+% '-' - tie start
+/act45{	pop
+	/tabtiext 3 index def
+	2 copy add 12 add /tabtiey exch def}!
+tabaction 45/act45 put
+% '.' - index finger
+/act46{pop
+	/tabindex 1 def}!
+tabaction 46/act46 put
+% '/' - quaver
+/act47{pop
+	1 tflag}!
+tabaction 47/act47 put
+% '1' - black note
+/act49{pop
+	0 tflag}!
+tabaction 49/act49 put
+% '2' - white note
+/act50{pop
+	-1 tflag}!
+tabaction 50/act50 put
+% ';' - ring finger
+/act59{pop
+	/tabring 1 def}!
+tabaction 59/act59 put
+% 'L' - long note
+/act76{pop
+	/tablong 1 def}!
+tabaction 76/act76 put
+% 'X' - mordent
+/act88{pop
+	2 index 2 index 2 index add M 7 -4.5 RM
+	.7 SLW 5 7 RL -5 0 RM 5 -7 RL stroke}!
+tabaction 88/act88 put
+% 'y' - 
+/act121{pop
+	tabbourd 0 eq{12 sub}if
+	}!
+tabaction 121/act121 put
+% '{' - bourdon start
+/act123{pop
+	/tabbourd 1 def
+	/tabbstr()def}!
+tabaction 123/act123 put
+% '}' - bourdon end
+/act125{pop
+	2 index tabbourd -3 mul add 2 index 18 add M
+	.75 SLW tabbourd 1 sub {6 10 RL -2.5 -10 RM}repeat currentpoint stroke
+	M -1 2 RM tabbstr show
+	/tabbourd 0 def}!
+tabaction 125/act125 put
+% string x y n tab6n - tablature note
+/tab6n{
+	/tabtiex tabtiext def
+	/tabtiext 0 def
+	/inquote 0 def
+	/tabbourd 0 def
+	pop barh 33 add 4 -1 roll	% stack: x y h string
+	{
+		inquote 0 eq{		% stack: x y h char
+			tabaction 1 index get load exec}
+		{			% inside double quote
+					% stack: x y h y' char
+			dup 34 eq{			% double quote
+				pop
+				3 index 1 index M quoted showc
+				pop
+				/inquote 0 def
+				tabfont
+			}{dup 59 eq{			% semicomma --> newline
+				pop
+				3 index 1 index M quoted showc
+				13 sub
+				/quoted 0 string def}
+			{	quoted length dup 1 add string	% char n str
+				dup quoted exch copy pop /quoted exch def
+				exch quoted 3 1 roll put
+			}ifelse}ifelse
+		}ifelse
+	}forall
+	tabindex 0 ne{			% index finger
+		add M 2 5 RM
+		currentpoint 1.3 0 360 arc fill
+		/tabindex 0 def}
+	{tablong 0 ne{			% long note
+		add M -4 4 RM 1.2 SLW 12 3 RL stroke
+		/tablong 0 def}
+	{tabring 0 ne{			% ring finger
+		add M -2 5 RM
+		currentpoint 2 copy 1.3 0 360 arc %fill
+		M 4 0 RM
+		currentpoint 2 copy 1.3 0 360 arc %fill
+		M 4 0 RM
+		currentpoint 1.3 0 360 arc fill
+		/tabring 0 def}
+	{pop pop pop}ifelse}ifelse}ifelse}!
+% string x y n tab6b - tablature bar
+/tab6b{
+	0 eq{			% first line only
+		.8 SLW
+		32 add
+		2 index length 1 sub -1 0{
+			3 index exch get
+			dup 124 eq{			% '|'
+				pop
+				2 copy M 0 barh RL stroke
+				exch 4 sub exch}
+			{dup 58 eq{			% ':'
+				pop
+				2 copy 6 add
+				5{
+					2 copy 2 copy M 1.2 0 360 arc
+					12 add
+				}repeat fill
+				pop pop
+				exch 4 sub exch}
+			{	pop			% '[' or ']'
+				2 copy M 0 barh RL -3 0 RL 0 barh neg RL fill
+				exch 6 sub exch
+			}ifelse}ifelse
+		}for
+	}if
+	pop pop pop}!
+%%endps
+
+U:i=!invisible!
+
+X:2
+%%indent         1.5cm
+%%wordsfont      Times-Italic 10
+T:Ma bergere, non l\'egere
+C:Gabriel Bataille
+L:1/4
+M:none
+% %leftmargin 1cm
+% %rightmargin 1cm
+%%staves [F | L]
+K:Dm
+%%scale 0.6
+%
+V:F clef=treble name=Voice %bracket=2
+V:L clef=frenchtab name=Lute stafflines=6 staffscale=2
+%
+[V:F]F/ G/ A/ F/ A/ B/ c/ c/ d/ e/ f>_e d c/B/ A G/ F/ E>F F3::
+w:Ma ber-ge-re, non l\'e-ge-re En a-mours, me fait re-\cce-vour du bien tous les jours.
+V:L
+K:none clef=none
+%%tablature 10 30 tab6h tab6n tab6b
+	ic/      ic/   ic/   ic/   ic/   ic/  ic \
+w:	,XbXdca/ ,,,,c ,,,,d ,,,,a ,bbcd ,,,a ,abc1 \
+	ic   ic        ic    ic/        ic/     ic   ic \
+w:	bdda a,b,d{(y} {,a)} ,XbXd,,(b/ ,,,,,a) {a}1 {,a} \
+	ic/    ic/   ic      ic    ic2        ic i::
+w:	,d,,c/ ,,,,a ,,,,,d1 ;,dba ,bbcd{(y}2 {,a)}1
+%
+[V:F]c/ B/ A/ F/ B/ A/ G/ A/ F/ G/ E> E F/ F/ G/ G/ A/ A/ =B/ c/ d/ e/ ^c d3:|
+w:Je la mei-ne, la pur mei-ne, par les champs, O\`u nous pre-nons en-sem-ble de doux pas - se temps.
+V:L
+	ic/   ic/  ic/    ic/   ic/   ic/   ic/   ic/   ic/   ic/ \
+w:	,,bc/ ,,,a ,Xb,,d ,,,,a ,,Xda ,,,,d ,,,,c ,,,,d ,,,,a .,,a \ 
+	ic/    ic/  ic/ ic/ ic/   ic/  ic/    ic/   ic/ \
+w:	,,c,,a .,,d ,a .,,c ,,,,a .,,d ,,b,Xc .,,,d ,,,cXd \
+	ic/  ic/  ic/ ic/   ic/ ic \
+w:	,,Xd ,,,a .,a ,b,,a .,d ,a,,,a1 \
+	ic2        ic i:|
+w:	,,dca{(y}2 {,,a)}1
+%
+W:Par la plaine  /  Sans grand peine  /  Nous mettons
+W:A mesmes trouppeau nos petits moutons
+W:Puis \`a l'aise  /  Je luy baise  /  Son beau sein
+W:Et sa bouche vermeille, son joli t\'etin.
+W:
+W:Que si j'ose  /  Autre chose  /  Rechercher,
+W:Elle ne me veut laisser aprocher
+W:Mais subite  /  Prend la fuitte  /  Moy apres,
+W:Je s\ccay bien la poursuivre et la joindre de pres.
+W:
+W:Si je l\`eve  /  Sus sa greve  /  Les genoux
+W:Sa cotte si haut qu'on voye dessoubs:
+W:En furie  /  Elle crie  /  Et me mord;
+W:Et puis en bien peu d'heure nous sommes d'accord
+W:
+W:Je luy cueille  /  Et recueille  /  Tant de fleurs
+W:Qu'elle en peut avoir de toutes couleurs
+W:Elle bonne  /  Me fa\cconne  /  Des bouquets
+W:Qui causent au village beaucoup de caquets
+W:
+W:Pourtant passe  /  Quoy qu'on face  /  L'aymeray
+W:Et magr\'e le bruit je l'estimeray
+W:L'inconstance  /  N'a puissance  /  Sur ma foy
+W:Je veux estre fidelle comme elle est \`a moy.
+W:
+W:Nostre vie  /  Sans envie  /  Nous passons
+W:Charmans nos soucis de gayes chansons
+W:Fy des villes  /  O\`u les filles  /  Ne font cas
+W:Des amants qui pour elle conduise au trespas
+W:
+W:
+W:%%vocalfont Times-Roman 13.0
+%%beginps
+% -- cresc / decresc / dimin
+/crdc{		% usage: str x y crdc - cresc, decresc, ..
+	/Times-Italic 14 selectfont
+	M -6 4 RM show}!
+%%endps
+%%deco dolce 6 crdc 20 4 28 dolce
+
+X:3
+%%header "Ich liebe dich		$P / 2"
+%%newpage 1
+T:Ich liebe dich
+C:L. van Beethoven
+M:2/4
+L:1/16
+Q:"Andante"
+%%staves S {1 2}
+%%leftmargin 1cm
+%%rightmargin 1cm
+K:F
+%%scale 0.75
+%%continueall 1
+V:S
+C2|A3 G F2 F2|E3 F G2 C2|B3 A G2 G2|F3G A2 Fc|
+w:Ich lie-be dich, so wie du mich, am A-bend und am Mor--gen, noch*
+V:1
+%%exprbelow 1
+z2|(!p!A,CFC) (A,CFC)|(B,CEC) (B,CEC)|(B,CGC) (B,CGC)|(A,CFC) (A,CFC)|
+V:2
+z2|[F,,F,]8|[G,,G,]8|[E,,E,]8|[F,,F,]8|
+V:S
+c2 c2 c2 ^c2|d3 B G2 G2|A3 A BA BG|G4F2z2|z8|
+w:war kein Tag, wo du und ich nicht teil-ten uns'--re_Sor-gen.
+V:1
+[CF]F,[CF]F, [CF]F,[^CF]F,|[DF]F,[DF]F, [DF]G,[DF]G,|A,CFC B,CEC|[B,E]C[B,E]C [A,F]2 !mf!EF|[EG]2[EG]2[EG]2[Ec]2|
+V:2
+A,,4 A,,4|B,,4 =B,,4|C,4[C,,C,]4|F,,2F,2F,,2z2|[C,G,]2[C,G,]2[C,G,]2[C,G,]2|
+V:S
+z4z2EF|G2 G2 G2 c2|=B3 d c2 EF|G2 G2 GA =Bc|=B3d c2 c2|
+w:Auch*wa-ren sie für dich und mich ge--teilt leicht zu_er--tra--gen, du
+V:1
+=B3d c2 !p![CE][DF]&
+F2F2E2x2|[EG]G,[CE]G, [CE]G,[CE]G,|[=B,F]G,[B,F]G, [CE]G,[CE]G,|[CE]G,[CE]G, [CE]G,[CE]G,|[=B,F]G,[B,F]G, [CE]G,[CE]G,|
+V:2
+[D,G,]2[G,,G,]2[C,G,]2z2|z2[C,,C,]2[E,,E,]2[C,,C,]2|[D,,D,]2[G,,,G,,]2[C,,C,]2z2|z2[C,,C,]2[E,,E,]2[C,,C,]2|[D,,D,]2[G,,,G,,]2[C,,C,]2z2|
+V:S
+_B2 B2 A2 A2|G2 G2 F2 Ac|{c}B2 B2 A2 A2|{A}G2 G2 z2 G2|
+w:trö-ste-test im Kum-mer much, ich_wient in die-ne Kla-gen, in
+V:1
+z_B,[FB]B, zC[FA]C|zC[EG]C zC[Fc]C|zB,[FB]B, zC[FA]C|zD[FG]D zD[FG]D|
+V:2
+D,4C,4|B,,4A,,4|D,4C,4|B,,4=B,,4|
+V:S
+G4A4|HB3G HE2 !p!!dolce!CA|A3 G F2 F2|E3 F G2 C2|
+w:dei-ne Kla -gen. Drum*Got-tes Se-gen ü-ber dir, du
+V:1
+zGEB, A,CFA|!f!H[B,EGB]6z2|A,CFC A,CFC|B,CEC B,CEC|
+V:2
+C,4C,4|H[C,,C,]6z2|[F,,F,]8|[G,,G,]8|
+V:S
+B3 A G2 G2|F3G A2 Fc|c2 c2 c2 ^c2|d3 B G2 G2|
+w:mei-nes Le-bens Freu -de, Gott*schüt-ze dich, er-halt' dich mir, schütz'
+V:1
+B,CGC B,CGC|A,CFC A,CFC|[CF]F,[CF]F, [CF]F,[^CF]F,|!f![DF]F,[DF]F, [DF]G,[DF]G,|
+V:2
+[E,,E,]8|[F,,F,]8|A,,4 A,,4|B,,4 =B,,4|
+V:S
+A2 A2 cB AB|B2 A2 z2 F2|_e2 e2 e2 e2 |d4_e4|
+w:und er-halt'*uns_bei-de, Gott schüt-ze dich, er-halt' dich
+V:1
+A,CFC G,B,EB,|!p!F,A,FA, F,A,FA,|!f![C_EF]F,[CEF]F, [CEF]F,[CEF]F,|[B,DF]F,[B,DF]F, [C_EF]F,[CEF]F,|
+V:2
+[C,,C,]4[^C,,^C,]4|[D,,D,]4z4|A,,2A,,2A,,2A,,2|B,,4A,,4|
+V:S
+d4z2G2|A2 A2 B2 G2|c2 A2 z2 G2|A2 A2 B2 G2|
+w:mir, schütz' und er-halt' uns bei-de, er-halt', er-halt' uns
+V:1
+[B,DF]F,[B,DF]F, [DF]G,[DF]G,|A,C[FA]C [GB]C[EG]C|c2 [Aa][cc'] [cc'][Bb][Aa][Gg]|[Aa]2 [FA]C [GB]C[EG]C|
+V:2
+B,,4=B,,4|[C,,C,]2 [F,A,]2[G,B,]2[C,G,]2|A,C[F,A,]C [G,B,]C[E,G,]C|[F,A,]C [F,A,]2[G,B,]2[C,G,]2|
+V:S
+c2 A2 z2 G2|A4d4|F6AG|F4z4|z8|z4z2|]
+w:bei-de, er-halt' uns bei --de.
+V:1
+c2 [Aa][cc'] [cc'][Bb][Aa][Gg]|[Aa]2 z2 !f![FBd]2 z2|[A,CF]2 z2 [B,EG]2 z2|[A,F]4cdef|gabc' d'2 [GBce]2|[FAcf]4z2|]
+V:2
+A,C[F,A,]C [G,B,]C[E,G,]C|F,2 z2 B,,2 z2|C,2 z2 C,2 z2|F,,4[C,G,B,]4-|[C,G,B,]6[C,G,B,]2|[F,,A,,C,F,]4z2|]
+
+
+% adapted from abctab2ps
+
+% -- banjo
+
+% no Times on my system... and next line KO!
+% %postscript /Times /Times-Roman def
+
+%%font Palatino-Roman
+%%partsfont      Times-Roman 15 box
+
+% insert the fonts from abctab2ps
+% https://github.com/laughingman182/abctab2ps/blob/master/src/fonts/itTimes.ps
+%%format itTimes.ps
+
+%%beginps
+% width x y n banjo5h - banjo tablature header with 5 lines
+/banjo5h{
+	/tabfont{/ItalianTabfont 14 selectfont}!
+%	/chofont{/Helvetica 13 selectfont}!
+	/chofont{/Palatino-Roman 13 selectfont}!
+	pop .75 SLW
+%test
+%2 copy M -10 0 RL 0 120 RL 10 0 RL
+	40 add M 5{dup 0 RL dup neg 14 RM}repeat stroke
+	pop
+	tabfont
+}!
+% dx dy dslur - draw a down slur/tie
+/dslur{
+%	RL stroke
+	1 index 4 div dup 3 mul			% dx dy x1 x2
+	2 index 2 index mul 4 index div 8 sub exch	% dx dy x1 y1 x2
+	3 index 1 index mul 5 index div 8 sub	% dx dy x1 y1 x2 y2
+	3 index 3 index 3 index 3 index 9 index 9 index RC
+	4 index neg add 2 sub 6 1 roll 4 index neg add 6 1 roll
+	2 index neg add 2 sub 4 1 roll 2 index neg add 4 1 roll
+	exch neg exch neg RC
+	fill
+}!
+% string x y n banjo5n - banjo tablature note
+/str( )def
+/banjolong 0 def
+/banjotiex 0 def
+/banjotiext 0 def
+/banjo5n{
+	/banjotiex banjotiext def
+	/banjotiext 0 def
+	/inquote 0 def
+	pop 89 4 -1 roll		% stack: x y h string
+	{
+		inquote 0 eq{
+					% stack: x y h char
+			dup 44 eq{			% comma
+				pop
+				14 sub
+			}{dup 34 eq{			% double quote
+				pop
+				/inquote 1 def
+				chofont
+				/quoted 0 string def
+				1 index 17 add
+			}{dup 45 eq{			% '-'
+				pop
+				/banjotiext 3 index def
+				2 copy add 14 add /banjotiey exch def
+			}{dup 49 eq{			% '1'
+				pop
+			}{dup 50 eq{			% '2'
+				pop
+			}{dup 76 eq{			% 'L'
+				pop
+				/banjolong 1 def
+			}{				% normal character
+				3 index 3 index 3 index add M
+				banjotiex 0 ne{
+					currentpoint
+					1 index banjotiex exch sub
+					1 index banjotiey exch sub
+					dslur
+					/banjotiex 0 def
+					M
+				}if
+				str 0 3 -1 roll put str showc
+				14 sub
+			}ifelse}ifelse}ifelse}ifelse}ifelse}ifelse
+		}{				% inside double quote
+					% stack: x y h y' char
+			dup 34 eq{			% double quote
+				pop
+				3 index 1 index M quoted showc
+				pop
+				/inquote 0 def
+				tabfont
+			}{dup 59 eq{			% semicomma
+				pop
+				3 index 1 index M quoted showc
+				13 sub
+				/quoted 0 string def
+			}{
+				quoted length dup 1 add string	% char n str
+				dup quoted exch copy pop /quoted exch def
+				exch quoted 3 1 roll put
+			}ifelse}ifelse
+		}ifelse
+	}forall
+	banjolong 0 ne{
+		add M -4 9 RM 1.2 SLW 12 3 RL stroke
+		/banjolong 0 def
+	}{pop pop pop
+	}ifelse
+}!
+% string x y n banjo5b - banjo tablature bar
+/banjo5b{
+	0 eq{			% first line only
+		0.8 SLW
+		40 add
+		2 index length 1 sub -1 0{
+			3 index exch get
+			dup 124 eq{			% '|'
+				pop
+				2 copy M 0 56 RL stroke
+				exch 4 sub exch
+			}{dup 58 eq{			% ':'
+				pop
+				2 copy 7 add
+				4{
+					2 copy 2 copy M 1.2 0 360 arc
+					14 add
+				}repeat fill
+				pop pop
+				exch 4 sub exch
+			}{				% '[' or ']'
+				pop
+				2 copy M 0 56 RL -3 0 RL 0 -56 RL fill
+				exch 6 sub exch
+			}ifelse}ifelse
+		}for
+	}if
+	pop pop pop}!
+%%endps
+
+U:i=!invisible!
+%%staffnonote 0
+
+X:4
+T:Glory in the Meetinghouse
+T:From  Luther Strong
+C:Key of E; banjo tuning g#EG#BE (open D capoed up 2 frets)
+D:Library of Congress AAFS L2
+L:1/4
+M:none
+%%leftmargin 1cm
+%%rightmargin 1cm
+K:none clef=none
+%K:banjo5tab
+%%tablature 120 banjo5h banjo5n banjo5b
+%
+P:A
+icicicicicicicic | \
+w:"I",,b\- "Sl",,d "I"aa "T",,,,a "I"a "T",d "I",a "T",,b | \
+icicicicicicic | \
+w:"I",a\- "P"a "I;X"aa "T",,,,a "I"La2 "I"aa1 "T",,,,a | \
+icicicicicicicic | \
+w:"I",,b\- "Sl",,d "I"aa "T",,,,a "I"a "T",d "I",a "T",,a | \
+icicicicicicic |
+w:"I",,b\- "P",a "I",,b\- "P",,a "I"L,,,a2 "I;Ck"aa1 "T",,,,a |
+|icicicicicicicic | \
+w:"I",,b\- "Sl",,d "I"aa "T",,,,a "I"a "T",d "I",a "T",,b | \
+icicicicicicic | \
+w:"I",a\- "P"a "I;X"aa "T",,,,a "I"La2 "I"d\-1 "Sl"e,,,a |\
+icicicicicicicic | \
+w:"I"e\- "P"a "I",a "T",,,,a "I"a "T",d "I",a "T",,a | \
+icicicicicicic :|
+w:"I",,b\- "P",a "I",,b\- "P",,a "I"L,,,a2 "I"aaa1 "T",,,,a |
+P:B
+|:icicicicicicic |\
+w:"I",,,a\- "H",,,c "I",,a\- "H",,b "I"L,a2 "I"aa1 "T",,,,a | \
+icicicicicicicic | \
+w:"I",,b\- "P",a "I",,b\- "P",,a "I",,a "T",,,a "I;X"aa "T;X",,,,a|\
+icicicicicicicic | \
+w:"I",,,a\- "H",,,c "I",,a "T",,,,a "I",,b\- "P",a "I",,b\- "P",,a|\
+icicicicicicic |
+w:"I",,a "T",,,a "I;X"aa "T",,,,a "I"L,,,a2 "I"aa1 "T",,,,a|
+|icicicicicicicic | \
+w:"I",,,a\- "H",,,c "I"aa "T",,,,a "I",,b\- "P",a "I",ab "T",,,,a |\
+icicicicicicicic | \
+w:"I",,b\- "P",a "I",,b\- "P",,a "I",,a "T",,,a "I;X"aaa "T",,,,a|\
+icicicicicicicic | \
+w:"I"a "T",d "I",a "T",,a "I",,b\- "P",a "I",,b\- "P",,a| \
+icicicicicicic :|
+w:"I",,a "T",,,a "I;X",aa "T",,,,a "I"L,,,a2 "I"aa1 "T",,,,a|
+P:Alternate (high) B part:
+|:icicicicicicic | \
+w:"I"a\- "H"e "I"e "T",,,,a "I"Lh2 "I"h1 "T",,,,a | \
+icicicicicicicic | \
+w:"I"f\- "H"h "I"f "T",,,,a "I"e "T",f "I",f "T",,,,a|\
+icicicicicicicic | \
+w:"I"a "T",,,,a "I"e "T",,,,a "I"f\- "H"h "I"h "T",,,,a | \
+icicicicicicic |
+w:"I"e "T",f "I;X",a "T",,,,a "I"L,f2 "I"ef1 "T",,,,a| 
+|icicicicicicic | \
+w:"I"a\- "H"e "I"e "T",,,,a "I"Lh2 "I"h1 "T",,,,a | \
+icicicicicicicic | \
+w:"I"f\- "H"h "I"f "T",,,,a "I"e "T",f "I",f "T",,,,a|\
+icicicicicicicic | \
+w:"I"e\- "P"a "I",a "T",,,,a "I;X"aa "T",d "I",a "T",,a |\
+icicicicicicicic :|
+w:"I",,b\- "P",a "I",,b\- "P",,a "I"L,,,a2 "I"aa1 "T",,,,a|
+%original in abctab2ps
+%P:A
+%"I",,b-"Sl",,d "I"[aa] "T",,,,a "I"a "T",d "I",a "T",,b | "I",a-"P"a " I\nX"[aa] "T",,,,a "I"La2 "I"[aa1] "T",,,,a | \
+%"I",,b-"Sl",,d "I"[aa] "T",,,,a "I"a "T",d "I",a "T",,a | "I",,b-"P",a "I",,b-"P",,a "I"L,,,a2 " I\nCk"[aa1] "T",,,,a |
+%|"I",,b-"Sl",,d "I"[aa] "T",,,,a "I"a "T",d "I",a "T",,b|"I",a-"P"a " I\nX"[aa] "T",,,,a "I"La2 "I"d1-"Sl"[e,,,a] |\
+%"I"e-"P"a "I",a "T",,,,a "I"[a] "T",d "I",a "T",,a | "I",,b-"P",a "I",,b-"P",,a "I"L,,,a2 "I"[aaa1] "T",,,,a:|
+%P:B
+%|:"I",,,a-"H",,,c "I",,a-"H",,b "I"L,a2 "I"[aa1] "T",,,,a | "I",,b-"P",a "I",,b-"P",,a "I",,a "T",,,a " I\nX"[aa] "T\nX",,,,a|\
+%"I",,,a-"H",,,c "I",,a "T",,,,a "I",,b-"P",a "I",,b-"P",,a| "I",,a "T",,,a " I\nX"[aa] "T",,,,a "I"L,,,a2 "I"[aa1] "T",,,,a|
+%|"I",,,a-"H",,,c "I"[aa] "T",,,,a "I",,b-"P",a "I"[,ab] "T",,,,a |"I",,b-"P",a "I",,b-"P",,a "I",,a "T",,,a " I\nX"[aaa] "T",,,,a|\
+%"I"a "T",d "I",a "T",,a "I",,b-"P",a "I",,b-"P",,a| "I",,a "T",,,a " I\nX"[,aa] "T",,,,a "I"L,,,a2 "I"[aa1] "T",,,,a:|
+%P:Alternate (high) B part:
+%|:"I"a-"H"e "I"e "T",,,,a "I"Lh2 "I"h1 "T",,,,a | "I"f-"H"h "I"f "T",,,,a "I"e "T",f "I",f "T",,,,a|\
+%"I"a "T",,,,a "I"e "T",,,,a "I"f-"H"h "I"h "T",,,,a | "I"e "T",f " I\nX",a "T",,,,a "I"L,f2 "I"[ef1] "T",,,,a| 
+%|"I"a-"H"e "I"e "T",,,,a "I"Lh2 "I"h1 "T",,,,a | "I"f-"H"h "I"f "T",,,,a "I"e "T",f "I",f "T",,,,a|\
+%"I"e-"P"a "I",a "T",,,,a " I\nX"[aa] "T",d "I",a "T",,a |"I",,b-"P",a "I",,b-"P",,a "I"L,,,a2 "I"[aa1] "T",,,,a:|

@@ -1,0 +1,44 @@
+X:1
+T:Test Tune
+Z:Kevin Fraser, <bagpipes@ksfraser.com>
+L:1/8
+M:2/4
+Q:90
+C:
+V:M name=Melody sname=Melody stem=down gstem=up octave=0 transpose=0
+V:w name=Lyrics sname=Lyrics stem=down gstem=up octave=0 transpose=0
+V:H name=Harmony sname=Harmony stem=down gstem=up octave=0 transpose=0
+V:C name=C-Harmony sname=C-Harmony stem=down gstem=up octave=0 transpose=0
+V:S name=Snare sname=Snare stem=down gstem=up octave=0 transpose=0
+V:B name=Bass sname=Bass stem=down gstem=up octave=0 transpose=0
+V:T name=Tenor sname=Tenor stem=down gstem=up octave=0 transpose=0
+V:w name=ABC sname=ABC stem=down gstem=up octave=0 transpose=0
+V:w name=Canntaireachd sname=Cannt stem=down gstem=up octave=0 transpose=0
+V:W name=Words sname=Words stem=down gstem=up octave=0 transpose=0
+D:
+F:
+G:
+N:
+O:
+P:
+R:March
+S:
+U:R = ///
+U:r = //
+U:V = !accent!
+K:HP
+[V:M]  Z  | GA AB | de f2 | ed Bd | fe f2 |  $
+w:  | Skip the gaily on |  |  |  |
+[V:H]  Z  | GA AB | de f2 | ed Bd | fe f2 |  $
+w:  | GA AB | de f2 | ed Bd | fe f2 |
+w:  | em en en o | a e ve | e a o a | ve e ve |
+W:
+[V:M]  Z  | GA AB | de f2 | ed BG | A2 A2 |  $
+w:  |  |  |  |  |
+[V:H]  Z  |  Z  |  Z  |  Z  |  Z  |  $
+w:  | GA AB | de f2 | ed BG | A2 A2 |
+w:  | em en en o | a e ve | e a o em | en en |
+W:
+W: Made Famous by the Rankins
+W: 2nd Words Line
+
